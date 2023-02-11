@@ -1,4 +1,4 @@
-export const font = {
+export const RobotoCondensed = {
   regular: {
     fontFamily: 'RobotoCondensed-Regular'
   },
@@ -17,4 +17,38 @@ export const font = {
   lightItalic: {
     fontFamily: 'RobotoCondensed-LightItalic'
   }
+};
+
+export const  Roboto = {
+  thin: {
+    fontFamily: 'Roboto-Thin'
+  },
+  light: {
+    fontFamily: 'Roboto-Light'
+  },
+  regular: {
+    fontFamily: 'Roboto-Regular'
+  },
+  bold: {
+    fontFamily: 'Roboto-Bold'
+  },
+  black: {
+    fontFamily: 'Roboto-Black'
+  },
+  thinItalic: {
+    fontFamily: 'Roboto-ThinItalic'
+  },
+  lightItalic: {
+    fontFamily: 'Roboto-LightItalic'
+  },
+  italic: {
+    fontFamily: 'Roboto-Italic'
+  },
+  boldItalic: {
+    fontFamily: 'Roboto-BoldItalic'
+  },
+  blackItalic: {
+    fontFamily: 'Roboto-BlackItalic'
+  }
 }
+

@@ -1,13 +1,19 @@
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 
+import { Person } from './People';
+
 export type RootStackParamList = {
   Intro: undefined;
-  WelcomeOne: undefined;
-  QuestionnaireOne: undefined;
-  QuestionnaireTwo: undefined;
+  Welcome: undefined;
+  Experts: undefined;
+  MeetPerson: { person: Person };
+  Goldie: undefined;
+  Target: undefined;
 };
 
 export type IntroNavigationProps = NativeStackScreenProps<RootStackParamList, 'Intro'>;
-export type WelcomeOneNavigationProps = NativeStackScreenProps<RootStackParamList, 'WelcomeOne'>;
-export type QuestionnaireOneNavigationProps = NativeStackScreenProps<RootStackParamList, 'QuestionnaireOne'>;
-export type QuestionnaireTwoNavigationProps = NativeStackScreenProps<RootStackParamList, 'QuestionnaireTwo'>;
+export type WelcomeNavigationProps = NativeStackScreenProps<RootStackParamList, 'Welcome'>;
+export type ExpertsNavigationProps = NativeStackScreenProps<RootStackParamList, 'Experts'>;
+export type MeetPersonNavigationProps = NativeStackScreenProps<RootStackParamList, 'MeetPerson'>;
+export type GoldieNavigationProps = NativeStackScreenProps<RootStackParamList, 'Goldie'>;
+export type TargetNavigationProps = NativeStackScreenProps<RootStackParamList, 'Target'>;

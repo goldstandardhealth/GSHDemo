@@ -1,3 +1,50 @@
+import { ColorValue } from 'react-native';
+
+import { Palette } from '../components/GCallOut';
+
+export const base = {
+  black: '#000000',
+  white: '#ffffff',
+  stanford: '#8e2438'
+};
+
+export const blue = {
+  light: '#ccdeeb',
+  regular: '#4295a5',
+  darker: '#347581',
+  dark: '#192e60'
+};
+
+export const gold = {
+  logo: '#fbb110',
+  lighter: '#f19e37',
+  light: '#ddb854',
+  expert: '#eec77e',
+  regular: '#ceaa47',
+  dark: '#7c2d01'
+};
+
+export const blueCallout: Palette = {
+  stroke: blue.darker,
+  fill: blue.light + '7D',
+  strokeWidth: 2,
+  radius: 10
+};
+
+export const goldieCallout: Palette = {
+  stroke: gold.dark,
+  fill: blue.light + '7D',
+  strokeWidth: 2,
+  radius: 10
+};
+
+export const expertCallout: Palette = {
+  stroke: gold.dark,
+  fill: gold.expert,
+  strokeWidth: 0,
+  radius: 10
+};
+
 import { StyleProp, ViewStyle, TextStyle } from 'react-native';
 
 export type CalloutColorProps = {

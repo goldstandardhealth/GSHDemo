@@ -5,19 +5,22 @@ import {
   Text,
   View
 } from 'react-native';
+import { ms } from 'react-native-size-matters';
 
-import ScreenBackground from '../../components/ScreenBackground';
-import { IntroNavigationProps, font } from '../../config';
+import ScreenBackground from '../layout/ScreenBackground';
+import { IntroNavigationProps, RobotoCondensed, blue, gold } from '../config';
+
+import GVideo from '../components/Video';
 
 function IntroScreen({ navigation }: IntroNavigationProps) {
-  let timer: number | null = setTimeout(nextScreen, 5000);
+  // let timer: number | null = setTimeout(nextScreen, 5000);
 
   function nextScreen() {
-    if (timer !== null) {
-      clearTimeout(timer);
-      timer = null;
-    }
-    navigation.replace('WelcomeOne');
+    // if (timer !== null) {
+    //   clearTimeout(timer);
+    //   timer = null;
+    // }
+    navigation.replace('Welcome');
   }
 
   return (
@@ -26,7 +29,7 @@ function IntroScreen({ navigation }: IntroNavigationProps) {
         <View style={styles.container}>
           <Text style={styles.message}>
             Welcome to the{'\n'}
-            <Text style={font.bold}>Gold Standard</Text>{'\n'}
+            <Text style={styles.highlight}>Gold Standard</Text>{'\n'}
             path toward pain{'\n'}
             recovery</Text>
         </View>
@@ -38,24 +41,21 @@ function IntroScreen({ navigation }: IntroNavigationProps) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    flexDirection: 'column',
-    position: 'absolute',
-    top: 0,
-    bottom: 0,
-    left: 0,
-    right: 0,
-    backgroundColor: 'transparent'
+    alignSelf: 'center',
+    justifyContent: 'center'
   },
   message: {
+    color: blue.darker,
     fontSize: 35,
     lineHeight: 41,
     alignSelf: 'stretch',
-    textAlign: 'right',
-    marginRight: 10,
-    flex: 0.55,
-    ...font.regular
+    textAlign: 'left',
+    marginRight: ms(10),
+    paddingTop: ms(100),
+    ...RobotoCondensed.bold
+  },
+  highlight: {
+    color: gold.lighter
   }
 });
 
