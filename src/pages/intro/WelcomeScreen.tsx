@@ -11,9 +11,7 @@ import GContinue from '../../components/GContinue';
 
 function WelcomeScreen({ navigation }: WelcomeNavigationProps) {
 
-  function nextScreen() {
-    navigation.replace('Experts');
-  }
+  const nextScreen = () => navigation.replace('Experts');
 
   return (
     <GScrollable type="bg">

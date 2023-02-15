@@ -1,5 +1,7 @@
 import { ImageSourcePropType } from 'react-native';
 
+import { company } from './People';
+
 type ImageSources = {
   [key: string]: ImageSourcePropType
 }
@@ -20,9 +22,13 @@ export const goldies: ImageSources = {
 };
 
 export const logo: ImageSources = {
-  logo: require(basePath + 'logo.png'),
-  smedicine: require(basePath + 'smedicine.png')
-};
+  [company.gsh]: require(basePath + 'logo/gsh.png'),
+  [company.smedicine]: require(basePath + 'logo/smedicine.png'),
+  [company.ucdavis]: require(basePath + 'logo/ucdavis.png'),
+  [company.somatic]: require(basePath + 'logo/somatic.png'),
+  [company.ucsf]: require(basePath + 'logo/ucsf.png'),
+  [company.univercity]: require(basePath + 'logo/univercity.png'),
+}
 
 export const doctors: ImageSources = {
   // JoshLevin: require(basePath + 'JoshLevin.png')

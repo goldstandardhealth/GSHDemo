@@ -13,20 +13,15 @@ import GTitle from '../../components/GTitle';
 
 function ExpertsScreen({ navigation }: ExpertsNavigationProps) {
 
-  function nextScreen() {
-    navigation.replace('Goldie');
-  }
-
-  const meetPerson = (person: Person) => {
-    navigation.push('MeetPerson', { person: person })
-  }
+  const nextScreen = () => navigation.replace('Goldie');
+  const meetPerson = (name: string) => navigation.push('MeetPerson', { person: experts[name], key: name });
 
   return (
     <GScrollable type="bg">
       <GLogoLabel style={{marginTop: ms(10)}} size={vs(50)} />
       <GTitle>Meet the experts</GTitle>
       <Text style={styles.note}>Click any of the pictures to learn more{ '\n' }about our Experts</Text>
-      {Object.values(experts).map((person, i) => <GPerson key={person.id} person={person} logo="smedicine" side={i % 2 ? 'right' : 'left'} onPress={() => meetPerson(person)} />)}
+      {Object.keys(experts).map((name, i) => <GPerson key={experts[name].id} person={experts[name]} side={i % 2 ? 'right' : 'left'} onPress={() => meetPerson(name)} />)}
       <GContinue onPress={nextScreen} />
     </GScrollable>
   );

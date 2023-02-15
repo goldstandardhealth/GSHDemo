@@ -37,12 +37,12 @@ const styles = StyleSheet.create({
     marginHorizontal: ms(10)
   },
   label: {
-    flex: 2,
+    flex: 8,
     alignSelf: 'center'
   },
   image: {
     height: vs(120),
-    flex: 1,
+    flex: 3.5,
     alignSelf: 'center'
   },
   title: {

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import {
   Animated,
   SafeAreaView,
@@ -12,14 +12,16 @@ import {
 import uuid from 'react-native-uuid';
 import { ms } from 'react-native-size-matters';
 
-import { TargetNavigationProps, base, RobotoCondensed, experts, expertCallout } from '../../config';
+import { GoalNavigationProps, base, RobotoCondensed, experts, expertCallout } from '../../config';
 import GScrollable from '../../layout/GScrollable';
 import GContinue from '../../components/GContinue';
 import GExpert from '../../components/GExpert';
 import GCallOut from '../../components/GCallOut';
-import GSliders, { SlidersData } from '../../components/GSliders';
+import GSliders, { SlidersData, SliderState } from '../../components/GSliders';
 
-function TargetScreen({ navigation }: TargetNavigationProps) {
+function GoalScreen({ navigation }: GoalNavigationProps) {
+  const [disabled, setDisabled] = useState(true);
+  const [options, setOptions] = useState<SliderState>({});
   const slidersData: SlidersData = {
     physical: {
       id: `${uuid.v4()}`,
@@ -43,9 +45,9 @@ function TargetScreen({ navigation }: TargetNavigationProps) {
     },
   }
 
-  function nextScreen() {
-    navigation.replace('Intro');
-  }
+  const nextScreen = () => navigation.replace('Target');
+  const onSelect = (opts: SliderState) => setOptions(opts);
+  useEffect(() => setDisabled(!Object.values(options).reduce((t, c) => t + c, 0)), [options]);
 
   return (
     <GScrollable type="bg">
@@ -54,8 +56,8 @@ function TargetScreen({ navigation }: TargetNavigationProps) {
         <Text style={styles.text}>What do you want to work on?</Text>
         <Text style={styles.note}>select and slide all that apply</Text>
       </GCallOut>
-      <GSliders data={slidersData} />
-      <GContinue  onPress={nextScreen} />
+      <GSliders onSelect={onSelect} data={slidersData} />
+      <GContinue disabled={disabled} onPress={nextScreen} />
     </GScrollable>
   );
 }
@@ -75,4 +77,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default TargetScreen;
+export default GoalScreen;

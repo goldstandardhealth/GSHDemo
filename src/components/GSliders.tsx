@@ -1,13 +1,15 @@
-import React, { ReactNode } from 'react';
+import React, { ReactNode, useState, useEffect } from 'react';
 import { StyleSheet, View, Text, StyleProp, ViewStyle } from 'react-native';
 import Slider from '@react-native-community/slider';
 import { ms } from 'react-native-size-matters';
 
 import { Roboto, base, blue } from '../config';
+import GArea from './GArea';
 
 type Props = {
   style?: StyleProp<ViewStyle>;
   data: SlidersData;
+  onSelect: any;
 };
 
 type SliderData = {
@@ -16,44 +18,50 @@ type SliderData = {
   text: string;
 }
 
+export type SliderState = { [key: string]: number };
 export type SlidersData = { [key: string]: SliderData };
 
-function GSliders({ style, data }: Props) {
+function GSliders({ style, data, onSelect }: Props) {
+  const [options, setOptions] = useState<SliderState>(Object.fromEntries(Object.keys(data).map((key) => [key, data[key].value || 0])));
+  const onValueChange = (key: string, val: number) => {
+    let opts: SliderState = {};
+    Object.keys(options).forEach((key) => opts[key] = options[key]);
+    opts[key] = val;
+    setOptions(opts);
+  }
+
+  useEffect(() => onSelect(options), [options]);
+
   return (
-    <View style={ [styles.area, style] }>
+    <GArea style={ style }>
       { Object.keys(data).map((key => {
         return (
           <View key={data[key].id}>
             <Text style={styles.label}>{data[key].text}</Text>
             <Slider
-              style={{flex: 1, height: 20, marginHorizontal: ms(15), marginTop: ms(10)}}
-              value={data[key].value || 0}
+              style={{flex: 1, height: 20, marginHorizontal: ms(15), marginTop: ms(5)}}
+              value={options[key]}
               tapToSeek={true}
               thumbTintColor={base.white}
               minimumValue={0}
               maximumValue={1}
               minimumTrackTintColor={blue.regular}
               maximumTrackTintColor={blue.regular + '1F'}
+              onSlidingComplete={(val) => onValueChange(key, val)}
             />
           </View>
         );
       })) }
-    </View>
+    </GArea>
   );
 }
 
 const styles = StyleSheet.create({
   label: {
     ...Roboto.regular,
-    fontSize: ms(20),
+    fontSize: ms(16),
     color: base.black,
-    marginTop: ms(10)
-  },
-  area: {
-    padding: ms(15),
-    borderWidth: 0,
-    backgroundColor: base.white + '47',
-    margin: ms(10)
+    marginTop: ms(5)
   }
 });
 

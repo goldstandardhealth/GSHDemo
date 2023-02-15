@@ -76,6 +76,98 @@
     {
       "path": "assets/fonts/RobotoCondensed-Regular.ttf",
       "sha1": "e0d7acf2ca3dd0ff68f533797bb94b0580397e95"
+    },
+    {
+      "path": "assets/video/Introducing_Josh_Levin.mp4",
+      "sha1": "a7d6c78ce0905feab31cc6681df247d4891c2204"
+    },
+    {
+      "path": "assets/video/Introducing_Philippe_Goldin.mp4",
+      "sha1": "0989dfd5c85f50722e0f88f83a151960c03ee59b"
+    },
+    {
+      "path": "assets/video/Introducing_the_Founders.mp4",
+      "sha1": "28f2b842ee952c739b54274841607c3ad09d1463"
+    },
+    {
+      "path": "assets/video/Meet_Shari_Becker.mp4",
+      "sha1": "f9d4fea2129e9fbe45337686f368e565a5a246aa"
+    },
+    {
+      "path": "assets/video/Meet_Tiffany_Asp.mp4",
+      "sha1": "29a9106ab6d93d5db7ac1d8cfd957729833fb261"
+    },
+    {
+      "path": "assets/logo/gsh.png",
+      "sha1": "e928fe676492eaad17489ee7a0db1f0115ff7a52"
+    },
+    {
+      "path": "assets/logo/smedicine.png",
+      "sha1": "de43c54986cdcd0716052331108b93b7f73bda5f"
+    },
+    {
+      "path": "assets/logo/somatic.png",
+      "sha1": "90d603470103623ff27086552e3d92cd8bbc7b6a"
+    },
+    {
+      "path": "assets/logo/ucdavis.png",
+      "sha1": "2294025fe617818d98eaa4bc2b177ea341f0a01d"
+    },
+    {
+      "path": "assets/logo/ucsf.png",
+      "sha1": "f0ff77b4f7a6d9758a0539c9c2b79c5a5abc1fca"
+    },
+    {
+      "path": "assets/logo/univercity.png",
+      "sha1": "86af602425376b9970015949df4434620c3ffe6d"
+    },
+    {
+      "path": "assets/people/CarrieTice.png",
+      "sha1": "44fc9babf949a63592b8e5d76bf8101a796ceec0"
+    },
+    {
+      "path": "assets/people/CorinneCooley.png",
+      "sha1": "b1c458c501f9ecdeda3a31eaaeedf3b46f1c8aaa"
+    },
+    {
+      "path": "assets/people/DavePaunesku.png",
+      "sha1": "cc2f0bf2369bcafb1dcfd6e8e1a3168ba9bfa548"
+    },
+    {
+      "path": "assets/people/HeatherKing.png",
+      "sha1": "37d4c3cc31dabff0f9323f0b686493ddc4f4ca15"
+    },
+    {
+      "path": "assets/people/JoshLevin.png",
+      "sha1": "33e39360850de9a51117a9b65e38402562e00e58"
+    },
+    {
+      "path": "assets/people/MichaelFredericson.png",
+      "sha1": "b01f64eb989d3e867e141c9b0e87eb023e8ce959"
+    },
+    {
+      "path": "assets/people/PhilippeGoldin.png",
+      "sha1": "96fee8092737a0c804e0dbafb19b8bce06bfdaf5"
+    },
+    {
+      "path": "assets/people/RickyYu.png",
+      "sha1": "85405cabd6206136fb789a2205de98abae3840f0"
+    },
+    {
+      "path": "assets/people/ShariBecker.png",
+      "sha1": "0271b484ac11e114ab8104829f06544dd54a6681"
+    },
+    {
+      "path": "assets/people/StephenBaxter.png",
+      "sha1": "fa5b10b12276b0b273ac28500b75202fbefcd95a"
+    },
+    {
+      "path": "assets/people/TiffanyAsp.png",
+      "sha1": "d19c0fda83e22e78bf8e6fdb4b9b03516d45f2b6"
+    },
+    {
+      "path": "assets/people/YuvalSpector.png",
+      "sha1": "b75e9a585122f8c3c8b2b5f4659c7f24d2b954f2"
     }
   ]
 }

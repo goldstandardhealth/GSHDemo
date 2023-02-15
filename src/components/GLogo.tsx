@@ -1,16 +1,22 @@
 import React from 'react';
-import { Image, StyleSheet, View, Text, ViewStyle, ColorValue, StyleProp } from 'react-native';
+import { Image, StyleSheet, View, Text, ViewStyle, ColorValue, StyleProp, ImageSourcePropType } from 'react-native';
 import Svg, { SvgProps, Path, Defs, ClipPath, Use } from "react-native-svg"
 import { ms } from 'react-native-size-matters';
 
 import { RobotoCondensed, blue, gold, base, logo } from '../config';
 
-type Props = {
+type GSHProps = {
   size: number;
   style?: StyleProp<ViewStyle>;
 }
 
-function GLogo({ size, style }: Props) {
+type Props = {
+  size: number;
+  style?: StyleProp<ViewStyle>;
+  company: string;
+}
+
+function GLogo({ size, style }: GSHProps) {
   const scale = size / 120;
   return (
     <Svg
@@ -26,7 +32,7 @@ function GLogo({ size, style }: Props) {
   );
 }
 
-export function GLogoLabel({ size, style }: Props) {
+export function GLogoLabel({ size, style }: GSHProps) {
   const scale = size / 120;
   return (
     <View style={ [{ alignSelf: 'center', height: size }, style] }>
@@ -46,24 +52,17 @@ export function GLogoLabel({ size, style }: Props) {
   );
 }
 
-export function GSMedicineLabel({ size, style }: Props) {
-  const scale = size / 120;
+export function GCompanyLogo({ company, size, style }: Props) {
+  const scale = size;
   return (
-    <View style={ [{ alignSelf: 'center', height: size }, style] }>
-      <Image style={{
-        height: size,
-        width: size*0.96
-      }} source={logo.smedicine} />
-      <Text
-        style={{
-          ...RobotoCondensed.regular,
-          fontSize: size/3,
-          color: base.stanford,
-          marginTop: -size*0.9,
-          marginLeft: size + ms(5)
-        }}>
-        Stanford{ '\n' }<Text
-          style={{ color: base.black }}>Medicine</Text></Text>
+    <View style={ [{ alignSelf: 'center' }, style] }>
+      <Image source={logo[company]} style={{
+            //flex: 1,
+    maxWidth: ms(150),
+    height: size,
+    resizeMode: 'contain'
+
+      }}/>
     </View>
   );
 }

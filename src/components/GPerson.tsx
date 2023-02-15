@@ -2,19 +2,18 @@ import React from 'react';
 import { StyleSheet, Image, View, Text, ImageSourcePropType, TouchableOpacity } from 'react-native';
 import { ms, vs } from 'react-native-size-matters';
 
-import { RobotoCondensed, Person, base } from '../config';
-import { GLogoLabel, GSMedicineLabel } from './GLogo';
+import { RobotoCondensed, Person, base, company } from '../config';
+import { GLogoLabel, GCompanyLogo } from './GLogo';
 
 type Props = {
   person: Person;
   side: 'right' | 'left';
-  logo?: 'smedicine' | 'gsh'
   onPress: any;
 }
 
-function GPerson({ person, side, logo, onPress }: Props) {
+function GPerson({ person, side, onPress }: Props) {
   const icon = <Image key={person.id + '-icon'} resizeMode='contain' source={ person.image } style={ styles.image } />;
-  const logoLabel = logo === 'smedicine' ? <GSMedicineLabel size={ms(35)} style={ styles.logo } /> : <GLogoLabel size={ms(35)} style={ styles.logo } />;
+  const logoLabel = (person.company === company.gsh) ? <GLogoLabel size={ms(35)} style={ styles.logo } /> : <GCompanyLogo size={ms(35)} style={ styles.logo } company={person.company} />;
   const label = (
     <View key={person.id + '-label'} style={styles.label}>
       <Text style={ styles.title }>{ person.name }</Text>
@@ -48,7 +47,7 @@ const styles = StyleSheet.create({
   },
   image: {
     height: vs(120),
-    flex: 2,
+    flex: 1.5,
     alignSelf: 'center'
   },
   title: {

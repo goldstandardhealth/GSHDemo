@@ -54,6 +54,8 @@ function GoldieScreen({ navigation }: GoldieNavigationProps) {
     setTimeout(() => scrollViewRef?.current?.scrollToEnd({ animated: true }), 4500);
   }, []);
 
+  const nextScreen = () => navigation.replace('Goal');
+
   return (
     <GScrollable type="bg">
       <Animated.View style={{opacity: sayOneAnim}}>
@@ -63,7 +65,7 @@ function GoldieScreen({ navigation }: GoldieNavigationProps) {
           ] }>
           <Text style={styles.text}>Hi! I'm your buddy{ '\n' }Baxter!</Text>
         </GCallOut>
-        <Goldie type="wave" style={ styles.chatRowRight } />
+        <Goldie size={ms(100)} type="wave" style={ styles.chatRowRight } />
       </Animated.View>
       <Animated.View style={{opacity: sayTwoAnim}}>
         <GCallOut placement="topRight" palette={goldieCallout} style={ [styles.chatRowRight, { marginRight: ms(50), marginTop: ms(20) }] }>
@@ -77,10 +79,10 @@ function GoldieScreen({ navigation }: GoldieNavigationProps) {
           ] }>
           <Text style={styles.text}>Before we begin, our GOLD STANDARD Pain Experts will ask you some questions…</Text>
         </GCallOut>
-        <Goldie type="friend" style={ styles.chatRowLeft } />
+        <Goldie size={ms(100)} type="friend" style={ styles.chatRowLeft } />
       </Animated.View>
       <Animated.View style={{opacity: sayButtonAnim}}>
-        <GContinue onPress={() => navigation.replace('Target')} style={{ marginTop: 0}} />
+        <GContinue onPress={nextScreen} style={{ marginTop: 0}} />
       </Animated.View>
     </GScrollable>
   );
@@ -94,11 +96,11 @@ const styles = StyleSheet.create({
     textAlign: 'center'
   },
   chatRowRight: {
-    flex: 1,
+    flex: 0.3,
     alignSelf: "flex-end"
   },
   chatRowLeft: {
-    flex: 1,
+    flex: 0.3,
     alignSelf: "flex-start"
   }
 });

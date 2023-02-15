@@ -10,8 +10,10 @@ export const base = {
 
 export const blue = {
   light: '#ccdeeb',
+  lighter: '#86ccff',
   regular: '#4295a5',
   darker: '#347581',
+  darker2: '#2697ee',
   dark: '#192e60'
 };
 
