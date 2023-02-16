@@ -18,6 +18,7 @@ export const blue = {
 };
 
 export const gold = {
+  tabs: '#fff0c9',
   logo: '#fbb110',
   lighter: '#f19e37',
   light: '#ddb854',

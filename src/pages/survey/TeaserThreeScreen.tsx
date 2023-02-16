@@ -31,7 +31,7 @@ function TeaserThree({ navigation }: TeaserThreeNavigationProps) {
     ]).start();
   }, []);
 
-  const nextScreen = () => navigation.replace('Intro');
+  const nextScreen = () => navigation.replace('HomeTabs');
 
   return (
     <GScrollable type="bg">

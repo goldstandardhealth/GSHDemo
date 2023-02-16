@@ -3,7 +3,7 @@ import { Linking, Platform } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-import IntroStack from './src/layout/IntroStack';
+import IntroStack from './src/layout/NavigationStack';
 
 const PERSISTENCE_KEY = 'NAVIGATION_STATE_V1';
 

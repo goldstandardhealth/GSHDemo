@@ -1,7 +1,7 @@
 import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import { IntroStackParamList } from '../config';
+import { RootStackParamList } from '../config';
 
 import IntroScreen from '../pages/IntroScreen';
 import WelcomeScreen from '../pages/intro/WelcomeScreen';
@@ -18,9 +18,11 @@ import TeaserTwoScreen from '../pages/survey/TeaserTwoScreen';
 import LoadingScreen from '../pages/survey/LoadingScreen';
 import TeaserThreeScreen from '../pages/survey/TeaserThreeScreen';
 
-const Stack = createNativeStackNavigator<IntroStackParamList>();
+import HomeStack from './HomeStack';
 
-function IntroStack() {
+const Stack = createNativeStackNavigator<RootStackParamList>();
+
+function NavigationStack() {
   return (
     <Stack.Navigator screenOptions={{
         orientation: "portrait",
@@ -41,8 +43,11 @@ function IntroStack() {
       <Stack.Screen name="TeaserTwo" component={TeaserTwoScreen} options={{ headerShown: false }} />
       <Stack.Screen name="Loading" component={LoadingScreen} options={{ headerShown: false }} />
       <Stack.Screen name="TeaserThree" component={TeaserThreeScreen} options={{ headerShown: false }} />
+
+
+      <Stack.Screen name="HomeTabs" component={HomeStack} options={{ headerShown: false }} />
     </Stack.Navigator>
   );
 }
 
-export default IntroStack;
+export default NavigationStack;

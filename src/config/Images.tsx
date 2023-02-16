@@ -9,9 +9,9 @@ type ImageSources = {
 const basePath = '../../assets/';
 
 export const backgrounds: ImageSources = {
-  // goldie: require('../../assets/goldie_bg.png'),
-  bg: require(basePath + 'bg.png'),
-  splash: require(basePath + 'splash.png')
+  gold: require(basePath + 'backgrounds/gold.png'),
+  bg: require(basePath + 'backgrounds/bg.png'),
+  splash: require(basePath + 'backgrounds/splash.png')
 };
 
 export const goldies: ImageSources = {
@@ -33,4 +33,11 @@ export const logo: ImageSources = {
 
 export const doctors: ImageSources = {
   // JoshLevin: require(basePath + 'JoshLevin.png')
+};
+
+export const tabs: ImageSources = {
+  Home: require(basePath + 'icons/home.png'),
+  Progress: require(basePath + 'icons/progress.png'),
+  Community: require(basePath + 'icons/community.png'),
+  Connect: require(basePath + 'icons/connect.png')
 };
