@@ -78,7 +78,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: ms(15)
   },
   buttonWide: {
-    flex: 1
+    flex: 1,
+    marginVertical: ms(5)
   },
   unselected: {
   },

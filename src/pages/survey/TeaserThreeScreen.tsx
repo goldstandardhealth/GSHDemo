@@ -11,13 +11,13 @@ import {
 } from 'react-native';
 import { ms } from 'react-native-size-matters';
 
-import { TeaserTwoNavigationProps, goldieCallout, gold, RobotoCondensed } from '../../config';
+import { TeaserThreeNavigationProps, goldieCallout, gold, RobotoCondensed } from '../../config';
 import GScrollable from '../../layout/GScrollable';
 import GCallOut from '../../components/GCallOut';
 import Goldie from '../../components/Goldie';
 import GContinue from '../../components/GContinue';
 
-function TeaserTwo({ navigation }: TeaserTwoNavigationProps) {
+function TeaserThree({ navigation }: TeaserThreeNavigationProps) {
   const sayButtonAnim = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
@@ -31,18 +31,24 @@ function TeaserTwo({ navigation }: TeaserTwoNavigationProps) {
     ]).start();
   }, []);
 
-  const nextScreen = () => navigation.replace('Loading');
+  const nextScreen = () => navigation.replace('Intro');
 
   return (
     <GScrollable type="bg">
       <View>
-        <GCallOut placement="bottomRight" palette={goldieCallout} style={ [
+        <GCallOut placement="bottomLeft" palette={goldieCallout} style={ [
             styles.chatRowLeft,
-            { marginLeft: ms(50), marginBottom: ms(10), marginTop: ms(150), marginRight: ms(100) }
+            { marginLeft: ms(80), marginBottom: ms(10), marginTop: ms(150), marginRight: ms(50) }
           ] }>
-          <Text style={styles.text}>High-five! You’re one step further along on your path to pain recovery!</Text>
+          <Text style={styles.text}>Congratulations! You’re one step further along on your path to pain recovery!</Text>
         </GCallOut>
-        <Goldie size={ms(100)} type="wave" style={ styles.chatRowRight } />
+        <Goldie size={ms(150)} type="lash" style={ [styles.chatRowLeft, {marginLeft: ms(-50)}] } />
+        <GCallOut placement="topLeft" palette={goldieCallout} style={ [
+            styles.chatRowLeft,
+            { marginLeft: ms(100), marginTop: ms(-100), marginRight: ms(50) }
+          ] }>
+          <Text style={styles.text}>Let’s go! Let’s go!</Text>
+        </GCallOut>
       </View>
       <Animated.View style={{opacity: sayButtonAnim}}>
         <GContinue onPress={nextScreen} style={{ marginTop: ms(100)}} />
@@ -68,4 +74,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default TeaserTwo;
+export default TeaserThree;

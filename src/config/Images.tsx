@@ -15,6 +15,7 @@ export const backgrounds: ImageSources = {
 };
 
 export const goldies: ImageSources = {
+  lash: require(basePath + 'goldie1.png'),
   wave: require(basePath + 'goldie5.png'),
   cool: require(basePath + 'goldie6.png'),
   cute: require(basePath + 'goldie7.png'),
