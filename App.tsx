@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Linking, Platform } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import SplashScreen from 'react-native-splash-screen';
 
 import IntroStack from './src/layout/NavigationStack';
 
@@ -41,6 +42,7 @@ function App(): JSX.Element | null {
 
   return (
     <NavigationContainer
+      onReady={() => SplashScreen.hide()}
       initialState={ initialState }
       onStateChange={(state) =>
         AsyncStorage.setItem(PERSISTENCE_KEY, JSON.stringify(state))
