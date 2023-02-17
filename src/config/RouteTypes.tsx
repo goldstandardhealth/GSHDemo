@@ -17,7 +17,7 @@ export type RootStackParamList = {
   TeaserTwo: undefined;
   Loading: undefined;
   TeaserThree: undefined;
-  HomeTabs: undefined;
+  ProfileTabs: undefined;
 };
 
 export type IntroNavigationProps = NativeStackScreenProps<RootStackParamList, 'Intro'>;
@@ -35,4 +35,29 @@ export type TeaserTwoNavigationProps = NativeStackScreenProps<RootStackParamList
 export type LoadingNavigationProps = NativeStackScreenProps<RootStackParamList, 'Loading'>;
 export type TeaserThreeNavigationProps = NativeStackScreenProps<RootStackParamList, 'TeaserThree'>;
 
-//export type HomeTabsNavigationProps = NativeStackScreenProps<RootStackParamList, 'HomeTabs'>;
+//export type ProfileTabsNavigationProps = NativeStackScreenProps<RootStackParamList, 'ProfileTabs'>;
+
+export type HomeStackParamList = {
+  Home: undefined;
+};
+
+export type HomeNavigationProps = NativeStackScreenProps<HomeStackParamList, 'Home'>;
+
+export type ProgressStackParamList = {
+  Progress: undefined;
+};
+
+export type ProgressNavigationProps = NativeStackScreenProps<ProgressStackParamList, 'Progress'>;
+
+export type CommunityStackParamList = {
+  Community: undefined;
+};
+
+export type CommunityNavigationProps = NativeStackScreenProps<CommunityStackParamList, 'Community'>;
+
+export type ConnectStackParamList = {
+  Connect: undefined;
+};
+
+export type ConnectNavigationProps = NativeStackScreenProps<ConnectStackParamList, 'Connect'>;
+

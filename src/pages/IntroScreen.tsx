@@ -1,16 +1,9 @@
 import React from 'react';
-import {
-  TouchableWithoutFeedback,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
+import { TouchableWithoutFeedback, StyleSheet, Text, View } from 'react-native';
 import { ms } from 'react-native-size-matters';
 
 import ScreenBackground from '../layout/ScreenBackground';
 import { IntroNavigationProps, RobotoCondensed, blue, gold } from '../config';
-
-import GVideo from '../components/Video';
 
 function IntroScreen({ navigation }: IntroNavigationProps) {
   // let timer: number | null = setTimeout(nextScreen, 5000);

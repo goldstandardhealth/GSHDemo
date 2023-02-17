@@ -18,7 +18,7 @@ import TeaserTwoScreen from '../pages/survey/TeaserTwoScreen';
 import LoadingScreen from '../pages/survey/LoadingScreen';
 import TeaserThreeScreen from '../pages/survey/TeaserThreeScreen';
 
-import HomeStack from './HomeStack';
+import ProfileTabs from './ProfileTabs';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -45,7 +45,7 @@ function NavigationStack() {
       <Stack.Screen name="TeaserThree" component={TeaserThreeScreen} options={{ headerShown: false }} />
 
 
-      <Stack.Screen name="HomeTabs" component={HomeStack} options={{ headerShown: false }} />
+      <Stack.Screen name="ProfileTabs" component={ProfileTabs} options={{ headerShown: false }} />
     </Stack.Navigator>
   );
 }
