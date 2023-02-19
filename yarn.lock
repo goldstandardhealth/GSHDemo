@@ -6038,10 +6038,10 @@
     "css-select" "^5.1.0"
     "css-tree" "^1.1.3"
 
-"react-native-tab-view@^3.4.0", "react-native-tab-view@>= 3.0.0":
-  "integrity" "sha512-AGvwzkh8+Hq6EuXAkofcrJBTU3LXzns64+Bfrh/80t7rIGCAbd8dFFPPgMASisfCYttpx6FGoRGsGSr8qXjSMQ=="
-  "resolved" "https://registry.npmjs.org/react-native-tab-view/-/react-native-tab-view-3.4.0.tgz"
-  "version" "3.4.0"
+"react-native-tab-view@^3.5.0", "react-native-tab-view@>= 3.0.0":
+  "integrity" "sha512-Dvvs54zPtI4f8x6GuTGy4VUMeMSnmjQFa0PsJkogWuRnxcYT+CunCDMOvxzSesh2AbL6UaTNPmTQ0Le9ybYsHg=="
+  "resolved" "https://registry.npmjs.org/react-native-tab-view/-/react-native-tab-view-3.5.0.tgz"
+  "version" "3.5.0"
   dependencies:
     "use-latest-callback" "^0.1.5"
 

@@ -102,6 +102,38 @@
       "sha1": "e928fe676492eaad17489ee7a0db1f0115ff7a52"
     },
     {
+      "path": "assets/logo/ios/logo1024.png",
+      "sha1": "ee5704617ab7618ffb2f670cd3c7fa592d1e3530"
+    },
+    {
+      "path": "assets/logo/ios/logo120.png",
+      "sha1": "93303c7fceb85bdd65da8d657026371baf888eaa"
+    },
+    {
+      "path": "assets/logo/ios/logo180.png",
+      "sha1": "d8eb438a5632d08f69f32882253d39912a0280cc"
+    },
+    {
+      "path": "assets/logo/ios/logo40.png",
+      "sha1": "9dba8071dbd8b2c1512c1b29040beae36b87b613"
+    },
+    {
+      "path": "assets/logo/ios/logo58.png",
+      "sha1": "eae73aca07e6526a54d034e23afa2482010740b6"
+    },
+    {
+      "path": "assets/logo/ios/logo60.png",
+      "sha1": "9895f9cf81e25399040fd8155f541a3605f5b9f1"
+    },
+    {
+      "path": "assets/logo/ios/logo80.png",
+      "sha1": "fd801110688d6e0a160c69a237ab3847d0c7bedb"
+    },
+    {
+      "path": "assets/logo/ios/logo87.png",
+      "sha1": "e3f975ed5f93cb86e05f337921e829af70c6f895"
+    },
+    {
       "path": "assets/logo/smedicine.png",
       "sha1": "de43c54986cdcd0716052331108b93b7f73bda5f"
     },
@@ -168,6 +200,38 @@
     {
       "path": "assets/people/YuvalSpector.png",
       "sha1": "b75e9a585122f8c3c8b2b5f4659c7f24d2b954f2"
+    },
+    {
+      "path": "assets/backgrounds/bg.png",
+      "sha1": "474b708f2983d9d85c82aca461c71ae1e0bc47cc"
+    },
+    {
+      "path": "assets/backgrounds/gold.png",
+      "sha1": "8d74ad220db1426453dc7cbe6d775836ffeeedca"
+    },
+    {
+      "path": "assets/backgrounds/splash-screen.png",
+      "sha1": "0c0ea783ae46b15673c85885aec240a30a5b4795"
+    },
+    {
+      "path": "assets/backgrounds/splash.png",
+      "sha1": "f3388eded9ecdf451fcb63790a8a95133db69ff4"
+    },
+    {
+      "path": "assets/icons/community.png",
+      "sha1": "1a775c73b43e08340407a1336c558ab05e52f537"
+    },
+    {
+      "path": "assets/icons/connect.png",
+      "sha1": "1dba8e858b82761a14384d9ebd74496ed1df8117"
+    },
+    {
+      "path": "assets/icons/home.png",
+      "sha1": "c9beb8b528beac328c55d611f1da76d86575d54f"
+    },
+    {
+      "path": "assets/icons/progress.png",
+      "sha1": "c43958cb2d6b41593be6beb272c8be67c173788d"
     }
   ]
 }

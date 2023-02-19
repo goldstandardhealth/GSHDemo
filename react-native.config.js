@@ -9,6 +9,8 @@ module.exports = {
     './assets/video/',
     './assets/logo/',
     './assets/people/',
+    './assets/backgrounds/',
+    './assets/icons/',
   ],
   dependencies: {
     ...(process.env.NO_FLIPPER

@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* GSHDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GSHDemoTests.m */; };
+		05A28C7DD9C8424E86C534ED /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C3483DCEEC42AE8BC3A8FE /* home.png */; };
 		0C80B921A6F3F58F76C31292 /* libPods-GSHDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-GSHDemo.a */; };
+		0FD834493BDA4B258E86E200 /* logo60.png in Resources */ = {isa = PBXBuildFile; fileRef = 215654EBFDB74C8CAE06A3FE /* logo60.png */; };
 		1363383CB374408FBA4A6C85 /* ShariBecker.png in Resources */ = {isa = PBXBuildFile; fileRef = 104F6B30DFAE4489AA999E2B /* ShariBecker.png */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -18,8 +20,11 @@
 		250763EFCC464F48B2311390 /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F86764691FD4D31AC1AF0CB /* RobotoCondensed-Italic.ttf */; };
 		2513E42FAF2E4D989333567D /* PhilippeGoldin.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CA39952A3CA493EB1B07E08 /* PhilippeGoldin.png */; };
 		2A14B160F333431DB2741278 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2EB08B6B1C00497B90121F98 /* Roboto-Bold.ttf */; };
+		2C2F2E0961D54B3CAA3F8449 /* logo120.png in Resources */ = {isa = PBXBuildFile; fileRef = F0050E5F68864FB1AC36C2BC /* logo120.png */; };
 		34FEC3E0C8C04027BBFC172D /* TiffanyAsp.png in Resources */ = {isa = PBXBuildFile; fileRef = B88B2273EBCD44AF91F3C892 /* TiffanyAsp.png */; };
 		36D58F0955244142A9CD332B /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAE62B56A4944CAA8BD61F68 /* RobotoCondensed-Bold.ttf */; };
+		3A4961D3771D4D74971FE17D /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 8554C04FCB5645CC9643BB3B /* splash.png */; };
+		3AF3DC6CF32E42469FE00B47 /* splash-screen.png in Resources */ = {isa = PBXBuildFile; fileRef = BBA15906CC374402BC425EB6 /* splash-screen.png */; };
 		44857C04B8E14E9C80B67B59 /* CarrieTice.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F02FA061597482CB0235F8E /* CarrieTice.png */; };
 		4EE464088E2444AFB317165A /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45FCEF2EE5D44381A8BBC037 /* RobotoCondensed-Light.ttf */; };
 		4F83EA7494FF429CB093420C /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63FEFC2D4CFB411495C92392 /* Roboto-ThinItalic.ttf */; };
@@ -28,7 +33,9 @@
 		5579364C9EB04966B30388E7 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EFB774B400F48BAA540C7BA /* Roboto-MediumItalic.ttf */; };
 		58A06F74622B4D3A92F5F5BB /* ucsf.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE79349A1A34E4986E7296E /* ucsf.png */; };
 		5A982538EE0C4D6F88CBDE50 /* Meet_Tiffany_Asp.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 82EC8485C45E4BE18BA94F7D /* Meet_Tiffany_Asp.mp4 */; };
+		5D678A57909D43B996A185BB /* logo80.png in Resources */ = {isa = PBXBuildFile; fileRef = CC23E869CFC9481FB7975A84 /* logo80.png */; };
 		5DB0D771584443B59F32AAC4 /* Introducing_the_Founders.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 65942748C28F49FD970A8505 /* Introducing_the_Founders.mp4 */; };
+		6766D71B72AE445696180AB1 /* logo1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 937CB3B7542944A69C47A7EB /* logo1024.png */; };
 		6DEC10C8919E4F38B8DF825B /* Meet_Shari_Becker.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 137E1BA537774AAEB7DED75C /* Meet_Shari_Becker.mp4 */; };
 		71677964D4DC4AA89ADABD20 /* StephenBaxter.png in Resources */ = {isa = PBXBuildFile; fileRef = 54ED7C93E2144878A6977C58 /* StephenBaxter.png */; };
 		72B9977633F941F695B12584 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF28F7B5E5A24A6DBE8410DF /* Roboto-Medium.ttf */; };
@@ -46,13 +53,22 @@
 		B9D2DADF05D14CAE901B64B6 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3020523EA7F3472B8F25F5BE /* RobotoCondensed-Regular.ttf */; };
 		BA226F7ABA90437190365046 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B7C3C5A34C534544AEBD7A91 /* Roboto-LightItalic.ttf */; };
 		BCA1877354B149F69ED227B9 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47E90A066A414E53830CB476 /* Roboto-BoldItalic.ttf */; };
+		BD0BDF25A0D34EDD98C30F63 /* logo58.png in Resources */ = {isa = PBXBuildFile; fileRef = 2059D638B70A4A47BF24BAD8 /* logo58.png */; };
 		C0C7B01D160740C3B0C0F730 /* CorinneCooley.png in Resources */ = {isa = PBXBuildFile; fileRef = 5751F7FCE10B4149B162B3B2 /* CorinneCooley.png */; };
 		C23FA87DEE73485886879823 /* univercity.png in Resources */ = {isa = PBXBuildFile; fileRef = F46A24318AAB47B3954BD1C3 /* univercity.png */; };
+		C363E3A9A5F549CF915941F0 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7623CF634979491DB4607448 /* bg.png */; };
 		C5D0746A4D22466A9EC20DE6 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48616AC8E9504BB881DF3E8C /* Roboto-Thin.ttf */; };
+		CDF582A301AA4F53AE6CFB5F /* connect.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F45CDF6221C45F4891B3831 /* connect.png */; };
+		D73200A9EB65477897FB88B2 /* logo180.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F35A2A25F9B4677993702BB /* logo180.png */; };
 		E066B35E091346709233EBA5 /* RickyYu.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C885B18DA6D433F953C6724 /* RickyYu.png */; };
+		E35EC5DE2B514F9E88BDAAEA /* gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 2859F246BED0464D868E64FA /* gold.png */; };
+		E84A504B8EEB4AF4969EDBDB /* logo40.png in Resources */ = {isa = PBXBuildFile; fileRef = 008B636803D145108A1320F0 /* logo40.png */; };
+		E8A26367F3574CC28A1C5B4E /* progress.png in Resources */ = {isa = PBXBuildFile; fileRef = F48DE797AF674ED6A4EFE878 /* progress.png */; };
 		EA349CE51DC7494399060E85 /* gsh.png in Resources */ = {isa = PBXBuildFile; fileRef = DB13BC3EC0E442AD9F5B6309 /* gsh.png */; };
 		F250F71482D3410D8D06A834 /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E656EF1B87F24CFDAAC8D22D /* RobotoCondensed-BoldItalic.ttf */; };
 		F3F559D6D52A44E4A33B14C6 /* HeatherKing.png in Resources */ = {isa = PBXBuildFile; fileRef = 571093EEC5994E9C90003621 /* HeatherKing.png */; };
+		F7F6D507777D4F938464A94B /* community.png in Resources */ = {isa = PBXBuildFile; fileRef = 91CBF70B9EEB4C99BA0DA5A2 /* community.png */; };
+		F932F42E00A4428783FF6C62 /* logo87.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA13DFE9B7A44C7A4BC205D /* logo87.png */; };
 		F95A79CD64EC4F27834FD437 /* Introducing_Josh_Levin.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B050B9FEB1EB4789BE764B0B /* Introducing_Josh_Levin.mp4 */; };
 		FF4637524A8D403285B3D72D /* DavePaunesku.png in Resources */ = {isa = PBXBuildFile; fileRef = B86C8E522C6B409F850B6560 /* DavePaunesku.png */; };
 /* End PBXBuildFile section */
@@ -68,65 +84,81 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		008B636803D145108A1320F0 /* logo40.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo40.png; path = ../assets/logo/ios/logo40.png; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* GSHDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSHDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* GSHDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSHDemoTests.m; sourceTree = "<group>"; };
-		088FEB752F6D4415ABCF00FE /* YuvalSpector.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = YuvalSpector.png; path = ../assets/people/YuvalSpector.png; sourceTree = "<group>"; };
-		0CA39952A3CA493EB1B07E08 /* PhilippeGoldin.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = PhilippeGoldin.png; path = ../assets/people/PhilippeGoldin.png; sourceTree = "<group>"; };
-		104F6B30DFAE4489AA999E2B /* ShariBecker.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ShariBecker.png; path = ../assets/people/ShariBecker.png; sourceTree = "<group>"; };
-		10800CF776D4437580D88FA4 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
-		137E1BA537774AAEB7DED75C /* Meet_Shari_Becker.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Meet_Shari_Becker.mp4; path = ../assets/video/Meet_Shari_Becker.mp4; sourceTree = "<group>"; };
+		088FEB752F6D4415ABCF00FE /* YuvalSpector.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = YuvalSpector.png; path = ../assets/people/YuvalSpector.png; sourceTree = "<group>"; };
+		0CA39952A3CA493EB1B07E08 /* PhilippeGoldin.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = PhilippeGoldin.png; path = ../assets/people/PhilippeGoldin.png; sourceTree = "<group>"; };
+		104F6B30DFAE4489AA999E2B /* ShariBecker.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ShariBecker.png; path = ../assets/people/ShariBecker.png; sourceTree = "<group>"; };
+		10800CF776D4437580D88FA4 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		137E1BA537774AAEB7DED75C /* Meet_Shari_Becker.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Meet_Shari_Becker.mp4; path = ../assets/video/Meet_Shari_Becker.mp4; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* GSHDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSHDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = GSHDemo/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = GSHDemo/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GSHDemo/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GSHDemo/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GSHDemo/main.m; sourceTree = "<group>"; };
-		13EF964ACC16431C832A0A9C /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
-		14872ADB157E438EB334B1B2 /* JoshLevin.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = JoshLevin.png; path = ../assets/people/JoshLevin.png; sourceTree = "<group>"; };
+		13EF964ACC16431C832A0A9C /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		14872ADB157E438EB334B1B2 /* JoshLevin.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = JoshLevin.png; path = ../assets/people/JoshLevin.png; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-GSHDemo-GSHDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GSHDemo-GSHDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		24930ECA7C5B4F4DBAA6C0C6 /* smedicine.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = smedicine.png; path = ../assets/smedicine.png; sourceTree = "<group>"; };
-		29568FD7AD5F49FBB1DAB72D /* LICENSE.txt */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = LICENSE.txt; path = ../assets/fonts/LICENSE.txt; sourceTree = "<group>"; };
-		2EB08B6B1C00497B90121F98 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
-		3020523EA7F3472B8F25F5BE /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Regular.ttf"; path = "../assets/fonts/RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		2059D638B70A4A47BF24BAD8 /* logo58.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo58.png; path = ../assets/logo/ios/logo58.png; sourceTree = "<group>"; };
+		215654EBFDB74C8CAE06A3FE /* logo60.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo60.png; path = ../assets/logo/ios/logo60.png; sourceTree = "<group>"; };
+		24930ECA7C5B4F4DBAA6C0C6 /* smedicine.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = smedicine.png; path = ../assets/smedicine.png; sourceTree = "<group>"; };
+		2859F246BED0464D868E64FA /* gold.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = gold.png; path = ../assets/backgrounds/gold.png; sourceTree = "<group>"; };
+		29568FD7AD5F49FBB1DAB72D /* LICENSE.txt */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = LICENSE.txt; path = ../assets/fonts/LICENSE.txt; sourceTree = "<group>"; };
+		2EB08B6B1C00497B90121F98 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		2F45CDF6221C45F4891B3831 /* connect.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = connect.png; path = ../assets/icons/connect.png; sourceTree = "<group>"; };
+		3020523EA7F3472B8F25F5BE /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Regular.ttf"; path = "../assets/fonts/RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-GSHDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSHDemo.debug.xcconfig"; path = "Target Support Files/Pods-GSHDemo/Pods-GSHDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		45FCEF2EE5D44381A8BBC037 /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Light.ttf"; path = "../assets/fonts/RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
-		47E90A066A414E53830CB476 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
-		48616AC8E9504BB881DF3E8C /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
-		4C17F303492E4414A052B1BC /* somatic.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = somatic.png; path = ../assets/logo/somatic.png; sourceTree = "<group>"; };
-		4C885B18DA6D433F953C6724 /* RickyYu.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = RickyYu.png; path = ../assets/people/RickyYu.png; sourceTree = "<group>"; };
-		54ED7C93E2144878A6977C58 /* StephenBaxter.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = StephenBaxter.png; path = ../assets/people/StephenBaxter.png; sourceTree = "<group>"; };
+		45FCEF2EE5D44381A8BBC037 /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Light.ttf"; path = "../assets/fonts/RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		47E90A066A414E53830CB476 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		48616AC8E9504BB881DF3E8C /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		4C17F303492E4414A052B1BC /* somatic.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = somatic.png; path = ../assets/logo/somatic.png; sourceTree = "<group>"; };
+		4C885B18DA6D433F953C6724 /* RickyYu.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = RickyYu.png; path = ../assets/people/RickyYu.png; sourceTree = "<group>"; };
+		54ED7C93E2144878A6977C58 /* StephenBaxter.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = StephenBaxter.png; path = ../assets/people/StephenBaxter.png; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-GSHDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSHDemo.release.xcconfig"; path = "Target Support Files/Pods-GSHDemo/Pods-GSHDemo.release.xcconfig"; sourceTree = "<group>"; };
-		571093EEC5994E9C90003621 /* HeatherKing.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = HeatherKing.png; path = ../assets/people/HeatherKing.png; sourceTree = "<group>"; };
-		5751F7FCE10B4149B162B3B2 /* CorinneCooley.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = CorinneCooley.png; path = ../assets/people/CorinneCooley.png; sourceTree = "<group>"; };
+		571093EEC5994E9C90003621 /* HeatherKing.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = HeatherKing.png; path = ../assets/people/HeatherKing.png; sourceTree = "<group>"; };
+		5751F7FCE10B4149B162B3B2 /* CorinneCooley.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = CorinneCooley.png; path = ../assets/people/CorinneCooley.png; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-GSHDemo-GSHDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSHDemo-GSHDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-GSHDemo-GSHDemoTests/Pods-GSHDemo-GSHDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-GSHDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GSHDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EFB774B400F48BAA540C7BA /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
-		63FEFC2D4CFB411495C92392 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
-		65942748C28F49FD970A8505 /* Introducing_the_Founders.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Introducing_the_Founders.mp4; path = ../assets/video/Introducing_the_Founders.mp4; sourceTree = "<group>"; };
-		6F7461284C7F4FB389870BD8 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
-		6F86764691FD4D31AC1AF0CB /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Italic.ttf"; path = "../assets/fonts/RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		5EFB774B400F48BAA540C7BA /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		63FEFC2D4CFB411495C92392 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		65942748C28F49FD970A8505 /* Introducing_the_Founders.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Introducing_the_Founders.mp4; path = ../assets/video/Introducing_the_Founders.mp4; sourceTree = "<group>"; };
+		6F7461284C7F4FB389870BD8 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		6F86764691FD4D31AC1AF0CB /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Italic.ttf"; path = "../assets/fonts/RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		7623CF634979491DB4607448 /* bg.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = bg.png; path = ../assets/backgrounds/bg.png; sourceTree = "<group>"; };
+		7F35A2A25F9B4677993702BB /* logo180.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo180.png; path = ../assets/logo/ios/logo180.png; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = GSHDemo/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		82EC8485C45E4BE18BA94F7D /* Meet_Tiffany_Asp.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Meet_Tiffany_Asp.mp4; path = ../assets/video/Meet_Tiffany_Asp.mp4; sourceTree = "<group>"; };
+		82EC8485C45E4BE18BA94F7D /* Meet_Tiffany_Asp.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Meet_Tiffany_Asp.mp4; path = ../assets/video/Meet_Tiffany_Asp.mp4; sourceTree = "<group>"; };
+		8554C04FCB5645CC9643BB3B /* splash.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = splash.png; path = ../assets/backgrounds/splash.png; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-GSHDemo-GSHDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSHDemo-GSHDemoTests.release.xcconfig"; path = "Target Support Files/Pods-GSHDemo-GSHDemoTests/Pods-GSHDemo-GSHDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		911EBC0F498C49DA86D53531 /* MichaelFredericson.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MichaelFredericson.png; path = ../assets/people/MichaelFredericson.png; sourceTree = "<group>"; };
-		9F02FA061597482CB0235F8E /* CarrieTice.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = CarrieTice.png; path = ../assets/people/CarrieTice.png; sourceTree = "<group>"; };
-		AAE62B56A4944CAA8BD61F68 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Bold.ttf"; path = "../assets/fonts/RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
-		ADE79349A1A34E4986E7296E /* ucsf.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ucsf.png; path = ../assets/logo/ucsf.png; sourceTree = "<group>"; };
-		B050B9FEB1EB4789BE764B0B /* Introducing_Josh_Levin.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Introducing_Josh_Levin.mp4; path = ../assets/video/Introducing_Josh_Levin.mp4; sourceTree = "<group>"; };
-		B7C3C5A34C534544AEBD7A91 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
-		B86C8E522C6B409F850B6560 /* DavePaunesku.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = DavePaunesku.png; path = ../assets/people/DavePaunesku.png; sourceTree = "<group>"; };
-		B88B2273EBCD44AF91F3C892 /* TiffanyAsp.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = TiffanyAsp.png; path = ../assets/people/TiffanyAsp.png; sourceTree = "<group>"; };
-		C13961E7AB1F4B38B59D8727 /* Introducing_Philippe_Goldin.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Introducing_Philippe_Goldin.mp4; path = ../assets/video/Introducing_Philippe_Goldin.mp4; sourceTree = "<group>"; };
-		D4520E338A2C455AAFA3DC2A /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
-		D8C2B2D7436D4F2B85261AF9 /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-LightItalic.ttf"; path = "../assets/fonts/RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
-		DB13BC3EC0E442AD9F5B6309 /* gsh.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = gsh.png; path = ../assets/logo/gsh.png; sourceTree = "<group>"; };
-		E37BF216C7A54A6A9DD93BA2 /* ucdavis.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ucdavis.png; path = ../assets/logo/ucdavis.png; sourceTree = "<group>"; };
-		E656EF1B87F24CFDAAC8D22D /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-BoldItalic.ttf"; path = "../assets/fonts/RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		911EBC0F498C49DA86D53531 /* MichaelFredericson.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MichaelFredericson.png; path = ../assets/people/MichaelFredericson.png; sourceTree = "<group>"; };
+		91CBF70B9EEB4C99BA0DA5A2 /* community.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = community.png; path = ../assets/icons/community.png; sourceTree = "<group>"; };
+		937CB3B7542944A69C47A7EB /* logo1024.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo1024.png; path = ../assets/logo/ios/logo1024.png; sourceTree = "<group>"; };
+		9F02FA061597482CB0235F8E /* CarrieTice.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = CarrieTice.png; path = ../assets/people/CarrieTice.png; sourceTree = "<group>"; };
+		AAE62B56A4944CAA8BD61F68 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Bold.ttf"; path = "../assets/fonts/RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		ADE79349A1A34E4986E7296E /* ucsf.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ucsf.png; path = ../assets/logo/ucsf.png; sourceTree = "<group>"; };
+		B050B9FEB1EB4789BE764B0B /* Introducing_Josh_Levin.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Introducing_Josh_Levin.mp4; path = ../assets/video/Introducing_Josh_Levin.mp4; sourceTree = "<group>"; };
+		B7C3C5A34C534544AEBD7A91 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		B86C8E522C6B409F850B6560 /* DavePaunesku.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = DavePaunesku.png; path = ../assets/people/DavePaunesku.png; sourceTree = "<group>"; };
+		B88B2273EBCD44AF91F3C892 /* TiffanyAsp.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = TiffanyAsp.png; path = ../assets/people/TiffanyAsp.png; sourceTree = "<group>"; };
+		BBA15906CC374402BC425EB6 /* splash-screen.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "splash-screen.png"; path = "../assets/backgrounds/splash-screen.png"; sourceTree = "<group>"; };
+		C13961E7AB1F4B38B59D8727 /* Introducing_Philippe_Goldin.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Introducing_Philippe_Goldin.mp4; path = ../assets/video/Introducing_Philippe_Goldin.mp4; sourceTree = "<group>"; };
+		C9C3483DCEEC42AE8BC3A8FE /* home.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = home.png; path = ../assets/icons/home.png; sourceTree = "<group>"; };
+		CC23E869CFC9481FB7975A84 /* logo80.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo80.png; path = ../assets/logo/ios/logo80.png; sourceTree = "<group>"; };
+		CCA13DFE9B7A44C7A4BC205D /* logo87.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo87.png; path = ../assets/logo/ios/logo87.png; sourceTree = "<group>"; };
+		D4520E338A2C455AAFA3DC2A /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		D8C2B2D7436D4F2B85261AF9 /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-LightItalic.ttf"; path = "../assets/fonts/RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		DB13BC3EC0E442AD9F5B6309 /* gsh.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = gsh.png; path = ../assets/logo/gsh.png; sourceTree = "<group>"; };
+		E37BF216C7A54A6A9DD93BA2 /* ucdavis.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ucdavis.png; path = ../assets/logo/ucdavis.png; sourceTree = "<group>"; };
+		E656EF1B87F24CFDAAC8D22D /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-BoldItalic.ttf"; path = "../assets/fonts/RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F46A24318AAB47B3954BD1C3 /* univercity.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = univercity.png; path = ../assets/logo/univercity.png; sourceTree = "<group>"; };
-		F71FF7E8FDD2486F86A4F6A9 /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
-		FF28F7B5E5A24A6DBE8410DF /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		F0050E5F68864FB1AC36C2BC /* logo120.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo120.png; path = ../assets/logo/ios/logo120.png; sourceTree = "<group>"; };
+		F46A24318AAB47B3954BD1C3 /* univercity.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = univercity.png; path = ../assets/logo/univercity.png; sourceTree = "<group>"; };
+		F48DE797AF674ED6A4EFE878 /* progress.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = progress.png; path = ../assets/icons/progress.png; sourceTree = "<group>"; };
+		F71FF7E8FDD2486F86A4F6A9 /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		FF28F7B5E5A24A6DBE8410DF /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,9 +266,24 @@
 				65942748C28F49FD970A8505 /* Introducing_the_Founders.mp4 */,
 				137E1BA537774AAEB7DED75C /* Meet_Shari_Becker.mp4 */,
 				82EC8485C45E4BE18BA94F7D /* Meet_Tiffany_Asp.mp4 */,
+				937CB3B7542944A69C47A7EB /* logo1024.png */,
+				F0050E5F68864FB1AC36C2BC /* logo120.png */,
+				7F35A2A25F9B4677993702BB /* logo180.png */,
+				008B636803D145108A1320F0 /* logo40.png */,
+				2059D638B70A4A47BF24BAD8 /* logo58.png */,
+				215654EBFDB74C8CAE06A3FE /* logo60.png */,
+				CC23E869CFC9481FB7975A84 /* logo80.png */,
+				CCA13DFE9B7A44C7A4BC205D /* logo87.png */,
+				7623CF634979491DB4607448 /* bg.png */,
+				2859F246BED0464D868E64FA /* gold.png */,
+				8554C04FCB5645CC9643BB3B /* splash.png */,
+				91CBF70B9EEB4C99BA0DA5A2 /* community.png */,
+				2F45CDF6221C45F4891B3831 /* connect.png */,
+				C9C3483DCEEC42AE8BC3A8FE /* home.png */,
+				F48DE797AF674ED6A4EFE878 /* progress.png */,
+				BBA15906CC374402BC425EB6 /* splash-screen.png */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -419,6 +466,22 @@
 				5DB0D771584443B59F32AAC4 /* Introducing_the_Founders.mp4 in Resources */,
 				6DEC10C8919E4F38B8DF825B /* Meet_Shari_Becker.mp4 in Resources */,
 				5A982538EE0C4D6F88CBDE50 /* Meet_Tiffany_Asp.mp4 in Resources */,
+				6766D71B72AE445696180AB1 /* logo1024.png in Resources */,
+				2C2F2E0961D54B3CAA3F8449 /* logo120.png in Resources */,
+				D73200A9EB65477897FB88B2 /* logo180.png in Resources */,
+				E84A504B8EEB4AF4969EDBDB /* logo40.png in Resources */,
+				BD0BDF25A0D34EDD98C30F63 /* logo58.png in Resources */,
+				0FD834493BDA4B258E86E200 /* logo60.png in Resources */,
+				5D678A57909D43B996A185BB /* logo80.png in Resources */,
+				F932F42E00A4428783FF6C62 /* logo87.png in Resources */,
+				C363E3A9A5F549CF915941F0 /* bg.png in Resources */,
+				E35EC5DE2B514F9E88BDAAEA /* gold.png in Resources */,
+				3A4961D3771D4D74971FE17D /* splash.png in Resources */,
+				F7F6D507777D4F938464A94B /* community.png in Resources */,
+				CDF582A301AA4F53AE6CFB5F /* connect.png in Resources */,
+				05A28C7DD9C8424E86C534ED /* home.png in Resources */,
+				E8A26367F3574CC28A1C5B4E /* progress.png in Resources */,
+				3AF3DC6CF32E42469FE00B47 /* splash-screen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

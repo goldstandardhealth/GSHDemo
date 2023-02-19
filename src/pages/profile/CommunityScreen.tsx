@@ -1,16 +1,30 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { Text, View } from 'react-native';
 import { ms } from 'react-native-size-matters';
 
 import { CommunityNavigationProps, base, Roboto } from '../../config';
 import GScrollable from '../../layout/GScrollable';
-import GContinue from '../../components/GContinue';
 
 function CommunityScreen({ navigation }: CommunityNavigationProps) {
   return (
     <GScrollable type='bg'>
-      <Text style={{...Roboto.bold, fontSize: 40, alignSelf: 'center', marginTop: ms(100)}}>Community</Text>
-      <GContinue onPress={() => navigation.replace('Community')} />
+      <View style={{
+        marginHorizontal: ms(10),
+        borderBottomWidth: 1,
+        paddingHorizontal: ms(30),
+        paddingBottom: ms(10)
+      }}>
+        <Text style={{
+          ...Roboto.bold,
+          fontSize: ms(30),
+          marginTop: ms(40)
+        }}>Community Blog</Text>
+        <Text style={{
+          ...Roboto.regular,
+          fontSize: ms(15),
+          marginTop: ms(20)
+        }}>View your feed!</Text>
+      </View>
     </GScrollable>
   );
 }

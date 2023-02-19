@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -14,20 +14,17 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashScreen" translatesAutoresizingMaskIntoConstraints="NO" id="fer-12-c1O">
-                                <rect key="frame" x="0.0" y="-75" width="430" height="1082"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="fer-12-c1O" secondAttribute="height" multiplier="215:541" id="D9J-yb-Zkp"/>
-                                </constraints>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash-screen.png" translatesAutoresizingMaskIntoConstraints="NO" id="fer-12-c1O">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="fer-12-c1O" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9aq-of-7JA"/>
                             <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="fer-12-c1O" secondAttribute="trailing" id="C8Q-C1-eru"/>
                             <constraint firstItem="fer-12-c1O" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="FiZ-KS-pVa"/>
                             <constraint firstItem="fer-12-c1O" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="MSi-6O-jqb"/>
@@ -41,7 +38,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="SplashScreen" width="500" height="1082.6666259765625"/>
+        <image name="splash-screen.png" width="375" height="812"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

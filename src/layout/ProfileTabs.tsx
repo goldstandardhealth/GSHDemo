@@ -13,6 +13,12 @@ import CommunityStack from '../layout/CommunityStack';
 import ConnectStack from '../layout/ConnectStack';
 
 const Tab = createBottomTabNavigator();
+const tabLabel = (title: string, focused: boolean, color: string) => {
+  return <Text style={{
+    ...(focused ? Roboto.bold : Roboto.regular),
+    color: color
+  }}>{title}</Text>;
+}
 
 function ProfileTabs() {
   return (
@@ -23,20 +29,19 @@ function ProfileTabs() {
           backgroundColor: gold.tabs,
         }},
         tabBarActiveTintColor: base.black,
-        tabBarInactiveTintColor: blue.darker,
         tabBarLabelStyle: {...{
           ...Roboto.regular,
           fontSize: ms(14)
         }},
         tabBarIcon: ({ focused, color, size }) => {
-          return (<Image style={{ width: ms(size), height: ms(size), resizeMode: 'contain' }} source={tabs[route.name.substr(0, route.name.length - 3)]} />);
+          return <Image style={{ width: ms(size), height: ms(size), resizeMode: 'contain' }} source={tabs[route.name.substr(0, route.name.length - 3)]} />;
         }
       })}
     >
-      <Tab.Screen options={{tabBarLabel: "Home"}} name="HomeTab" component={HomeStack} />
-      <Tab.Screen options={{tabBarLabel: "Progress"}} name="ProgressTab" component={ProgressStack} />
-      <Tab.Screen options={{tabBarLabel: "Community"}} name="CommunityTab" component={CommunityStack} />
-      <Tab.Screen options={{tabBarLabel: "Connect"}} name="ConnectTab" component={ConnectStack} />
+      <Tab.Screen options={{tabBarLabel: ({focused, color}) => tabLabel("Home", focused, color)}} name="HomeTab" component={HomeStack} />
+      <Tab.Screen options={{tabBarLabel: ({focused, color}) => tabLabel("Progress", focused, color)}} name="ProgressTab" component={ProgressStack} />
+      <Tab.Screen options={{tabBarLabel: ({focused, color}) => tabLabel("Community", focused, color)}} name="CommunityTab" component={CommunityStack} />
+      <Tab.Screen options={{tabBarLabel: ({focused, color}) => tabLabel("Connect", focused, color)}} name="ConnectTab" component={ConnectStack} />
     </Tab.Navigator>
   );
 }

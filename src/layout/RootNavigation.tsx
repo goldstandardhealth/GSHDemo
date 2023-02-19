@@ -8,13 +8,13 @@ import NavigationStack from './NavigationStack';
 
 const navigationRef = createNavigationContainerRef()
 
-export function rootNavigate(name, params) {
+export function rootNavigate(name: string, params: any = undefined) {
   if (navigationRef.isReady()) {
     navigationRef.navigate(name, params);
   }
 }
 
-export const restoreStateCommon = async (persistenceKey, setInitialState, setIsReady) => {
+export const restoreStateCommon = async (persistenceKey: string, setInitialState: any, setIsReady: any) => {
   try {
     const initialUrl = await Linking.getInitialURL();
 
@@ -39,6 +39,7 @@ function RootNavigation(): JSX.Element | null {
   const [initialState, setInitialState] = useState();
   const restoreState = async () => restoreStateCommon(PERSISTENCE_KEY, setInitialState, setIsReady);
 
+  useEffect(() => SplashScreen.hide(), []);
   useEffect(() => {
     if (!isReady) {
       restoreState();
@@ -52,7 +53,6 @@ function RootNavigation(): JSX.Element | null {
   return (
     <NavigationContainer
       ref={navigationRef}
-      onReady={() => SplashScreen.hide()}
       initialState={ initialState }
       onStateChange={(state) =>
         AsyncStorage.setItem(PERSISTENCE_KEY, JSON.stringify(state))

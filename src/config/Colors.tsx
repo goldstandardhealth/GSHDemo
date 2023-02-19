@@ -9,6 +9,7 @@ export const base = {
 };
 
 export const blue = {
+  icon: '#669fe4',
   light: '#ccdeeb',
   lighter: '#86ccff',
   regular: '#4295a5',
@@ -18,6 +19,7 @@ export const blue = {
 };
 
 export const gold = {
+  screenTabs: '#ead67b',
   tabs: '#fff0c9',
   logo: '#fbb110',
   lighter: '#f19e37',

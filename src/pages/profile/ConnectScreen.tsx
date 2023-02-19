@@ -1,16 +1,24 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { Text, TouchableOpacity } from 'react-native';
 import { ms } from 'react-native-size-matters';
 
+import { rootNavigate } from '../../layout/RootNavigation';
 import { ConnectNavigationProps, base, Roboto } from '../../config';
 import GScrollable from '../../layout/GScrollable';
-import GContinue from '../../components/GContinue';
+import GGear from '../../components/icons/GGear';
 
 function ConnectScreen({ navigation }: ConnectNavigationProps) {
   return (
     <GScrollable type='bg'>
-      <Text style={{...Roboto.bold, fontSize: 40, alignSelf: 'center', marginTop: ms(100)}}>Connect</Text>
-      <GContinue onPress={() => navigation.replace('Connect')} />
+      <TouchableOpacity style={{ alignSelf: 'flex-end', marginRight: ms(10), marginTop: ms(10) }} onPress={() => rootNavigate('Intro')}>
+        <GGear size={ms(25)} />
+      </TouchableOpacity>
+      <Text style={{
+        ...Roboto.regular,
+        textAlign: 'center',
+        fontSize: ms(18),
+        marginTop: ms(10)
+      }}>Gold Practitioners Network</Text>
     </GScrollable>
   );
 }
