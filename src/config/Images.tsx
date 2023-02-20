@@ -29,6 +29,8 @@ export const logo: ImageSources = {
   [company.somatic]: require(basePath + 'logo/somatic.png'),
   [company.ucsf]: require(basePath + 'logo/ucsf.png'),
   [company.univercity]: require(basePath + 'logo/univercity.png'),
+  [company.ipsi]: require(basePath + 'logo/ipsi.png'),
+  [company.ohio]: require(basePath + 'logo/ohio.png'),
 }
 
 export const doctors: ImageSources = {

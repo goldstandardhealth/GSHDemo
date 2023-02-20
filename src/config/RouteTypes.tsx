@@ -1,6 +1,6 @@
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 
-import { Person } from './People';
+import { Person, Practitioner } from './People';
 
 export type RootStackParamList = {
   Intro: undefined;
@@ -57,7 +57,9 @@ export type CommunityNavigationProps = NativeStackScreenProps<CommunityStackPara
 
 export type ConnectStackParamList = {
   Connect: undefined;
+  ConnectDetails: { person: Practitioner, key: string };
 };
 
 export type ConnectNavigationProps = NativeStackScreenProps<ConnectStackParamList, 'Connect'>;
+export type ConnectDetailsNavigationProps = NativeStackScreenProps<ConnectStackParamList, 'ConnectDetails'>;
 

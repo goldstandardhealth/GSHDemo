@@ -8,6 +8,8 @@ export const company = {
   somatic: 'Somatic Experiencing',
   ucsf: 'UCSF',
   univercity: 'Stanford Univercity',
+  ipsi: 'Integrative Pain science Institute',
+  ohio: 'Ohio Univercity',
 }
 
 export type Person = {
@@ -20,6 +22,22 @@ export type Person = {
 }
 
 type People = { [key: string]: Person };
+
+export type Practitioner = {
+  id: string;
+  name: string;
+  title: string;
+  shortTitle: string;
+  company: string;
+  imageBw: ImageSourcePropType;
+  imageColor?: ImageSourcePropType;
+  brief: string;
+  biography: string;
+  phone: string;
+  location: { lat: number, lon: number };
+}
+
+type Practitioners = { [key: string]: Practitioner };
 
 const basePath = '../../assets/people/';
 const videoPath = '../../assets/video/';
@@ -129,4 +147,72 @@ export const experts: People = {
     company: company.univercity,
     image: require(basePath + 'DavePaunesku.png')
   },
+};
+
+export const practitioners: Practitioners = {
+  ricky: {
+    id: `${uuid.v4()}`,
+    name: 'Ricky Yu',
+    title: 'Doctor of Physical Therapy & Orthopedic Clinical Specialist',
+    shortTitle: 'DPT, OCS',
+    company: company.smedicine,
+    imageBw: require(basePath + 'practitioner/bw/RickyYuBw.png'),
+    imageColor: require(basePath + 'practitioner/color/RickyYuC.png'),
+    brief: 'I received my Doctor of Physical Therapy from Columbia University where I specialized in orthopedic and sports rehabilitation, and myBachelor of Science from The University at Buffalo graduating Magna Cum Laude. I joined Stanford in 2013 and I am an orthopedic clinical specialist. I...',
+    biography: '',
+    phone: '(650) 723-6469',
+    location: { lat: 37.43399116659287, lon: -122.17560779629487 },
+  },
+  paz: {
+    id: `${uuid.v4()}`,
+    name: 'Paz Alster',
+    title: 'Doctor of Physical Therapy & Orthopedic Clinical Specialist',
+    shortTitle: 'Physical Therapy',
+    company: company.ipsi,
+    imageBw: require(basePath + 'practitioner/bw/PazAlsterBw.png'),
+    //imageColor: require(basePath + 'practitioner/color/PazAlsterC.png'),
+    brief: '',
+    biography: '',
+    phone: '',
+    location: { lat: 37.43399116659287, lon: -122.17560779629487 },
+  },
+  allison: {
+    id: `${uuid.v4()}`,
+    name: 'Allison Marsden',
+    title: 'Doctor of Physical Therapy & Orthopedic Clinical Specialist',
+    shortTitle: 'Physical Therapy',
+    company: company.ohio,
+    imageBw: require(basePath + 'practitioner/bw/AllisonMarsdenBw.png'),
+    //imageColor: require(basePath + 'practitioner/color/AllisonMarsdenC.png'),
+    brief: '',
+    biography: '',
+    phone: '',
+    location: { lat: 37.43399116659287, lon: -122.17560779629487 },
+  },
+  tiffany: {
+    id: `${uuid.v4()}`,
+    name: 'Tiffany Asp',
+    title: 'Doctor of Physical Therapy & Orthopedic Clinical Specialist',
+    shortTitle: 'PT & DPT',
+    company: company.smedicine,
+    imageBw: require(basePath + 'practitioner/bw/TiffanyAspBw.png'),
+    //imageColor: require(basePath + 'practitioner/color/TiffanyAspC.png'),
+    brief: '',
+    biography: '',
+    phone: '',
+    location: { lat: 37.43399116659287, lon: -122.17560779629487 },
+  },
+  corinne: {
+    id: `${uuid.v4()}`,
+    name: 'Corinne Cooley',
+    title: 'Doctor of Physical Therapy & Orthopedic Clinical Specialist',
+    shortTitle: 'DPT',
+    company: company.smedicine,
+    imageBw: require(basePath + 'practitioner/bw/CorinneCooleyBw.png'),
+    //imageColor: require(basePath + 'practitioner/color/CorinneCooleyC.png'),
+    brief: '',
+    biography: '',
+    phone: '',
+    location: { lat: 37.43399116659287, lon: -122.17560779629487 },
+  }
 };

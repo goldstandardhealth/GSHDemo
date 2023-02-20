@@ -6,6 +6,10 @@
       "sha1": "47b573e3824cd5e02a1a3ae99e2735b49e0256e4"
     },
     {
+      "path": "assets/fonts/MaterialIcons-Regular.ttf",
+      "sha1": "7e02c3f005532ff4d24148567c84089756a7848a"
+    },
+    {
       "path": "assets/fonts/Roboto-Black.ttf",
       "sha1": "3f8e401d808f6ce84b542266726514ac8be73171"
     },
@@ -134,6 +138,14 @@
       "sha1": "e3f975ed5f93cb86e05f337921e829af70c6f895"
     },
     {
+      "path": "assets/logo/ipsi.png",
+      "sha1": "62ad56ddaf2d79c119c75de12c5fc4110913701e"
+    },
+    {
+      "path": "assets/logo/ohio.png",
+      "sha1": "247e608c2d29eb36dc0730c4d748fb50cea6e0d1"
+    },
+    {
       "path": "assets/logo/smedicine.png",
       "sha1": "de43c54986cdcd0716052331108b93b7f73bda5f"
     },
@@ -200,6 +212,30 @@
     {
       "path": "assets/people/YuvalSpector.png",
       "sha1": "b75e9a585122f8c3c8b2b5f4659c7f24d2b954f2"
+    },
+    {
+      "path": "assets/people/practitioner/bw/AllisonMarsdenBw.png",
+      "sha1": "ba108f3cb9985e739ecbc4633c402ccc5f85eecd"
+    },
+    {
+      "path": "assets/people/practitioner/bw/CorinneCooleyBw.png",
+      "sha1": "43bcc0f70606eee28de677abebdb9ef0afa84520"
+    },
+    {
+      "path": "assets/people/practitioner/bw/PazAlsterBw.png",
+      "sha1": "f902d5ada105e444e5b71e053fbd75ab20398f94"
+    },
+    {
+      "path": "assets/people/practitioner/bw/RickyYuBw.png",
+      "sha1": "505c6486861afd5b53dae4f3b37083938e3a4812"
+    },
+    {
+      "path": "assets/people/practitioner/bw/TiffanyAspBw.png",
+      "sha1": "3bb8bf48e869f4ce9475f076f6a77b91b2ba2d9d"
+    },
+    {
+      "path": "assets/people/practitioner/color/RickyYuC.png",
+      "sha1": "caad7477cc80218dc52e5e53116922b1e1e21166"
     },
     {
       "path": "assets/backgrounds/bg.png",
