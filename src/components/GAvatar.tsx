@@ -17,7 +17,6 @@ function GAvatar({ person, size, color, style }: Props) {
   return (
     <View style={ [styles.box, style] }>
       <Image source={person.image} style={{
-        //flex: 1,
         height: size,
         width: size,
         resizeMode: 'contain',

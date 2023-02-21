@@ -43,3 +43,10 @@ export const tabs: ImageSources = {
   Community: require(basePath + 'icons/community.png'),
   Connect: require(basePath + 'icons/connect.png')
 };
+
+export const medals: ImageSources = {
+  mindset: require(basePath + 'medals/medal2.png'),
+  expert: require(basePath + 'medals/medal1.png'),
+  meditation: require(basePath + 'medals/medal3.png')
+};
+

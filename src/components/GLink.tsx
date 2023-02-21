@@ -11,7 +11,7 @@ type Props = {
 function GLink({ children, target, style }: Props) {
   const handlePress = useCallback(async () => {
     const supported = await Linking.canOpenURL(target);
-    if (supported) {
+    if (!supported) {
       await Linking.openURL(target);
     } else {
       Alert.alert(`Don't know how to open: ${target}`);

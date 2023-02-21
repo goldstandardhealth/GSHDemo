@@ -268,6 +268,18 @@
     {
       "path": "assets/icons/progress.png",
       "sha1": "c43958cb2d6b41593be6beb272c8be67c173788d"
+    },
+    {
+      "path": "assets/medals/medal1.png",
+      "sha1": "4b30c5d2dc7187134b3481dcb913ab1895de8d1a"
+    },
+    {
+      "path": "assets/medals/medal2.png",
+      "sha1": "97256b45ce4e75f86407dab71fb8f20c845aee44"
+    },
+    {
+      "path": "assets/medals/medal3.png",
+      "sha1": "050ba74f205fdfc254eda46dd50527618bb511d0"
     }
   ]
 }

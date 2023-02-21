@@ -4,7 +4,7 @@ import { View, Text, SafeAreaView } from 'react-native';
 import { ms } from 'react-native-size-matters';
 
 import ProgressProgressScreen from './progress/ProgressProgressScreen';
-import ProgressAchivementsScreen from './progress/ProgressAchivementsScreen';
+import ProgressAchievementsScreen from './progress/ProgressAchievementsScreen';
 import ProgressBadgesScreen from './progress/ProgressBadgesScreen';
 
 import { ProgressNavigationProps, base, gold, Roboto, founders } from '../../config';
@@ -38,7 +38,7 @@ function ProgressScreen({ navigation }: ProgressNavigationProps) {
             sceneContainerStyle={{ backgroundColor: 'transparent' }}
           >
             <ProgressTab.Screen options={{tabBarLabel: ({focused, color}) => tabLabel("Progress", focused, color)}} name="ProgressTopTab" component={ProgressProgressScreen} />
-            <ProgressTab.Screen options={{tabBarLabel: ({focused, color}) => tabLabel("Achivements", focused, color)}} name="AchivementsTopTab" component={ProgressAchivementsScreen} />
+            <ProgressTab.Screen options={{tabBarLabel: ({focused, color}) => tabLabel("Achievements", focused, color)}} name="AchievementsTopTab" component={ProgressAchievementsScreen} />
             <ProgressTab.Screen options={{tabBarLabel: ({focused, color}) => tabLabel("Badges", focused, color)}} name="BadgesTopTab" component={ProgressBadgesScreen} />
           </ProgressTab.Navigator>
         </View>

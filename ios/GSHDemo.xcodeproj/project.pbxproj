@@ -77,6 +77,9 @@
 		064EB2031E1F4D789025D5A7 /* RickyYuBw.png in Resources */ = {isa = PBXBuildFile; fileRef = CA3B03601B3D4A1A8FFBD334 /* RickyYuBw.png */; };
 		DDFEDEC6C6F748DA95E47841 /* TiffanyAspBw.png in Resources */ = {isa = PBXBuildFile; fileRef = 728965E1515C47D1BA30C2D4 /* TiffanyAspBw.png */; };
 		8525D31E795248878D99C9C8 /* RickyYuC.png in Resources */ = {isa = PBXBuildFile; fileRef = 29630B440717458ABEE4F99C /* RickyYuC.png */; };
+		5E4706A11047437685755733 /* medal1.png in Resources */ = {isa = PBXBuildFile; fileRef = B41590F6444443DBBA95C217 /* medal1.png */; };
+		9546C93B69B4463ABB6D1102 /* medal2.png in Resources */ = {isa = PBXBuildFile; fileRef = 23FD08F0F9B14FC6A372BC7B /* medal2.png */; };
+		14A3317F918446C4A88AFEDB /* medal3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE964A5DD504AB5A1B58DB8 /* medal3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -174,6 +177,9 @@
 		CA3B03601B3D4A1A8FFBD334 /* RickyYuBw.png */ = {isa = PBXFileReference; name = "RickyYuBw.png"; path = "../assets/people/practitioner/bw/RickyYuBw.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		728965E1515C47D1BA30C2D4 /* TiffanyAspBw.png */ = {isa = PBXFileReference; name = "TiffanyAspBw.png"; path = "../assets/people/practitioner/bw/TiffanyAspBw.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		29630B440717458ABEE4F99C /* RickyYuC.png */ = {isa = PBXFileReference; name = "RickyYuC.png"; path = "../assets/people/practitioner/color/RickyYuC.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B41590F6444443DBBA95C217 /* medal1.png */ = {isa = PBXFileReference; name = "medal1.png"; path = "../assets/medals/medal1.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		23FD08F0F9B14FC6A372BC7B /* medal2.png */ = {isa = PBXFileReference; name = "medal2.png"; path = "../assets/medals/medal2.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7DE964A5DD504AB5A1B58DB8 /* medal3.png */ = {isa = PBXFileReference; name = "medal3.png"; path = "../assets/medals/medal3.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -306,6 +312,9 @@
 				CA3B03601B3D4A1A8FFBD334 /* RickyYuBw.png */,
 				728965E1515C47D1BA30C2D4 /* TiffanyAspBw.png */,
 				29630B440717458ABEE4F99C /* RickyYuC.png */,
+				B41590F6444443DBBA95C217 /* medal1.png */,
+				23FD08F0F9B14FC6A372BC7B /* medal2.png */,
+				7DE964A5DD504AB5A1B58DB8 /* medal3.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -515,6 +524,9 @@
 				064EB2031E1F4D789025D5A7 /* RickyYuBw.png in Resources */,
 				DDFEDEC6C6F748DA95E47841 /* TiffanyAspBw.png in Resources */,
 				8525D31E795248878D99C9C8 /* RickyYuC.png in Resources */,
+				5E4706A11047437685755733 /* medal1.png in Resources */,
+				9546C93B69B4463ABB6D1102 /* medal2.png in Resources */,
+				14A3317F918446C4A88AFEDB /* medal3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

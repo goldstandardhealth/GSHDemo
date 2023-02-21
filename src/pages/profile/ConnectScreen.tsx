@@ -25,7 +25,7 @@ function ConnectScreen({ navigation }: ConnectNavigationProps) {
         fontSize: ms(18),
         marginTop: ms(10)
       }}>Gold Practitioners Network</Text>
-      { Object.keys(practitioners).map((key) => <GPractitioner person={practitioners[key]} onPress={() => handlePress(key)} />)}
+      { Object.keys(practitioners).map((key) => <GPractitioner key={practitioners[key].id} person={practitioners[key]} onPress={() => handlePress(key)} />)}
     </GScrollable>
   );
 }

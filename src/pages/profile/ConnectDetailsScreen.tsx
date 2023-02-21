@@ -87,7 +87,7 @@ function ConnectDetailsScreen({ navigation, route }: ConnectDetailsNavigationPro
         <Text style={[styles.highlight, {fontSize: ms(16), marginBottom: ms(10)}]}>
           <Icon iconStyle={{fontSize: ms(20), marginRight: ms(5)}} type='material' name='place' />
           <GLink target={`https://www.google.com/maps/search/?api=1&query=${person.location.lat}%2C${person.location.lon}`}>
-            <Text style={[styles.highlight, {fontSize: ms(16)}]}>{person.phone}</Text>
+            <Text style={[styles.highlight, {fontSize: ms(16)}]}>Practice location ➤</Text>
           </GLink>
         </Text>
         <Divider style={{ backgroundColor: base.black + '35', height: 2, marginVertical: ms(10) }} />
