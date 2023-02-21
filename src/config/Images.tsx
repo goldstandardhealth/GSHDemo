@@ -50,3 +50,9 @@ export const medals: ImageSources = {
   meditation: require(basePath + 'medals/medal3.png')
 };
 
+export const sports: ImageSources = {
+  running: require(basePath + 'sports/running.png'),
+  yoga: require(basePath + 'sports/yoga.png'),
+  mental: require(basePath + 'sports/mental.png')
+};
+

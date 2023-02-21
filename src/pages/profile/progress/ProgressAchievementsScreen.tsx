@@ -7,7 +7,7 @@ import GAchievement from '../../../components/GAchievement';
 
 function ProgressAchievementsScreen() {
   return (
-    <ScrollView>
+    <ScrollView contentContainerStyle={{paddingVertical: ms(15)}}>
       <GAchievement type="mindset" level={29} total={40} color='#669FE4' />
       <GAchievement type="expert" level={900} total={1000} color='#EEC77E' />
       <GAchievement type="meditation" level={10} total={10} color='#669FE4' />

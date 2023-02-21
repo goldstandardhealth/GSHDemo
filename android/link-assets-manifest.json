@@ -271,15 +271,27 @@
     },
     {
       "path": "assets/medals/medal1.png",
-      "sha1": "4b30c5d2dc7187134b3481dcb913ab1895de8d1a"
+      "sha1": "d70c6e8855a37007e610780e82163e3c31b3ded3"
     },
     {
       "path": "assets/medals/medal2.png",
-      "sha1": "97256b45ce4e75f86407dab71fb8f20c845aee44"
+      "sha1": "58c7d87d0195686d0dbdd3ee75f17abf4ca20158"
     },
     {
       "path": "assets/medals/medal3.png",
-      "sha1": "050ba74f205fdfc254eda46dd50527618bb511d0"
+      "sha1": "d04e2c17ca55c9977b76a769e5f20072a5e56727"
+    },
+    {
+      "path": "assets/sports/mental.png",
+      "sha1": "0eab8e021897c0680e5945a2679aa1ef09d24c0e"
+    },
+    {
+      "path": "assets/sports/running.png",
+      "sha1": "085f803d9552d68c3f66033e728edae937ad3234"
+    },
+    {
+      "path": "assets/sports/yoga.png",
+      "sha1": "db626da625d9dc74617dc7910147f31a2ad5e634"
     }
   ]
 }

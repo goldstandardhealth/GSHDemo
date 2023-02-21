@@ -57,7 +57,6 @@ function GAchievement({ type, style, level, total, color }: Props) {
 }
 
 const styles = StyleSheet.create({
-
   bar: {
     width: ms(150),
     height: ms(15),
@@ -85,6 +84,5 @@ const styles = StyleSheet.create({
     marginLeft: ms(20)
   }
 });
-
 
 export default GAchievement;

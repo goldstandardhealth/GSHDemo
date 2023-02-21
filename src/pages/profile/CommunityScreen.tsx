@@ -11,6 +11,7 @@ function CommunityScreen({ navigation }: CommunityNavigationProps) {
       <View style={{
         marginHorizontal: ms(10),
         borderBottomWidth: 1,
+        borderColor: base.black,
         paddingHorizontal: ms(30),
         paddingBottom: ms(10)
       }}>

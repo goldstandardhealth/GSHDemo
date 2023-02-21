@@ -12,6 +12,7 @@ module.exports = {
     './assets/backgrounds/',
     './assets/icons/',
     './assets/medals/',
+    './assets/sports/',
   ],
   dependencies: {
     ...(process.env.NO_FLIPPER
