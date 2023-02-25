@@ -13,6 +13,7 @@ module.exports = {
     './assets/icons/',
     './assets/medals/',
     './assets/sports/',
+    './assets/social/',
   ],
   dependencies: {
     ...(process.env.NO_FLIPPER

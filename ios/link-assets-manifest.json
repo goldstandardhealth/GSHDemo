@@ -254,6 +254,10 @@
       "sha1": "f3388eded9ecdf451fcb63790a8a95133db69ff4"
     },
     {
+      "path": "assets/icons/brainbonusbw.png",
+      "sha1": "e568072622e070efc57d27c82cb903783c754926"
+    },
+    {
       "path": "assets/icons/community.png",
       "sha1": "1a775c73b43e08340407a1336c558ab05e52f537"
     },
@@ -262,12 +266,48 @@
       "sha1": "1dba8e858b82761a14384d9ebd74496ed1df8117"
     },
     {
+      "path": "assets/icons/crunchbw.png",
+      "sha1": "74c19cb89a5fe2d0ed5a2b8dbf182fd75bfeae1c"
+    },
+    {
+      "path": "assets/icons/crunchwhite.png",
+      "sha1": "c75abe181fa5103e33fe1e025cb5f11e51e85c03"
+    },
+    {
       "path": "assets/icons/home.png",
       "sha1": "c9beb8b528beac328c55d611f1da76d86575d54f"
     },
     {
+      "path": "assets/icons/mindbw.png",
+      "sha1": "faeb4ff9997b72b4bf3ef7618fa5bf8b9adf4b6f"
+    },
+    {
+      "path": "assets/icons/mindwhite.png",
+      "sha1": "169741742d7698b9622955adaabe5c43cd63776f"
+    },
+    {
       "path": "assets/icons/progress.png",
       "sha1": "c43958cb2d6b41593be6beb272c8be67c173788d"
+    },
+    {
+      "path": "assets/icons/stretchbw.png",
+      "sha1": "b6eaffb8287bd23a61f4f9be8a95dfeee950ffda"
+    },
+    {
+      "path": "assets/icons/trophy.png",
+      "sha1": "3f7911e2a783e5a39cdcaaafb7ec35f881629b8c"
+    },
+    {
+      "path": "assets/icons/yogabonus.png",
+      "sha1": "bcc59c05e5164366f42b680f58059ca7701ea576"
+    },
+    {
+      "path": "assets/icons/yogabonusbw.png",
+      "sha1": "20cf2e3c6b76ac30efa0539469e0241736a1eac5"
+    },
+    {
+      "path": "assets/icons/yogabw.png",
+      "sha1": "06fa16c13216c6d0bb5bff00541953c4100e0343"
     },
     {
       "path": "assets/medals/medal1.png",
@@ -292,6 +332,22 @@
     {
       "path": "assets/sports/yoga.png",
       "sha1": "db626da625d9dc74617dc7910147f31a2ad5e634"
+    },
+    {
+      "path": "assets/social/basket.png",
+      "sha1": "d9f864e195d3d9d25e32e82da855c6d23c940781"
+    },
+    {
+      "path": "assets/social/mentalSocial.png",
+      "sha1": "5dfeff6007dfe7daf72640fb0617dad7d77e88f1"
+    },
+    {
+      "path": "assets/social/motivationSocial.png",
+      "sha1": "c0d38425630f21c1f7e82b89e4159cb3565ea1ad"
+    },
+    {
+      "path": "assets/social/physicalSocial.png",
+      "sha1": "50df2fdb25a86c5f4b974ab87272035da1fe2ff8"
     }
   ]
 }

@@ -1,6 +1,11 @@
+import { Context } from 'react';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 
 import { Person, Practitioner } from './People';
+
+type CurrentContextType = {
+  current: number;
+}
 
 export type RootStackParamList = {
   Intro: undefined;
@@ -18,6 +23,10 @@ export type RootStackParamList = {
   Loading: undefined;
   TeaserThree: undefined;
   ProfileTabs: undefined;
+  VideoLesson: { title: string, video: string, tutor: Person, congrats: string }
+  VideoLessonCongrats: { congrats: string }
+  VideoLessonSurvey: undefined;
+  FinalLesson: undefined;
 };
 
 export type IntroNavigationProps = NativeStackScreenProps<RootStackParamList, 'Intro'>;
@@ -35,7 +44,10 @@ export type TeaserTwoNavigationProps = NativeStackScreenProps<RootStackParamList
 export type LoadingNavigationProps = NativeStackScreenProps<RootStackParamList, 'Loading'>;
 export type TeaserThreeNavigationProps = NativeStackScreenProps<RootStackParamList, 'TeaserThree'>;
 
-//export type ProfileTabsNavigationProps = NativeStackScreenProps<RootStackParamList, 'ProfileTabs'>;
+export type VideoLessonNavigationProps = NativeStackScreenProps<RootStackParamList, 'VideoLesson'>;
+export type VideoLessonCongratsNavigationProps = NativeStackScreenProps<RootStackParamList, 'VideoLessonCongrats'>;
+export type VideoLessonSurveyNavigationProps = NativeStackScreenProps<RootStackParamList, 'VideoLessonSurvey'>;
+export type FinalLessonNavigationProps = NativeStackScreenProps<RootStackParamList, 'FinalLesson'>;
 
 export type HomeStackParamList = {
   Home: undefined;

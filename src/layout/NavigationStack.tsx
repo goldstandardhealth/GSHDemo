@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { createContext } from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import { RootStackParamList } from '../config';
@@ -17,6 +17,11 @@ import MoodScreen from '../pages/survey/MoodScreen';
 import TeaserTwoScreen from '../pages/survey/TeaserTwoScreen';
 import LoadingScreen from '../pages/survey/LoadingScreen';
 import TeaserThreeScreen from '../pages/survey/TeaserThreeScreen';
+
+import VideoLessonScreen from '../pages/profile/lesson/VideoLessonScreen';
+import VideoLessonCongratsScreen from '../pages/profile/lesson/VideoLessonCongratsScreen';
+import VideoLessonSurveyScreen from '../pages/profile/lesson/VideoLessonSurveyScreen';
+import FinalLessonScreen from '../pages/profile/lesson/FinalLessonScreen';
 
 import ProfileTabs from './ProfileTabs';
 
@@ -44,8 +49,12 @@ function NavigationStack() {
       <Stack.Screen name="Loading" component={LoadingScreen} options={{ headerShown: false }} />
       <Stack.Screen name="TeaserThree" component={TeaserThreeScreen} options={{ headerShown: false }} />
 
-
       <Stack.Screen name="ProfileTabs" component={ProfileTabs} options={{ headerShown: false }} />
+
+      <Stack.Screen name="VideoLesson" component={VideoLessonScreen} options={{ headerShown: false }} />
+      <Stack.Screen name="VideoLessonCongrats" component={VideoLessonCongratsScreen} options={{ headerShown: false }} />
+      <Stack.Screen name="VideoLessonSurvey" component={VideoLessonSurveyScreen} options={{ headerShown: false }} />
+      <Stack.Screen name="FinalLesson" component={FinalLessonScreen} options={{ headerShown: false }} />
     </Stack.Navigator>
   );
 }

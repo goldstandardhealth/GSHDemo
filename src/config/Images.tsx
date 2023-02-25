@@ -44,6 +44,10 @@ export const tabs: ImageSources = {
   Connect: require(basePath + 'icons/connect.png')
 };
 
+export const icons: ImageSources = {
+  info: require(basePath + 'icons/info.png'),
+};
+
 export const medals: ImageSources = {
   mindset: require(basePath + 'medals/medal2.png'),
   expert: require(basePath + 'medals/medal1.png'),
@@ -54,5 +58,31 @@ export const sports: ImageSources = {
   running: require(basePath + 'sports/running.png'),
   yoga: require(basePath + 'sports/yoga.png'),
   mental: require(basePath + 'sports/mental.png')
+};
+
+export const social: ImageSources = {
+  mental: require(basePath + 'social/mentalSocial.png'),
+  motivation: require(basePath + 'social/motivationSocial.png'),
+  physical: require(basePath + 'social/physicalSocial.png'),
+};
+
+export const excercises: ImageSources = {
+  stretchbw: require(basePath + 'icons/stretchbw.png'),
+  stretchwhite: require(basePath + 'icons/stretchbw.png'),
+  crunchbw: require(basePath + 'icons/crunchbw.png'),
+  crunchwhite: require(basePath + 'icons/crunchwhite.png'),
+  mindbw: require(basePath + 'icons/mindbw.png'),
+  mindwhite: require(basePath + 'icons/mindwhite.png'),
+  yogabw: require(basePath + 'icons/yogabw.png'),
+  yogawhite: require(basePath + 'icons/yogabw.png'),
+  trophybw: require(basePath + 'icons/trophy.png'),
+  trophywhite: require(basePath + 'icons/trophy.png'),
+};
+
+export const bonuses: ImageSources = {
+  brainbw: require(basePath + 'icons/brainbonusbw.png'),
+  braincolor: require(basePath + 'icons/brainbonusbw.png'),
+  yogabw: require(basePath + 'icons/yogabonusbw.png'),
+  yogacolor: require(basePath + 'icons/yogabonus.png'),
 };
 

@@ -5,7 +5,8 @@ import {
   Pressable,
   StyleSheet,
   StyleProp,
-  ViewStyle
+  ViewStyle,
+  TextStyle
 } from 'react-native';
 import { ms } from 'react-native-size-matters';
 
@@ -24,9 +25,10 @@ type Props = {
   data: RadioButtonsDataType;
   onSelect: ((value: string) => void);
   style?: StyleProp<ViewStyle>;
+  optionStyle?: StyleProp<TextStyle>
 };
 
-function GRadioButtons({ style, data, onSelect }: Props) {
+function GRadioButtons({ style, optionStyle, data, onSelect }: Props) {
   const [userOption, setUserOption] = useState<string|null>(null);
   const selectHandler = (value: string) => {
     onSelect(value);
@@ -42,7 +44,7 @@ function GRadioButtons({ style, data, onSelect }: Props) {
               item.value === userOption ? styles.selected : styles.unselected
             ]}
             onPress={() => selectHandler(item.value)}>
-            <Text style={styles.option}> {item.title || item.value}</Text>
+            <Text style={[styles.option, optionStyle]}> {item.title || item.value}</Text>
           </Pressable>
         );
       })}

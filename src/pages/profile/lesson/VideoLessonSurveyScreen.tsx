@@ -1,0 +1,89 @@
+import React, { useState, useEffect } from 'react';
+import {
+  Animated,
+  SafeAreaView,
+  StyleSheet,
+  Text,
+  View,
+  Image,
+  Button,
+  ScrollView,
+  TouchableOpacity
+} from 'react-native';
+import uuid from 'react-native-uuid';
+import { ms, vs } from 'react-native-size-matters';
+
+import { PeriodNavigationProps, goldieCallout, base, RobotoCondensed, experts, expertCallout } from '../../../config';
+import GFixedScreen from '../../../layout/GFixedScreen';
+import GContinue from '../../../components/GContinue';
+import Goldie from '../../../components/Goldie';
+import GCallOut from '../../../components/GCallOut';
+import GRadioButtons, { RadioButtonsDataType } from '../../../components/GRadioButtons';
+
+function VideoLessonSurveyScreen({ navigation }: PeriodNavigationProps) {
+  const [disabled, setDisabled] = useState(true);
+  const [selection, setSelection] = useState<string>();
+
+  const radioData: RadioButtonsDataType = [
+    {
+      id: `${uuid.v4()}`,
+      title: 'Extremely helpful',
+      value: 'extremely'
+    }, {
+      id: `${uuid.v4()}`,
+      title: 'A little helpful',
+      value: 'little'
+    }, {
+      id: `${uuid.v4()}`,
+      title: 'Not helpful',
+      value: 'not'
+    }
+  ];
+
+  useEffect(() => setDisabled(!selection), [selection])
+
+  return (
+    <GFixedScreen type="bg">
+      <GCallOut placement="bottomRight" palette={goldieCallout} style={ [styles.chatRowRight, { marginHorizontal: ms(50), marginVertical: ms(60), marginBottom: ms(20) }] }>
+        <Text style={styles.text}>How helpful was this activity?</Text>
+      </GCallOut>
+      <Goldie size={ms(100)} type="cool" style={ [styles.chatRowRight, { marginBottom: ms(40) }] } />
+      <GRadioButtons data={radioData} onSelect={setSelection} optionStyle={{
+        ...RobotoCondensed.regular
+      }}/>
+      <TouchableOpacity style={{
+        marginTop: vs(60),
+        alignSelf: 'center',
+        backgroundColor: '#192E60',
+        borderRadius: ms(25),
+        paddingVertical: ms(10),
+        paddingHorizontal: ms(20)
+      }} onPress={() => navigation.navigate('FinalLesson')} disabled={disabled}>
+        <Text style={{
+          ...RobotoCondensed.bold,
+          color: base.white,
+          fontSize: ms(24),
+        }}>Continue</Text>
+      </TouchableOpacity>
+    </GFixedScreen>
+  );
+}
+
+const styles = StyleSheet.create({
+  text: {
+    ...RobotoCondensed.regular,
+    fontSize: ms(25),
+    color: base.black,
+    textAlign: 'center'
+  },
+  chatRowRight: {
+    flex: 0.3,
+    alignSelf: "flex-end"
+  },
+  chatRowLeft: {
+    flex: 0.3,
+    alignSelf: "flex-start"
+  }
+});
+
+export default VideoLessonSurveyScreen;

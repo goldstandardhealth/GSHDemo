@@ -80,9 +80,22 @@
 		656DF840F1D8497C8F7DA9F0 /* medal1.png in Resources */ = {isa = PBXBuildFile; fileRef = 77593CFFA01D480A8DAAAB16 /* medal1.png */; };
 		855DC42920444862956DC65D /* medal2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BF6E95E5F7B4220B83203F7 /* medal2.png */; };
 		ABC9B3C08D6C4785AD362FF7 /* medal3.png in Resources */ = {isa = PBXBuildFile; fileRef = 69293170BAB247F980E65B6C /* medal3.png */; };
-		B525FA98FBA8427FAC6BB242 /* mental.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EF300D5E7144093A8179B82 /* mental.png */; };
 		EA4D16C4E16D43ECB36B1F67 /* running.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B98BACF745C4BF89B8238D0 /* running.png */; };
 		DA1867D7ABF942B8BDD7E027 /* yoga.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B960BFEA59A4275B5E1599D /* yoga.png */; };
+		9E9D2F6F892D4136BFBA83F2 /* basket.png in Resources */ = {isa = PBXBuildFile; fileRef = F92CD7AD1C4449539BA7C906 /* basket.png */; };
+		B7E92A82D8DF45F8872BC6B3 /* mentalSocial.png in Resources */ = {isa = PBXBuildFile; fileRef = F1101E264D0D47709096A728 /* mentalSocial.png */; };
+		BF50A96BC65A4630B8C1A6E5 /* motivationSocial.png in Resources */ = {isa = PBXBuildFile; fileRef = 763935F848194E2A9F223B1B /* motivationSocial.png */; };
+		A89D41B429D44A9DB8F8D9F8 /* physicalSocial.png in Resources */ = {isa = PBXBuildFile; fileRef = F81E482FD7814E1C8637B697 /* physicalSocial.png */; };
+		ACDC84EB767948159A12F7EF /* brainbonusbw.png in Resources */ = {isa = PBXBuildFile; fileRef = FBDE5D0542CD4E3D89B3A894 /* brainbonusbw.png */; };
+		BD03CE6F549F4D4BBE2F74DB /* crunchbw.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C47A451FD424119A32E6953 /* crunchbw.png */; };
+		329EDC66A02848A6AE6A0700 /* crunchwhite.png in Resources */ = {isa = PBXBuildFile; fileRef = C762977DB6354966BAB2C793 /* crunchwhite.png */; };
+		4CE6F3698E38462F8DADE496 /* mindbw.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C6E451CCC5D4577BC57C376 /* mindbw.png */; };
+		E8852C4A1FE7488291A63589 /* mindwhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 937C2023ED314594904219BF /* mindwhite.png */; };
+		352E846385554416B9207328 /* stretchbw.png in Resources */ = {isa = PBXBuildFile; fileRef = E9BE94CAB8E644EA9EC0E5A5 /* stretchbw.png */; };
+		784A672CC6A2442FBB240DFC /* trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = E0D60A341B5F4CC6A4B448CE /* trophy.png */; };
+		4AF986DBC09F4D3E86F05A11 /* yogabonus.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BDE93B1ABC547E8BFEDBA84 /* yogabonus.png */; };
+		FE0E07F0D5AB4CE28C0A8417 /* yogabonusbw.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E65C73B55D43EC8973C760 /* yogabonusbw.png */; };
+		DB65C3E3978C4344B8C8CD89 /* yogabw.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ACE44765F4348F3B72B606F /* yogabw.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -183,9 +196,23 @@
 		77593CFFA01D480A8DAAAB16 /* medal1.png */ = {isa = PBXFileReference; name = "medal1.png"; path = "../assets/medals/medal1.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		8BF6E95E5F7B4220B83203F7 /* medal2.png */ = {isa = PBXFileReference; name = "medal2.png"; path = "../assets/medals/medal2.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		69293170BAB247F980E65B6C /* medal3.png */ = {isa = PBXFileReference; name = "medal3.png"; path = "../assets/medals/medal3.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5EF300D5E7144093A8179B82 /* mental.png */ = {isa = PBXFileReference; name = "mental.png"; path = "../assets/sports/mental.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		5B98BACF745C4BF89B8238D0 /* running.png */ = {isa = PBXFileReference; name = "running.png"; path = "../assets/sports/running.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		0B960BFEA59A4275B5E1599D /* yoga.png */ = {isa = PBXFileReference; name = "yoga.png"; path = "../assets/sports/yoga.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F92CD7AD1C4449539BA7C906 /* basket.png */ = {isa = PBXFileReference; name = "basket.png"; path = "../assets/social/basket.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2EB744629533495DBCEF5061 /* mental.png */ = {isa = PBXFileReference; name = "mental.png"; path = "../assets/social/mental.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F1101E264D0D47709096A728 /* mentalSocial.png */ = {isa = PBXFileReference; name = "mentalSocial.png"; path = "../assets/social/mentalSocial.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		763935F848194E2A9F223B1B /* motivationSocial.png */ = {isa = PBXFileReference; name = "motivationSocial.png"; path = "../assets/social/motivationSocial.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F81E482FD7814E1C8637B697 /* physicalSocial.png */ = {isa = PBXFileReference; name = "physicalSocial.png"; path = "../assets/social/physicalSocial.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FBDE5D0542CD4E3D89B3A894 /* brainbonusbw.png */ = {isa = PBXFileReference; name = "brainbonusbw.png"; path = "../assets/icons/brainbonusbw.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1C47A451FD424119A32E6953 /* crunchbw.png */ = {isa = PBXFileReference; name = "crunchbw.png"; path = "../assets/icons/crunchbw.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C762977DB6354966BAB2C793 /* crunchwhite.png */ = {isa = PBXFileReference; name = "crunchwhite.png"; path = "../assets/icons/crunchwhite.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5C6E451CCC5D4577BC57C376 /* mindbw.png */ = {isa = PBXFileReference; name = "mindbw.png"; path = "../assets/icons/mindbw.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		937C2023ED314594904219BF /* mindwhite.png */ = {isa = PBXFileReference; name = "mindwhite.png"; path = "../assets/icons/mindwhite.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E9BE94CAB8E644EA9EC0E5A5 /* stretchbw.png */ = {isa = PBXFileReference; name = "stretchbw.png"; path = "../assets/icons/stretchbw.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E0D60A341B5F4CC6A4B448CE /* trophy.png */ = {isa = PBXFileReference; name = "trophy.png"; path = "../assets/icons/trophy.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5BDE93B1ABC547E8BFEDBA84 /* yogabonus.png */ = {isa = PBXFileReference; name = "yogabonus.png"; path = "../assets/icons/yogabonus.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		24E65C73B55D43EC8973C760 /* yogabonusbw.png */ = {isa = PBXFileReference; name = "yogabonusbw.png"; path = "../assets/icons/yogabonusbw.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9ACE44765F4348F3B72B606F /* yogabw.png */ = {isa = PBXFileReference; name = "yogabw.png"; path = "../assets/icons/yogabw.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -321,9 +348,23 @@
 				77593CFFA01D480A8DAAAB16 /* medal1.png */,
 				8BF6E95E5F7B4220B83203F7 /* medal2.png */,
 				69293170BAB247F980E65B6C /* medal3.png */,
-				5EF300D5E7144093A8179B82 /* mental.png */,
 				5B98BACF745C4BF89B8238D0 /* running.png */,
 				0B960BFEA59A4275B5E1599D /* yoga.png */,
+				F92CD7AD1C4449539BA7C906 /* basket.png */,
+				2EB744629533495DBCEF5061 /* mental.png */,
+				F1101E264D0D47709096A728 /* mentalSocial.png */,
+				763935F848194E2A9F223B1B /* motivationSocial.png */,
+				F81E482FD7814E1C8637B697 /* physicalSocial.png */,
+				FBDE5D0542CD4E3D89B3A894 /* brainbonusbw.png */,
+				1C47A451FD424119A32E6953 /* crunchbw.png */,
+				C762977DB6354966BAB2C793 /* crunchwhite.png */,
+				5C6E451CCC5D4577BC57C376 /* mindbw.png */,
+				937C2023ED314594904219BF /* mindwhite.png */,
+				E9BE94CAB8E644EA9EC0E5A5 /* stretchbw.png */,
+				E0D60A341B5F4CC6A4B448CE /* trophy.png */,
+				5BDE93B1ABC547E8BFEDBA84 /* yogabonus.png */,
+				24E65C73B55D43EC8973C760 /* yogabonusbw.png */,
+				9ACE44765F4348F3B72B606F /* yogabw.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -536,9 +577,23 @@
 				656DF840F1D8497C8F7DA9F0 /* medal1.png in Resources */,
 				855DC42920444862956DC65D /* medal2.png in Resources */,
 				ABC9B3C08D6C4785AD362FF7 /* medal3.png in Resources */,
-				B525FA98FBA8427FAC6BB242 /* mental.png in Resources */,
 				EA4D16C4E16D43ECB36B1F67 /* running.png in Resources */,
 				DA1867D7ABF942B8BDD7E027 /* yoga.png in Resources */,
+				9E9D2F6F892D4136BFBA83F2 /* basket.png in Resources */,
+				5995B192CD2D4F06A41AE9F5 /* mental.png in Resources */,
+				B7E92A82D8DF45F8872BC6B3 /* mentalSocial.png in Resources */,
+				BF50A96BC65A4630B8C1A6E5 /* motivationSocial.png in Resources */,
+				A89D41B429D44A9DB8F8D9F8 /* physicalSocial.png in Resources */,
+				ACDC84EB767948159A12F7EF /* brainbonusbw.png in Resources */,
+				BD03CE6F549F4D4BBE2F74DB /* crunchbw.png in Resources */,
+				329EDC66A02848A6AE6A0700 /* crunchwhite.png in Resources */,
+				4CE6F3698E38462F8DADE496 /* mindbw.png in Resources */,
+				E8852C4A1FE7488291A63589 /* mindwhite.png in Resources */,
+				352E846385554416B9207328 /* stretchbw.png in Resources */,
+				784A672CC6A2442FBB240DFC /* trophy.png in Resources */,
+				4AF986DBC09F4D3E86F05A11 /* yogabonus.png in Resources */,
+				FE0E07F0D5AB4CE28C0A8417 /* yogabonusbw.png in Resources */,
+				DB65C3E3978C4344B8C8CD89 /* yogabw.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

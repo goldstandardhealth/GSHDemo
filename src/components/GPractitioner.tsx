@@ -45,7 +45,8 @@ const styles = StyleSheet.create({
   image: {
     height: vs(120),
     flex: 2,
-    alignSelf: 'center'
+    alignSelf: 'center',
+    marginVertical: ms(10)
   },
   title: {
     ...RobotoCondensed.bold,

@@ -1,10 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, createContext } from 'react';
 import { Linking, Platform } from 'react-native';
 import { NavigationContainer, createNavigationContainerRef } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import SplashScreen from 'react-native-splash-screen';
 
 import NavigationStack from './NavigationStack';
+
+type CurrentContextType = {current: number, setCurrent: any};
+export const CurrentContext = createContext<CurrentContextType>({});
 
 const navigationRef = createNavigationContainerRef()
 
@@ -36,6 +39,7 @@ const PERSISTENCE_KEY = 'NAVIGATION_STATE_V1';
 
 function RootNavigation(): JSX.Element | null {
   const [isReady, setIsReady] = useState(false);
+  const [current, setCurrent] = useState(0);
   const [initialState, setInitialState] = useState();
   const restoreState = async () => restoreStateCommon(PERSISTENCE_KEY, setInitialState, setIsReady);
 
@@ -51,15 +55,17 @@ function RootNavigation(): JSX.Element | null {
   }
 
   return (
-    <NavigationContainer
-      ref={navigationRef}
-      initialState={ initialState }
-      onStateChange={(state) =>
-        AsyncStorage.setItem(PERSISTENCE_KEY, JSON.stringify(state))
-      }
-    >
-      <NavigationStack />
-    </NavigationContainer>
+    <CurrentContext.Provider value={{current: current, setCurrent: setCurrent}}>
+      <NavigationContainer
+        ref={navigationRef}
+        initialState={ initialState }
+        onStateChange={(state) =>
+          AsyncStorage.setItem(PERSISTENCE_KEY, JSON.stringify(state))
+        }
+      >
+        <NavigationStack />
+      </NavigationContainer>
+    </CurrentContext.Provider>
   );
 }
 
