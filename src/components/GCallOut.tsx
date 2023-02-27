@@ -30,11 +30,12 @@ function GCallOut({ padding, palette, placement, children, style }: Props) {
   });
   const [path, setPath] = useState('');
   const pad = { padding: padding || ms(10)};
-  const t: Palette = palette || {
+  const t: Palette = {
     stroke: "#000",
     fill: '#fff',
     strokeWidth: ms(2),
-    radius: ms(10)
+    radius: ms(10),
+    ...palette
   }
   const r = Math.abs(t.radius || 0);
 

@@ -6,8 +6,8 @@ import SplashScreen from 'react-native-splash-screen';
 
 import NavigationStack from './NavigationStack';
 
-type CurrentContextType = {current: number, setCurrent: any};
-export const CurrentContext = createContext<CurrentContextType>({});
+type PathContextType = {current: number, bonus: number, setPath: any};
+export const PathContext = createContext<PathContextType>({current: 0, bonus: 0, setPath: () => {}});
 
 const navigationRef = createNavigationContainerRef()
 
@@ -17,17 +17,22 @@ export function rootNavigate(name: string, params: any = undefined) {
   }
 }
 
-export const restoreStateCommon = async (persistenceKey: string, setInitialState: any, setIsReady: any) => {
+export const restoreStateCommon = async (persistenceKey: string, setInitialState: any, setPath: any, setIsReady: any) => {
   try {
     const initialUrl = await Linking.getInitialURL();
 
     if (Platform.OS !== 'web' && initialUrl == null) {
       // Only restore state if there's no deep link and we're not on web
       const savedStateString = await AsyncStorage.getItem(persistenceKey);
+      const savedPathString = await AsyncStorage.getItem(persistenceKey + '_PATH');
       const state = savedStateString ? JSON.parse(savedStateString) : undefined;
+      const path = savedPathString ? JSON.parse(savedPathString) : undefined;
 
       if (state !== undefined) {
         setInitialState(state);
+      }
+      if (path) {
+        setPath(path);
       }
     }
   } finally {
@@ -39,9 +44,9 @@ const PERSISTENCE_KEY = 'NAVIGATION_STATE_V1';
 
 function RootNavigation(): JSX.Element | null {
   const [isReady, setIsReady] = useState(false);
-  const [current, setCurrent] = useState(0);
+  const [path, setPath] = useState({current: 0, bonus: 0});
   const [initialState, setInitialState] = useState();
-  const restoreState = async () => restoreStateCommon(PERSISTENCE_KEY, setInitialState, setIsReady);
+  const restoreState = async () => restoreStateCommon(PERSISTENCE_KEY, setInitialState, setPath, setIsReady);
 
   useEffect(() => SplashScreen.hide(), []);
   useEffect(() => {
@@ -50,22 +55,26 @@ function RootNavigation(): JSX.Element | null {
     }
   }, [isReady]);
 
+  useEffect(() => {
+    if (isReady) {
+      AsyncStorage.setItem(PERSISTENCE_KEY + '_PATH', JSON.stringify(path));
+    }
+  }, [path]);
+
   if (!isReady) {
     return null;
   }
 
   return (
-    <CurrentContext.Provider value={{current: current, setCurrent: setCurrent}}>
+    <PathContext.Provider value={{...path, setPath: setPath}}>
       <NavigationContainer
         ref={navigationRef}
         initialState={ initialState }
-        onStateChange={(state) =>
-          AsyncStorage.setItem(PERSISTENCE_KEY, JSON.stringify(state))
-        }
+        onStateChange={ (state) => AsyncStorage.setItem(PERSISTENCE_KEY, JSON.stringify(state)) }
       >
         <NavigationStack />
       </NavigationContainer>
-    </CurrentContext.Provider>
+    </PathContext.Provider>
   );
 }
 

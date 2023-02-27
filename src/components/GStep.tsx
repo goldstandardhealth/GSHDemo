@@ -10,7 +10,7 @@ export type GStepProps = {
   size: number;
   image: string;
   style?: StyleProp<ViewStyle>;
-  onPress: any
+  onPress: any;
 };
 
 type GStepPropsInternal = GStepProps & { complete: boolean; disabled: boolean; }

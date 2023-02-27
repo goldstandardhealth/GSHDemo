@@ -14,13 +14,14 @@ import uuid from 'react-native-uuid';
 import { ms, vs } from 'react-native-size-matters';
 
 import { PeriodNavigationProps, goldieCallout, base, RobotoCondensed, experts, expertCallout } from '../../../config';
-import GFixedScreen from '../../../layout/GFixedScreen';
+import GScrollable from '../../../layout/GScrollable';
 import GContinue from '../../../components/GContinue';
 import Goldie from '../../../components/Goldie';
 import GCallOut from '../../../components/GCallOut';
 import GRadioButtons, { RadioButtonsDataType } from '../../../components/GRadioButtons';
 
-function VideoLessonSurveyScreen({ navigation }: PeriodNavigationProps) {
+function VideoLessonSurveyScreen({ navigation, route }: PeriodNavigationProps) {
+  const { bonus } = route.params;
   const [disabled, setDisabled] = useState(true);
   const [selection, setSelection] = useState<string>();
 
@@ -43,7 +44,7 @@ function VideoLessonSurveyScreen({ navigation }: PeriodNavigationProps) {
   useEffect(() => setDisabled(!selection), [selection])
 
   return (
-    <GFixedScreen type="bg">
+    <GScrollable type="bg">
       <GCallOut placement="bottomRight" palette={goldieCallout} style={ [styles.chatRowRight, { marginHorizontal: ms(50), marginVertical: ms(60), marginBottom: ms(20) }] }>
         <Text style={styles.text}>How helpful was this activity?</Text>
       </GCallOut>
@@ -58,14 +59,14 @@ function VideoLessonSurveyScreen({ navigation }: PeriodNavigationProps) {
         borderRadius: ms(25),
         paddingVertical: ms(10),
         paddingHorizontal: ms(20)
-      }} onPress={() => navigation.navigate('FinalLesson')} disabled={disabled}>
+      }} onPress={() => navigation.navigate('FinalLesson', {bonus: bonus})} disabled={disabled}>
         <Text style={{
           ...RobotoCondensed.bold,
           color: base.white,
           fontSize: ms(24),
         }}>Continue</Text>
       </TouchableOpacity>
-    </GFixedScreen>
+    </GScrollable>
   );
 }
 

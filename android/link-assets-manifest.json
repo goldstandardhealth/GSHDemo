@@ -82,6 +82,14 @@
       "sha1": "e0d7acf2ca3dd0ff68f533797bb94b0580397e95"
     },
     {
+      "path": "assets/video/Bridge.mp4",
+      "sha1": "55ecf8077f94a41ce43feb95c78d93fdc87427ca"
+    },
+    {
+      "path": "assets/video/Chronic_pain_recovery.mp4",
+      "sha1": "f735ef1fd5b9661d5ec28b2842ca96757b7ef6af"
+    },
+    {
       "path": "assets/video/Introducing_Josh_Levin.mp4",
       "sha1": "a7d6c78ce0905feab31cc6681df247d4891c2204"
     },
@@ -100,6 +108,18 @@
     {
       "path": "assets/video/Meet_Tiffany_Asp.mp4",
       "sha1": "29a9106ab6d93d5db7ac1d8cfd957729833fb261"
+    },
+    {
+      "path": "assets/video/Side_Lift.mp4",
+      "sha1": "7aa165683860b8d2dc53d95861844218c26aea57"
+    },
+    {
+      "path": "assets/video/Squat.mp4",
+      "sha1": "2d4cae673c9c7d7f0dee7147cf08b00f069a7ee6"
+    },
+    {
+      "path": "assets/video/WD-40.mp4",
+      "sha1": "c40bdabe86b6b541888fad8e349a213e66d4dd36"
     },
     {
       "path": "assets/logo/gsh.png",
@@ -164,6 +184,38 @@
     {
       "path": "assets/logo/univercity.png",
       "sha1": "86af602425376b9970015949df4434620c3ffe6d"
+    },
+    {
+      "path": "assets/goldies/goldie1.png",
+      "sha1": "3cee6d28828adaaad5ac55a4341a803328b9e361"
+    },
+    {
+      "path": "assets/goldies/goldie2.png",
+      "sha1": "0ff000f9766e927c9862b1b71e21fb1a71ac0cd6"
+    },
+    {
+      "path": "assets/goldies/goldie3.png",
+      "sha1": "1d465ffefda9ebfee1ebcb1cd2b101f46946ff5b"
+    },
+    {
+      "path": "assets/goldies/goldie4.png",
+      "sha1": "0863f81dcf95dcf19ae628b25a5bd294aedefe54"
+    },
+    {
+      "path": "assets/goldies/goldie5.png",
+      "sha1": "cb5540cf79ffd4aba69a91bc2d1483572c0ac2bb"
+    },
+    {
+      "path": "assets/goldies/goldie6.png",
+      "sha1": "9d093e6156da54dd20b7dd9bb748269da0f4f966"
+    },
+    {
+      "path": "assets/goldies/goldie7.png",
+      "sha1": "aa12dda0c88fe22c176aa5cb6fee67b89088b061"
+    },
+    {
+      "path": "assets/goldies/goldie8.png",
+      "sha1": "5904d141f8117bce8b4e802394414e1506caf00e"
     },
     {
       "path": "assets/people/CarrieTice.png",
@@ -276,6 +328,10 @@
     {
       "path": "assets/icons/home.png",
       "sha1": "c9beb8b528beac328c55d611f1da76d86575d54f"
+    },
+    {
+      "path": "assets/icons/info.png",
+      "sha1": "fcb84e05ba36b695057d7da738372576b6ac769b"
     },
     {
       "path": "assets/icons/mindbw.png",

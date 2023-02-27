@@ -15,7 +15,7 @@ type Props = {
 type SliderData = {
   id: string;
   value?: number;
-  text: string;
+  text?: string;
 }
 
 export type SliderState = { [key: string]: number };
@@ -37,7 +37,7 @@ function GSliders({ style, data, onSelect }: Props) {
       { Object.keys(data).map((key => {
         return (
           <View key={data[key].id}>
-            <Text style={styles.label}>{data[key].text}</Text>
+            { data[key].text ? <Text style={styles.label}>{data[key].text}</Text> : [] }
             <Slider
               style={{flex: 1, height: 20, marginHorizontal: ms(15), marginTop: ms(5)}}
               value={options[key]}

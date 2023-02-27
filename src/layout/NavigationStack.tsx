@@ -21,6 +21,9 @@ import TeaserThreeScreen from '../pages/survey/TeaserThreeScreen';
 import VideoLessonScreen from '../pages/profile/lesson/VideoLessonScreen';
 import VideoLessonCongratsScreen from '../pages/profile/lesson/VideoLessonCongratsScreen';
 import VideoLessonSurveyScreen from '../pages/profile/lesson/VideoLessonSurveyScreen';
+import WorkoutLessonScreen from '../pages/profile/lesson/WorkoutLessonScreen';
+import WorkoutLessonSurveyScreen from '../pages/profile/lesson/WorkoutLessonSurveyScreen';
+import WorkoutLessonSurvey1Screen from '../pages/profile/lesson/WorkoutLessonSurvey1Screen';
 import FinalLessonScreen from '../pages/profile/lesson/FinalLessonScreen';
 
 import ProfileTabs from './ProfileTabs';
@@ -54,6 +57,9 @@ function NavigationStack() {
       <Stack.Screen name="VideoLesson" component={VideoLessonScreen} options={{ headerShown: false }} />
       <Stack.Screen name="VideoLessonCongrats" component={VideoLessonCongratsScreen} options={{ headerShown: false }} />
       <Stack.Screen name="VideoLessonSurvey" component={VideoLessonSurveyScreen} options={{ headerShown: false }} />
+      <Stack.Screen name="WorkoutLesson" component={WorkoutLessonScreen} options={{ headerShown: false }} />
+      <Stack.Screen name="WorkoutLessonSurvey" component={WorkoutLessonSurveyScreen} options={{ headerShown: false }} />
+      <Stack.Screen name="WorkoutLessonSurvey1" component={WorkoutLessonSurvey1Screen} options={{ headerShown: false }} />
       <Stack.Screen name="FinalLesson" component={FinalLessonScreen} options={{ headerShown: false }} />
     </Stack.Navigator>
   );

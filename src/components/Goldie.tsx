@@ -5,7 +5,7 @@ import { goldies } from '../config';
 
 type Props = {
   type: string,
-  style: StyleProp<ImageStyle>
+  style?: StyleProp<ImageStyle>
   size: number;
 };
 

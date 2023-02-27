@@ -23,10 +23,13 @@ export type RootStackParamList = {
   Loading: undefined;
   TeaserThree: undefined;
   ProfileTabs: undefined;
-  VideoLesson: { title: string, video: string, tutor: Person, congrats: string }
-  VideoLessonCongrats: { congrats: string }
-  VideoLessonSurvey: undefined;
-  FinalLesson: undefined;
+  VideoLesson: { title: string, video: string, tutor: Person, congrats: string, bonus?: boolean }
+  VideoLessonCongrats: { congrats: string, bonus?: boolean }
+  VideoLessonSurvey: { bonus?: boolean };
+  WorkoutLesson: { reps: string; title: string, video: string, tutor: Person, survey?: string, bonus?: boolean }
+  WorkoutLessonSurvey: { bonus?: boolean };
+  WorkoutLessonSurvey1: { bonus?: boolean };
+  FinalLesson: { bonus?: boolean };
 };
 
 export type IntroNavigationProps = NativeStackScreenProps<RootStackParamList, 'Intro'>;
@@ -47,6 +50,8 @@ export type TeaserThreeNavigationProps = NativeStackScreenProps<RootStackParamLi
 export type VideoLessonNavigationProps = NativeStackScreenProps<RootStackParamList, 'VideoLesson'>;
 export type VideoLessonCongratsNavigationProps = NativeStackScreenProps<RootStackParamList, 'VideoLessonCongrats'>;
 export type VideoLessonSurveyNavigationProps = NativeStackScreenProps<RootStackParamList, 'VideoLessonSurvey'>;
+export type WorkoutLessonNavigationProps = NativeStackScreenProps<RootStackParamList, 'WorkoutLesson'>;
+export type WorkoutLessonSurveyNavigationProps = NativeStackScreenProps<RootStackParamList, 'WorkoutLessonSurvey' | 'WorkoutLessonSurvey1'>;
 export type FinalLessonNavigationProps = NativeStackScreenProps<RootStackParamList, 'FinalLesson'>;
 
 export type HomeStackParamList = {

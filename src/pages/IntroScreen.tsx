@@ -1,18 +1,22 @@
-import React from 'react';
+import React, { useContext, useEffect } from 'react';
 import { TouchableWithoutFeedback, StyleSheet, Text, View } from 'react-native';
 import { ms } from 'react-native-size-matters';
 
+import { PathContext } from '../layout/RootNavigation';
 import ScreenBackground from '../layout/ScreenBackground';
 import { IntroNavigationProps, RobotoCondensed, blue, gold } from '../config';
 
 function IntroScreen({ navigation }: IntroNavigationProps) {
-  // let timer: number | null = setTimeout(nextScreen, 5000);
+  let timer: number | null = setTimeout(nextScreen, 5000);
+  const context = useContext(PathContext);
+
+  useEffect(() => context.setPath({current: 0, bonus: 0}), []);
 
   function nextScreen() {
-    // if (timer !== null) {
-    //   clearTimeout(timer);
-    //   timer = null;
-    // }
+    if (timer !== null) {
+      clearTimeout(timer);
+      timer = null;
+    }
     navigation.replace('Welcome');
   }
 

@@ -18,7 +18,7 @@ import Goldie from '../../../components/Goldie';
 import GContinue from '../../../components/GContinue';
 
 function VideoLessonCongratsScreen({ navigation, route }: VideoLessonCongratsNavigationProps) {
-  const { congrats } = route.params;
+  const { congrats, bonus } = route.params;
   const scrollViewRef: MutableRefObject<ScrollView | null> = useRef(null);
   const sayOneAnim = useRef(new Animated.Value(0)).current;
   const sayTwoAnim = useRef(new Animated.Value(0)).current;
@@ -55,7 +55,7 @@ function VideoLessonCongratsScreen({ navigation, route }: VideoLessonCongratsNav
             styles.chatRowLeft,
             { marginLeft: ms(100), marginBottom: 0, marginTop: ms(80) }
           ] }>
-          <Text style={styles.text}>Congrats finishing the exercise. { congrats }</Text>
+          <Text style={styles.text}>{ congrats }</Text>
         </GCallOut>
         <Goldie size={ms(100)} type="friend" style={ styles.chatRowLeft } />
       </Animated.View>
@@ -73,7 +73,7 @@ function VideoLessonCongratsScreen({ navigation, route }: VideoLessonCongratsNav
           borderRadius: ms(25),
           paddingVertical: ms(10),
           paddingHorizontal: ms(20)
-        }} onPress={() => navigation.navigate('VideoLessonSurvey')}>
+        }} onPress={() => navigation.navigate('VideoLessonSurvey', {bonus: bonus})}>
           <Text style={{
             ...RobotoCondensed.bold,
             color: base.white,

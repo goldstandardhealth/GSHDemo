@@ -12,16 +12,17 @@ import {
 } from 'react-native';
 import { ms, vs } from 'react-native-size-matters';
 
-import { CurrentContext } from '../../../layout/RootNavigation';
+import { PathContext } from '../../../layout/RootNavigation';
 import { FinalLessonNavigationProps, goldieCallout, gold, base, RobotoCondensed } from '../../../config';
 import GScrollable from '../../../layout/GScrollable';
 import GCallOut from '../../../components/GCallOut';
 import Goldie from '../../../components/Goldie';
 import GContinue from '../../../components/GContinue';
 
-function FinalLesson({ navigation }: FinalLessonNavigationProps) {
+function FinalLesson({ navigation, route }: FinalLessonNavigationProps) {
+  const { bonus } = route.params;
   const sayButtonAnim = useRef(new Animated.Value(0)).current;
-  const context = useContext(CurrentContext);
+  const context = useContext(PathContext);
 
   useEffect(() => {
     Animated.sequence([
@@ -53,7 +54,10 @@ function FinalLesson({ navigation }: FinalLessonNavigationProps) {
           borderRadius: ms(25),
           paddingVertical: ms(10),
           paddingHorizontal: ms(20)
-        }} onPress={() => { context.setCurrent(context.current + 1); navigation.navigate('Home')}}>
+        }} onPress={() => {
+          context.setPath({current: context.current + 1, bonus: context.bonus + (bonus ? 1 : 0) });
+          navigation.navigate('Home');
+        }}>
           <Text style={{
             ...RobotoCondensed.bold,
             color: base.white,

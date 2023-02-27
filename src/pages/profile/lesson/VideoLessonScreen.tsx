@@ -1,19 +1,28 @@
-import React from 'react';
-import { View, Text, Image, TouchableOpacity, StyleSheet, ViewStyle } from 'react-native';
+import React, { useState } from 'react';
+import { Alert, View, Text, Image, TouchableOpacity, StyleSheet, ViewStyle } from 'react-native';
 import { ms, vs } from 'react-native-size-matters';
 
 import { rootNavigate } from '../../../layout/RootNavigation';
 import { icons, getLessonVideo, VideoLessonNavigationProps, base, Roboto, RobotoCondensed, practitioners, experts } from '../../../config';
-import GFixedScreen from '../../../layout/GFixedScreen';
+import GScrollable from '../../../layout/GScrollable';
 import GBack from '../../../components/icons/GBack';
 import GVideo from '../../../components/GVideo';
 
 function VideoLessonScreen({ navigation, route }: VideoLessonNavigationProps) {
-  const { title, video, tutor, congrats } = route.params;
+  const { title, video, tutor, congrats, bonus } = route.params;
   const getFirstName = (name: string) => name.split(' ')[0];
+  const [complete, setComplete] = useState(false);
+  const [stopVideo, setStopVideo] = useState(false);
+
+  const confirm = (ask: boolean): Promise<string | undefined> => {
+    return new Promise((resolve) => ask ? Alert.alert('Lesson incomplete', 'Do you stil want to continue?', [
+      { text: 'Cancel', style: 'cancel' },
+      { text: 'OK', onPress: resolve }
+    ]) : resolve());
+  }
 
   return (
-    <GFixedScreen type='bg'>
+    <GScrollable type='bg'>
       <View style={{flexDirection: 'row', alignSelf: 'flex-start'}}>
         <TouchableOpacity style={{ flex: 1, marginLeft: ms(10), marginTop: ms(10) }} onPress={() => navigation.goBack()}>
           <GBack size={ms(25)} />
@@ -55,7 +64,7 @@ function VideoLessonScreen({ navigation, route }: VideoLessonNavigationProps) {
         color: base.black + '8F',
         marginBottom: ms(60)
       }}>Click the info icon to learn more about { getFirstName(tutor.name) }!</Text>
-      <GVideo source={ getLessonVideo(video) }/>
+      <GVideo onEnd={() => setComplete(true)} stop={stopVideo} source={ getLessonVideo(video) }/>
       <TouchableOpacity style={{
         marginTop: vs(120),
         alignSelf: 'center',
@@ -63,14 +72,14 @@ function VideoLessonScreen({ navigation, route }: VideoLessonNavigationProps) {
         borderRadius: ms(25),
         paddingVertical: ms(10),
         paddingHorizontal: ms(20)
-      }} onPress={() => navigation.navigate('VideoLessonCongrats', { congrats: congrats })}>
+      }} onPress={() => confirm(!complete).then(() => setStopVideo(true)).then(() => navigation.navigate('VideoLessonCongrats', { congrats: congrats, bonus: bonus }))}>
         <Text style={{
           ...RobotoCondensed.bold,
           color: base.white,
           fontSize: ms(24),
         }}>Continue</Text>
       </TouchableOpacity>
-    </GFixedScreen>
+    </GScrollable>
   );
 }
 
@@ -80,7 +89,6 @@ const styles = StyleSheet.create({
     shadowOffset: {width: 1, height: 2},
     shadowOpacity: 0.4,
     shadowRadius: 2,
-    elevation: 2
   }
 });
 

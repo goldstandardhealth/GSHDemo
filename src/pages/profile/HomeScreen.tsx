@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useContext, ReactNode } from 'react';
-import { Animated, View, Text, StyleSheet, StyleProp, ViewStyle } from 'react-native';
+import { Animated, View, Text, StyleSheet, StyleProp, ViewStyle, TouchableOpacity } from 'react-native';
 import { ms } from 'react-native-size-matters';
 import Svg, { Line, Circle } from 'react-native-svg';
 
-import { rootNavigate, CurrentContext } from '../../layout/RootNavigation';
+import { rootNavigate, PathContext } from '../../layout/RootNavigation';
 import { HomeNavigationProps, base, blue, Roboto, founders, experts } from '../../config';
 import GScrollable from '../../layout/GScrollable';
 import GContinue from '../../components/GContinue';
@@ -22,6 +22,7 @@ type SessionPathProps = {
   bonuses?: GBonusProps[];
   style?: StyleProp<ViewStyle>;
   current?: number;
+  bonus?: number;
   locked?: boolean;
 };
 
@@ -37,7 +38,7 @@ type DrawLineType = {
   straight: boolean;
 }
 
-function SessionPath({ style, start = 0, points, bonuses, current = 0, locked }: SessionPathProps) {
+function SessionPath({ style, start = 0, points, bonuses, current = 0, bonus = 0, locked }: SessionPathProps) {
   const [height, setHeight] = useState(0);
   const [width, setWidth] = useState(0);
   const getWidth = (e: any) => setWidth(e.nativeEvent.layout.width);
@@ -158,14 +159,14 @@ function SessionPath({ style, start = 0, points, bonuses, current = 0, locked }:
       }}>You are here</Text></Animated.View>}
       { bonuses ? Array.from(centers).map((c, k) => {
         const left = w - (k % 2 ? -40 : 40);
-        const bonus = bonuses[k];
-        return bonus ? (
+        const b = bonuses[k];
+        return b ? (
           <View key={`bonus-${k}`}>
             <GBonus style={{
               position: 'absolute',
-              top: c - bonus.size/2,
-              left: left - bonus.size/2
-            }} image={bonus.image} complete={bonus.complete} size={bonus.size} />
+              top: c - b.size/2,
+              left: left - b.size/2
+            }} image={b.image} complete={k < bonus} size={b.size} />
           </View>
         ) : [];
       }) : []}
@@ -174,11 +175,15 @@ function SessionPath({ style, start = 0, points, bonuses, current = 0, locked }:
 }
 
 function HomeScreen({ navigation, route }: HomeNavigationProps) {
-  const context = useContext(CurrentContext);
+  const context = useContext(PathContext);
   const [current, setCurrent] = useState(0);
+  const [bonus, setBonus] = useState(0);
 
   if (current !== context.current) {
     setCurrent(context.current);
+  }
+  if (bonus !== context.bonus) {
+    setBonus(context.bonus);
   }
 
   const proceed = (screen: string, config: any) => rootNavigate(screen, config);
@@ -188,24 +193,67 @@ function HomeScreen({ navigation, route }: HomeNavigationProps) {
       <View style={styles.header}>
         <GAvatar style={{flex: 1, marginLeft: ms(25) }} size={ms(50)} color={blue.icon} person={founders.carrie} />
         <View style={{height: ms(50), marginRight: ms(25), flex: 0.7, flexDirection: 'row', justifyContent: 'flex-end'}}>
-          <GDiamond number="0" size={ms(35)} />
-          <GFire number="4" size={ms(35)} />
-          <GBook size={ms(35)} />
+          <TouchableOpacity style={{alignSelf: 'center'}} onPress={() => {
+              context.setPath({current: 0, bonus: 0});
+              setCurrent(0);
+              setBonus(0);
+          }}>
+           <GDiamond number="0" size={ms(35)} />
+          </TouchableOpacity>
+          <TouchableOpacity style={{alignSelf: 'center'}} onPress={() => {
+            if (context.bonus > 0) {
+              context.setPath({current: context.current, bonus: context.bonus - 1});
+              setBonus(context.bonus - 1);
+            }
+          }}>
+            <GFire number="4" size={ms(35)} />
+          </TouchableOpacity>
+          <TouchableOpacity style={{alignSelf: 'center'}} onPress={() => {
+            if (context.current > 0) {
+              context.setPath({current: context.current - 1, bonus: context.bonus});
+              setCurrent(context.current - 1);
+            }
+          }}>
+            <GBook size={ms(35)} />
+          </TouchableOpacity>
         </View>
        </View>
       <Text style={{...Roboto.bold, fontSize: ms(35), alignSelf: 'center', marginTop: ms(20)}}>Session 1</Text>
-      <SessionPath current={current} start={0.2} style={{ marginHorizontal: ms(50), marginVertical: ms(80) }}
+      <SessionPath current={current} bonus={bonus} start={0.2} style={{ marginHorizontal: ms(50), marginVertical: ms(80) }}
         points={[
           { image: "mind", size: 75, onPress: () => proceed('VideoLesson', {
               title: 'Finding Your Internal Carrot',
               video: 'carrot',
               tutor: experts.heather,
-              congrats: 'We hope you can find your internal carrot.'
+              congrats: 'Congrats finishing the exercise. We hope you can find your internal carrot.'
             }) },
-          { image: "crunch", size: 50, onPress: () => {setCurrent(current + 1)} },
-          { image: "mind", size: 60, onPress: () => {setCurrent(current + 1)} },
-          { image: "crunch", size: 50, onPress: () => {setCurrent(current + 1)} },
-          { image: "stretch", size: 75, onPress: () => {setCurrent(current + 1)} },
+          { image: "crunch", size: 50, onPress: () => proceed('WorkoutLesson', {
+              reps: '3 x 3',
+              title: 'Side Core Lift',
+              video: 'sidelift',
+              tutor: experts.tiffany
+            }) },
+          { image: "mind", size: 60, onPress: () => proceed('VideoLesson', {
+              title: 'WD40 for your mind',
+              video: 'wd40',
+              tutor: experts.philippe,
+              congrats: 'Can you find your personal WD40?'
+            }) },
+          { image: "crunch", size: 50, onPress: () => proceed('WorkoutLesson', {
+              reps: '3 x 12',
+              title: 'Bridge',
+              video: 'bridge',
+              tutor: experts.ricky,
+              survey: '1',
+              bonus: true
+            }) },
+          { image: "stretch", size: 75, onPress: () => proceed('WorkoutLesson', {
+              reps: '3 x 10',
+              title: 'Functionsl Squat',
+              video: 'squat',
+              tutor: experts.ricky,
+              survey: '1'
+            }) },
           { image: "yoga", size: 50, onPress: () => {setCurrent(current + 1)} },
           { image: "trophy", size: 100, onPress: () => {} },
         ]}

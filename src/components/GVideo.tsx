@@ -7,9 +7,11 @@ import { RobotoCondensed, blue, gold, base } from '../config';
 
 type Props = {
   source: any;
+  onEnd?: any;
+  stop?: boolean;
 };
 
-function GVideo({ source }: Props) {
+function GVideo({ source, onEnd = () => {}, stop = false }: Props) {
   const [pause, setPause] = useState(true);
   const [vHeight, setVHeight] = useState(0);
   const [border, setBorder] = useState(0);
@@ -47,9 +49,10 @@ function GVideo({ source }: Props) {
       <Animated.View style={{opacity: videoOpacityAnim}}>
         <Video
           source={source}
-          paused={pause}
+          paused={pause || stop}
           resizeMode='cover'
           style={[styles.video, { height: vHeight, marginHorizontal: m, borderWidth: border }]}
+          onEnd={onEnd}
           onError={videoError}
           onLoad={onLoad} />
         <Text style={styles.note}>Tap the video to play</Text>

@@ -8,6 +8,7 @@ module.exports = {
     './assets/fonts/',
     './assets/video/',
     './assets/logo/',
+    './assets/goldies/',
     './assets/people/',
     './assets/backgrounds/',
     './assets/icons/',

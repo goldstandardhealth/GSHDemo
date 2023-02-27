@@ -96,6 +96,20 @@
 		4AF986DBC09F4D3E86F05A11 /* yogabonus.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BDE93B1ABC547E8BFEDBA84 /* yogabonus.png */; };
 		FE0E07F0D5AB4CE28C0A8417 /* yogabonusbw.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E65C73B55D43EC8973C760 /* yogabonusbw.png */; };
 		DB65C3E3978C4344B8C8CD89 /* yogabw.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ACE44765F4348F3B72B606F /* yogabw.png */; };
+		BD0BA4009B7648D2990452FC /* Chronic_pain_recovery.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D83C3C4E511347B5B6394D64 /* Chronic_pain_recovery.mp4 */; };
+		0DAB17FC10144630BF16557D /* Side_Lift.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 35016C969A83453D8811CF42 /* Side_Lift.mp4 */; };
+		01172BFDF2CE45609E5C0012 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 34EED76DA00B40C598ABEABE /* info.png */; };
+		1F135C66E6844D7A886F45C9 /* WD-40.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2836BE7726B84CE4AB22B644 /* WD-40.mp4 */; };
+		79392992F71E494BB2702E31 /* Bridge.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3EE269321CF4D11829EB049 /* Bridge.mp4 */; };
+		F12BF20B498F4D989388B6E6 /* Squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E49AB0DB7A02445EB9987CE7 /* Squat.mp4 */; };
+		B1D8DF460BB347EB852AC700 /* goldie1.png in Resources */ = {isa = PBXBuildFile; fileRef = 46B4F03359184D20838C2E43 /* goldie1.png */; };
+		87C43CC9B1BE46CC84318354 /* goldie2.png in Resources */ = {isa = PBXBuildFile; fileRef = 89CC511979B046869F61D1C4 /* goldie2.png */; };
+		FF717FC6244844B3AABE751F /* goldie3.png in Resources */ = {isa = PBXBuildFile; fileRef = 817BDA0A40E045768A2E4E73 /* goldie3.png */; };
+		67EF14812909469CB1BB4749 /* goldie4.png in Resources */ = {isa = PBXBuildFile; fileRef = FE337A2433D8412DB497E85A /* goldie4.png */; };
+		91FCF59FB11F4FD1B6428E11 /* goldie5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AA82D67AC714CB8850F6D95 /* goldie5.png */; };
+		99A21D280EC74756A3A0D436 /* goldie6.png in Resources */ = {isa = PBXBuildFile; fileRef = DB466664012346C6B2C8C151 /* goldie6.png */; };
+		59BC376EFB16413881BB69FB /* goldie7.png in Resources */ = {isa = PBXBuildFile; fileRef = 73D078E083284E3E83D22F48 /* goldie7.png */; };
+		3BFBA295D2C84B0596AECEB3 /* goldie8.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F99AC7C5B841D78B0F8C92 /* goldie8.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -213,6 +227,20 @@
 		5BDE93B1ABC547E8BFEDBA84 /* yogabonus.png */ = {isa = PBXFileReference; name = "yogabonus.png"; path = "../assets/icons/yogabonus.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		24E65C73B55D43EC8973C760 /* yogabonusbw.png */ = {isa = PBXFileReference; name = "yogabonusbw.png"; path = "../assets/icons/yogabonusbw.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		9ACE44765F4348F3B72B606F /* yogabw.png */ = {isa = PBXFileReference; name = "yogabw.png"; path = "../assets/icons/yogabw.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D83C3C4E511347B5B6394D64 /* Chronic_pain_recovery.mp4 */ = {isa = PBXFileReference; name = "Chronic_pain_recovery.mp4"; path = "../assets/video/Chronic_pain_recovery.mp4"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		35016C969A83453D8811CF42 /* Side_Lift.mp4 */ = {isa = PBXFileReference; name = "Side_Lift.mp4"; path = "../assets/video/Side_Lift.mp4"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		34EED76DA00B40C598ABEABE /* info.png */ = {isa = PBXFileReference; name = "info.png"; path = "../assets/icons/info.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2836BE7726B84CE4AB22B644 /* WD-40.mp4 */ = {isa = PBXFileReference; name = "WD-40.mp4"; path = "../assets/video/WD-40.mp4"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C3EE269321CF4D11829EB049 /* Bridge.mp4 */ = {isa = PBXFileReference; name = "Bridge.mp4"; path = "../assets/video/Bridge.mp4"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E49AB0DB7A02445EB9987CE7 /* Squat.mp4 */ = {isa = PBXFileReference; name = "Squat.mp4"; path = "../assets/video/Squat.mp4"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		46B4F03359184D20838C2E43 /* goldie1.png */ = {isa = PBXFileReference; name = "goldie1.png"; path = "../assets/goldies/goldie1.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		89CC511979B046869F61D1C4 /* goldie2.png */ = {isa = PBXFileReference; name = "goldie2.png"; path = "../assets/goldies/goldie2.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		817BDA0A40E045768A2E4E73 /* goldie3.png */ = {isa = PBXFileReference; name = "goldie3.png"; path = "../assets/goldies/goldie3.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FE337A2433D8412DB497E85A /* goldie4.png */ = {isa = PBXFileReference; name = "goldie4.png"; path = "../assets/goldies/goldie4.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7AA82D67AC714CB8850F6D95 /* goldie5.png */ = {isa = PBXFileReference; name = "goldie5.png"; path = "../assets/goldies/goldie5.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DB466664012346C6B2C8C151 /* goldie6.png */ = {isa = PBXFileReference; name = "goldie6.png"; path = "../assets/goldies/goldie6.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		73D078E083284E3E83D22F48 /* goldie7.png */ = {isa = PBXFileReference; name = "goldie7.png"; path = "../assets/goldies/goldie7.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		83F99AC7C5B841D78B0F8C92 /* goldie8.png */ = {isa = PBXFileReference; name = "goldie8.png"; path = "../assets/goldies/goldie8.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -365,6 +393,20 @@
 				5BDE93B1ABC547E8BFEDBA84 /* yogabonus.png */,
 				24E65C73B55D43EC8973C760 /* yogabonusbw.png */,
 				9ACE44765F4348F3B72B606F /* yogabw.png */,
+				D83C3C4E511347B5B6394D64 /* Chronic_pain_recovery.mp4 */,
+				35016C969A83453D8811CF42 /* Side_Lift.mp4 */,
+				34EED76DA00B40C598ABEABE /* info.png */,
+				2836BE7726B84CE4AB22B644 /* WD-40.mp4 */,
+				C3EE269321CF4D11829EB049 /* Bridge.mp4 */,
+				E49AB0DB7A02445EB9987CE7 /* Squat.mp4 */,
+				46B4F03359184D20838C2E43 /* goldie1.png */,
+				89CC511979B046869F61D1C4 /* goldie2.png */,
+				817BDA0A40E045768A2E4E73 /* goldie3.png */,
+				FE337A2433D8412DB497E85A /* goldie4.png */,
+				7AA82D67AC714CB8850F6D95 /* goldie5.png */,
+				DB466664012346C6B2C8C151 /* goldie6.png */,
+				73D078E083284E3E83D22F48 /* goldie7.png */,
+				83F99AC7C5B841D78B0F8C92 /* goldie8.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -594,6 +636,20 @@
 				4AF986DBC09F4D3E86F05A11 /* yogabonus.png in Resources */,
 				FE0E07F0D5AB4CE28C0A8417 /* yogabonusbw.png in Resources */,
 				DB65C3E3978C4344B8C8CD89 /* yogabw.png in Resources */,
+				BD0BA4009B7648D2990452FC /* Chronic_pain_recovery.mp4 in Resources */,
+				0DAB17FC10144630BF16557D /* Side_Lift.mp4 in Resources */,
+				01172BFDF2CE45609E5C0012 /* info.png in Resources */,
+				1F135C66E6844D7A886F45C9 /* WD-40.mp4 in Resources */,
+				79392992F71E494BB2702E31 /* Bridge.mp4 in Resources */,
+				F12BF20B498F4D989388B6E6 /* Squat.mp4 in Resources */,
+				B1D8DF460BB347EB852AC700 /* goldie1.png in Resources */,
+				87C43CC9B1BE46CC84318354 /* goldie2.png in Resources */,
+				FF717FC6244844B3AABE751F /* goldie3.png in Resources */,
+				67EF14812909469CB1BB4749 /* goldie4.png in Resources */,
+				91FCF59FB11F4FD1B6428E11 /* goldie5.png in Resources */,
+				99A21D280EC74756A3A0D436 /* goldie6.png in Resources */,
+				59BC376EFB16413881BB69FB /* goldie7.png in Resources */,
+				3BFBA295D2C84B0596AECEB3 /* goldie8.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

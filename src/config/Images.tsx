@@ -15,11 +15,12 @@ export const backgrounds: ImageSources = {
 };
 
 export const goldies: ImageSources = {
-  lash: require(basePath + 'goldie1.png'),
-  wave: require(basePath + 'goldie5.png'),
-  cool: require(basePath + 'goldie6.png'),
-  cute: require(basePath + 'goldie7.png'),
-  friend: require(basePath + 'goldie8.png')
+  lash: require(basePath + 'goldies/goldie1.png'),
+  wonder: require(basePath + 'goldies/goldie3.png'),
+  wave: require(basePath + 'goldies/goldie5.png'),
+  cool: require(basePath + 'goldies/goldie6.png'),
+  cute: require(basePath + 'goldies/goldie7.png'),
+  friend: require(basePath + 'goldies/goldie8.png')
 };
 
 export const logo: ImageSources = {
