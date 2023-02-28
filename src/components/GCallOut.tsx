@@ -4,10 +4,10 @@ import Svg, { SvgProps, Path, Defs, ClipPath, Use } from "react-native-svg"
 import { ms } from 'react-native-size-matters';
 
 export type Palette = {
-  stroke: ColorValue;
-  fill: ColorValue;
-  strokeWidth: number;
-  radius: number;
+  stroke?: ColorValue;
+  fill?: ColorValue;
+  strokeWidth?: number;
+  radius?: number;
 };
 
 type Props = {

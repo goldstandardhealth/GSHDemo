@@ -29,7 +29,7 @@ function WorkoutLessonScreen({ navigation, route }: WorkoutLessonNavigationProps
         <TouchableOpacity style={{ flex: 1, marginLeft: ms(10), marginTop: ms(10) }} onPress={() => navigation.goBack()}>
           <GBack size={ms(25)} />
         </TouchableOpacity>
-        <TouchableOpacity style={{ flex: 1, marginRight: ms(10), marginTop: ms(10) }} onPress={() => navigation.push("Connect")}>
+        <TouchableOpacity style={{ flex: 1, marginRight: ms(10), marginTop: ms(10) }} onPress={() => navigation.push("Connect", {back: true})}>
           <Image source={icons.info} style={{
             alignSelf: 'flex-end',
             height: ms(25),
@@ -73,7 +73,7 @@ function WorkoutLessonScreen({ navigation, route }: WorkoutLessonNavigationProps
         borderColor: base.black,
         borderWidth: ms(1),
         borderRadius: ms(15),
-        paddingVertical: ms(20)
+        paddingVertical: ms(15)
       }}>
         <Text style={{
           alignSelf: 'center',

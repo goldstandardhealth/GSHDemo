@@ -6169,6 +6169,11 @@
   "resolved" "https://registry.npmjs.org/react-native-swipe-gestures/-/react-native-swipe-gestures-1.0.5.tgz"
   "version" "1.0.5"
 
+"react-native-system-navigation-bar@^2.2.0":
+  "integrity" "sha512-iVrWFbEh5WSX5pFiCBxJ1+zte4zTbTjLFsK/OZjKpwpZgLgDingEHaqQPAU+PPTYxzkShoCiaVnCNIbDzNnBow=="
+  "resolved" "https://registry.npmjs.org/react-native-system-navigation-bar/-/react-native-system-navigation-bar-2.2.0.tgz"
+  "version" "2.2.0"
+
 "react-native-tab-view@^3.5.0", "react-native-tab-view@>= 3.0.0":
   "integrity" "sha512-Dvvs54zPtI4f8x6GuTGy4VUMeMSnmjQFa0PsJkogWuRnxcYT+CunCDMOvxzSesh2AbL6UaTNPmTQ0Le9ybYsHg=="
   "resolved" "https://registry.npmjs.org/react-native-tab-view/-/react-native-tab-view-3.5.0.tgz"

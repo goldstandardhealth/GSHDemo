@@ -21,10 +21,15 @@ import TeaserThreeScreen from '../pages/survey/TeaserThreeScreen';
 import VideoLessonScreen from '../pages/profile/lesson/VideoLessonScreen';
 import VideoLessonCongratsScreen from '../pages/profile/lesson/VideoLessonCongratsScreen';
 import VideoLessonSurveyScreen from '../pages/profile/lesson/VideoLessonSurveyScreen';
+import VideoLessonSurvey1Screen from '../pages/profile/lesson/VideoLessonSurvey1Screen';
 import WorkoutLessonScreen from '../pages/profile/lesson/WorkoutLessonScreen';
 import WorkoutLessonSurveyScreen from '../pages/profile/lesson/WorkoutLessonSurveyScreen';
 import WorkoutLessonSurvey1Screen from '../pages/profile/lesson/WorkoutLessonSurvey1Screen';
+import BonusLessonScreen from '../pages/profile/lesson/BonusLessonScreen';
 import FinalLessonScreen from '../pages/profile/lesson/FinalLessonScreen';
+
+import ConnectScreen from '../pages/profile/ConnectScreen';
+import ConnectDetailsScreen from '../pages/profile/ConnectDetailsScreen';
 
 import ProfileTabs from './ProfileTabs';
 
@@ -53,13 +58,17 @@ function NavigationStack() {
       <Stack.Screen name="TeaserThree" component={TeaserThreeScreen} options={{ headerShown: false }} />
 
       <Stack.Screen name="ProfileTabs" component={ProfileTabs} options={{ headerShown: false }} />
+      <Stack.Screen name="Connect" component={ConnectScreen} options={{ headerShown: false }} />
+      <Stack.Screen name="ConnectDetails" component={ConnectDetailsScreen} options={{ headerShown: false }} />
 
       <Stack.Screen name="VideoLesson" component={VideoLessonScreen} options={{ headerShown: false }} />
       <Stack.Screen name="VideoLessonCongrats" component={VideoLessonCongratsScreen} options={{ headerShown: false }} />
       <Stack.Screen name="VideoLessonSurvey" component={VideoLessonSurveyScreen} options={{ headerShown: false }} />
+      <Stack.Screen name="VideoLessonSurvey1" component={VideoLessonSurvey1Screen} options={{ headerShown: false }} />
       <Stack.Screen name="WorkoutLesson" component={WorkoutLessonScreen} options={{ headerShown: false }} />
       <Stack.Screen name="WorkoutLessonSurvey" component={WorkoutLessonSurveyScreen} options={{ headerShown: false }} />
       <Stack.Screen name="WorkoutLessonSurvey1" component={WorkoutLessonSurvey1Screen} options={{ headerShown: false }} />
+      <Stack.Screen name="BonusLesson" component={BonusLessonScreen} options={{ headerShown: false }} />
       <Stack.Screen name="FinalLesson" component={FinalLessonScreen} options={{ headerShown: false }} />
     </Stack.Navigator>
   );

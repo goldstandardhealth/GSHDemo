@@ -67,7 +67,7 @@ function VideoLessonCongratsScreen({ navigation, route }: VideoLessonCongratsNav
       </Animated.View>
       <Animated.View style={{opacity: sayButtonAnim}}>
         <TouchableOpacity style={{
-          marginTop: vs(60),
+          marginTop: vs(30),
           alignSelf: 'center',
           backgroundColor: '#192E60',
           borderRadius: ms(25),

@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
-import {  Animated, StyleSheet, Text, TouchableWithoutFeedback, Dimensions } from 'react-native';
+import {  Animated, StyleSheet, Text, TouchableWithoutFeedback, Dimensions, ViewStyle, StyleProp } from 'react-native';
 import Video from 'react-native-video';
 import { ms, vs } from 'react-native-size-matters';
 
@@ -9,9 +9,10 @@ type Props = {
   source: any;
   onEnd?: any;
   stop?: boolean;
+  style?: StyleProp<ViewStyle>;
 };
 
-function GVideo({ source, onEnd = () => {}, stop = false }: Props) {
+function GVideo({ source, style, onEnd = () => {}, stop = false }: Props) {
   const [pause, setPause] = useState(true);
   const [vHeight, setVHeight] = useState(0);
   const [border, setBorder] = useState(0);
@@ -45,7 +46,7 @@ function GVideo({ source, onEnd = () => {}, stop = false }: Props) {
   const play = () => setPause(!pause);
 
   return (
-    <TouchableWithoutFeedback style={styles.container} onPress={play}>
+    <TouchableWithoutFeedback style={[styles.container, style]} onPress={play}>
       <Animated.View style={{opacity: videoOpacityAnim}}>
         <Video
           source={source}

@@ -1,13 +1,39 @@
-import React, { useState, useEffect, createContext } from 'react';
+import React, { useState, useEffect, Context, createContext } from 'react';
 import { Linking, Platform } from 'react-native';
 import { NavigationContainer, createNavigationContainerRef } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import SplashScreen from 'react-native-splash-screen';
+import SystemNavigationBar from 'react-native-system-navigation-bar';
 
 import NavigationStack from './NavigationStack';
 
-type PathContextType = {current: number, bonus: number, setPath: any};
-export const PathContext = createContext<PathContextType>({current: 0, bonus: 0, setPath: () => {}});
+type PathType = {current: number, bonus: number, motivation: number};
+type PathContextType = PathType & {setPath: any};
+type PathContextKeyType = keyof PathType;
+
+const defaultPath = {current: 0, bonus: 0, motivation: 0};
+
+export const PathContext = createContext<PathContextType>({
+  ...defaultPath,
+  setPath: () => {}
+});
+export const incPathValue = (ctx: PathContextType, key: PathContextKeyType) => {
+  ctx.setPath({...ctx, [key]: ctx[key] + 1 });
+};
+export const incPathValues = (ctx: PathContextType, ...keys: PathContextKeyType[]) => {
+  ctx.setPath({...ctx, ...keys.reduce((obj, k) => {
+    if (k) {
+      obj[k] = ctx[k] + 1;
+    }
+    return obj;
+  }, ctx)});
+};
+export const decPathValue = (ctx: PathContextType, key: PathContextKeyType) => {
+  ctx.setPath({...ctx, [key]: ctx[key] - 1 });
+};
+export const resetPath = (ctx: PathContextType) => {
+  ctx.setPath({...ctx, ...defaultPath});
+};
 
 const navigationRef = createNavigationContainerRef()
 
@@ -44,11 +70,15 @@ const PERSISTENCE_KEY = 'NAVIGATION_STATE_V1';
 
 function RootNavigation(): JSX.Element | null {
   const [isReady, setIsReady] = useState(false);
-  const [path, setPath] = useState({current: 0, bonus: 0});
+  const [path, setPath] = useState({current: 0, bonus: 0, motivation: 0});
   const [initialState, setInitialState] = useState();
   const restoreState = async () => restoreStateCommon(PERSISTENCE_KEY, setInitialState, setPath, setIsReady);
 
-  useEffect(() => SplashScreen.hide(), []);
+  useEffect(() => {
+    SystemNavigationBar.stickyImmersive();
+    SplashScreen.hide();
+  }, []);
+
   useEffect(() => {
     if (!isReady) {
       restoreState();

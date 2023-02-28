@@ -12,7 +12,7 @@ import {
 } from 'react-native';
 import { ms, vs } from 'react-native-size-matters';
 
-import { PathContext } from '../../../layout/RootNavigation';
+import { PathContext, incPathValues } from '../../../layout/RootNavigation';
 import { FinalLessonNavigationProps, goldieCallout, gold, base, RobotoCondensed } from '../../../config';
 import GScrollable from '../../../layout/GScrollable';
 import GCallOut from '../../../components/GCallOut';
@@ -55,7 +55,7 @@ function FinalLesson({ navigation, route }: FinalLessonNavigationProps) {
           paddingVertical: ms(10),
           paddingHorizontal: ms(20)
         }} onPress={() => {
-          context.setPath({current: context.current + 1, bonus: context.bonus + (bonus ? 1 : 0) });
+          incPathValues(context, 'current', bonus ? 'bonus' : undefined);
           navigation.navigate('Home');
         }}>
           <Text style={{

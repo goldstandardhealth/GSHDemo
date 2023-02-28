@@ -83,7 +83,7 @@
     },
     {
       "path": "assets/video/Bridge.mp4",
-      "sha1": "55ecf8077f94a41ce43feb95c78d93fdc87427ca"
+      "sha1": "c8d62b843724048572fd0a2d42f9f4d881c77490"
     },
     {
       "path": "assets/video/Chronic_pain_recovery.mp4",
@@ -95,15 +95,19 @@
     },
     {
       "path": "assets/video/Introducing_Philippe_Goldin.mp4",
-      "sha1": "0989dfd5c85f50722e0f88f83a151960c03ee59b"
+      "sha1": "6d33814e95e834c8d7b842349e42884b68078eb3"
     },
     {
       "path": "assets/video/Introducing_the_Founders.mp4",
       "sha1": "28f2b842ee952c739b54274841607c3ad09d1463"
     },
     {
+      "path": "assets/video/Meditation.mp4",
+      "sha1": "89fdb8971092e430bda231476cf0b85e5cec7f81"
+    },
+    {
       "path": "assets/video/Meet_Shari_Becker.mp4",
-      "sha1": "f9d4fea2129e9fbe45337686f368e565a5a246aa"
+      "sha1": "c6654c68f2b457e74a6b682e1b30462c20573184"
     },
     {
       "path": "assets/video/Meet_Tiffany_Asp.mp4",
@@ -111,7 +115,7 @@
     },
     {
       "path": "assets/video/Side_Lift.mp4",
-      "sha1": "7aa165683860b8d2dc53d95861844218c26aea57"
+      "sha1": "cc4257f4da7bf9a1027daf97214c70dca13387e3"
     },
     {
       "path": "assets/video/Squat.mp4",
@@ -119,7 +123,7 @@
     },
     {
       "path": "assets/video/WD-40.mp4",
-      "sha1": "c40bdabe86b6b541888fad8e349a213e66d4dd36"
+      "sha1": "7e53b0e573278a1d3b42c4e6ecc6fb9c467907fe"
     },
     {
       "path": "assets/logo/gsh.png",

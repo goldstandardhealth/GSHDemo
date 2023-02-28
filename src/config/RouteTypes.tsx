@@ -23,12 +23,16 @@ export type RootStackParamList = {
   Loading: undefined;
   TeaserThree: undefined;
   ProfileTabs: undefined;
-  VideoLesson: { title: string, video: string, tutor: Person, congrats: string, bonus?: boolean }
+  Connect: { back: boolean };
+  ConnectDetails: { person: Practitioner, key: string };
+  VideoLesson: { title: string, video: string, tutor: Person, congrats: string, bonus?: boolean, survey?: string }
   VideoLessonCongrats: { congrats: string, bonus?: boolean }
   VideoLessonSurvey: { bonus?: boolean };
+  VideoLessonSurvey1: { congrats: string, bonus?: boolean }
   WorkoutLesson: { reps: string; title: string, video: string, tutor: Person, survey?: string, bonus?: boolean }
   WorkoutLessonSurvey: { bonus?: boolean };
   WorkoutLessonSurvey1: { bonus?: boolean };
+  BonusLesson: { title: string, video: string, tutor: Person }
   FinalLesson: { bonus?: boolean };
 };
 
@@ -50,8 +54,10 @@ export type TeaserThreeNavigationProps = NativeStackScreenProps<RootStackParamLi
 export type VideoLessonNavigationProps = NativeStackScreenProps<RootStackParamList, 'VideoLesson'>;
 export type VideoLessonCongratsNavigationProps = NativeStackScreenProps<RootStackParamList, 'VideoLessonCongrats'>;
 export type VideoLessonSurveyNavigationProps = NativeStackScreenProps<RootStackParamList, 'VideoLessonSurvey'>;
+export type VideoLessonSurvey1NavigationProps = NativeStackScreenProps<RootStackParamList, 'VideoLessonSurvey1'>;
 export type WorkoutLessonNavigationProps = NativeStackScreenProps<RootStackParamList, 'WorkoutLesson'>;
 export type WorkoutLessonSurveyNavigationProps = NativeStackScreenProps<RootStackParamList, 'WorkoutLessonSurvey' | 'WorkoutLessonSurvey1'>;
+export type BonusLessonNavigationProps = NativeStackScreenProps<RootStackParamList, 'BonusLesson'>;
 export type FinalLessonNavigationProps = NativeStackScreenProps<RootStackParamList, 'FinalLesson'>;
 
 export type HomeStackParamList = {
@@ -73,7 +79,7 @@ export type CommunityStackParamList = {
 export type CommunityNavigationProps = NativeStackScreenProps<CommunityStackParamList, 'Community'>;
 
 export type ConnectStackParamList = {
-  Connect: undefined;
+  Connect: { back?: boolean };
   ConnectDetails: { person: Practitioner, key: string };
 };
 

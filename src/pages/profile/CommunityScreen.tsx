@@ -71,7 +71,7 @@ function CommunityScreen({ navigation }: CommunityNavigationProps) {
         paddingVertical: 2,
         flexDirection: 'row'
       }}>
-        { categories.map((c, i) => <View style={{
+        { categories.map((c, i) => <View key={`category-${i}`} style={{
           marginHorizontal: ms(15),
           alignSelf: 'center',
           borderWidth: 0.3,
@@ -85,7 +85,7 @@ function CommunityScreen({ navigation }: CommunityNavigationProps) {
           shadowOpacity: 0.4,
           shadowRadius: 3,
           elevation: 2
-        }}><Text key={`category-${i}`} style={{
+        }}><Text style={{
           ...Roboto.bold,
           color: base.black,
           fontSize: ms(13)

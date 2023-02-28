@@ -9,17 +9,19 @@ import GBack from '../../../components/icons/GBack';
 import GVideo from '../../../components/GVideo';
 
 function VideoLessonScreen({ navigation, route }: VideoLessonNavigationProps) {
-  const { title, video, tutor, congrats, bonus } = route.params;
+  const { title, video, tutor, congrats, bonus, survey } = route.params;
   const getFirstName = (name: string) => name.split(' ')[0];
   const [complete, setComplete] = useState(false);
   const [stopVideo, setStopVideo] = useState(false);
 
-  const confirm = (ask: boolean): Promise<string | undefined> => {
+  const confirm = (ask: boolean): Promise<string | undefined | void> => {
     return new Promise((resolve) => ask ? Alert.alert('Lesson incomplete', 'Do you stil want to continue?', [
       { text: 'Cancel', style: 'cancel' },
       { text: 'OK', onPress: resolve }
     ]) : resolve());
   }
+
+  const nextScreen = survey == '1' ? 'VideoLessonSurvey1' : 'VideoLessonCongrats';
 
   return (
     <GScrollable type='bg'>
@@ -27,7 +29,7 @@ function VideoLessonScreen({ navigation, route }: VideoLessonNavigationProps) {
         <TouchableOpacity style={{ flex: 1, marginLeft: ms(10), marginTop: ms(10) }} onPress={() => navigation.goBack()}>
           <GBack size={ms(25)} />
         </TouchableOpacity>
-        <TouchableOpacity style={{ flex: 1, marginRight: ms(10), marginTop: ms(10) }} onPress={() => navigation.push("Connect")}>
+        <TouchableOpacity style={{ flex: 1, marginRight: ms(10), marginTop: ms(10) }} onPress={() => navigation.push("Connect", {back: true})}>
           <Image source={icons.info} style={{
             alignSelf: 'flex-end',
             height: ms(25),
@@ -72,7 +74,7 @@ function VideoLessonScreen({ navigation, route }: VideoLessonNavigationProps) {
         borderRadius: ms(25),
         paddingVertical: ms(10),
         paddingHorizontal: ms(20)
-      }} onPress={() => confirm(!complete).then(() => setStopVideo(true)).then(() => navigation.navigate('VideoLessonCongrats', { congrats: congrats, bonus: bonus }))}>
+      }} onPress={() => confirm(!complete).then(() => setStopVideo(true)).then(() => navigation.navigate(nextScreen, { congrats: congrats, bonus: bonus }))}>
         <Text style={{
           ...RobotoCondensed.bold,
           color: base.white,

@@ -83,7 +83,7 @@ export const excercises: ImageSources = {
 export const bonuses: ImageSources = {
   brainbw: require(basePath + 'icons/brainbonusbw.png'),
   braincolor: require(basePath + 'icons/brainbonusbw.png'),
-  yogabw: require(basePath + 'icons/yogabonusbw.png'),
-  yogacolor: require(basePath + 'icons/yogabonus.png'),
+  meditationbw: require(basePath + 'icons/yogabonusbw.png'),
+  meditationcolor: require(basePath + 'icons/yogabonus.png'),
 };
 

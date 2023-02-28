@@ -12,5 +12,7 @@ export const getLessonVideo = (name: string) => {
       return require(videoPath + 'Bridge.mp4');
     case 'squat':
       return require(videoPath + 'Squat.mp4');
+    case 'meditation':
+      return require(videoPath + 'Meditation.mp4');
   }
 }

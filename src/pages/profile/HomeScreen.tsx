@@ -3,12 +3,13 @@ import { Animated, View, Text, StyleSheet, StyleProp, ViewStyle, TouchableOpacit
 import { ms } from 'react-native-size-matters';
 import Svg, { Line, Circle } from 'react-native-svg';
 
-import { rootNavigate, PathContext } from '../../layout/RootNavigation';
-import { HomeNavigationProps, base, blue, Roboto, founders, experts } from '../../config';
+import { rootNavigate, PathContext, incPathValue, decPathValue, resetPath } from '../../layout/RootNavigation';
+import { HomeNavigationProps, base, blue, Roboto, RobotoCondensed, founders, experts } from '../../config';
 import GScrollable from '../../layout/GScrollable';
 import GContinue from '../../components/GContinue';
 
 import GAvatar from '../../components/GAvatar';
+import GBaloon from '../../components/GBaloon';
 import GDiamond from '../../components/icons/GDiamond';
 import GFire from '../../components/icons/GFire';
 import GBook from '../../components/icons/GBook';
@@ -20,9 +21,11 @@ type SessionPathProps = {
   start?: number;
   points: GStepProps[];
   bonuses?: GBonusProps[];
+  motivations?: any;
   style?: StyleProp<ViewStyle>;
   current?: number;
   bonus?: number;
+  motivation?: number;
   locked?: boolean;
 };
 
@@ -38,7 +41,7 @@ type DrawLineType = {
   straight: boolean;
 }
 
-function SessionPath({ style, start = 0, points, bonuses, current = 0, bonus = 0, locked }: SessionPathProps) {
+function SessionPath({ style, start = 0, points, bonuses = [], motivations = [], current = 0, bonus = 0, motivation = 0, locked }: SessionPathProps) {
   const [height, setHeight] = useState(0);
   const [width, setWidth] = useState(0);
   const getWidth = (e: any) => setWidth(e.nativeEvent.layout.width);
@@ -85,6 +88,8 @@ function SessionPath({ style, start = 0, points, bonuses, current = 0, bonus = 0
     outputRange: [prev.left - curr.left, 0],
   });
 
+  const context = useContext(PathContext);
+
   const drawLine = (c: CoordinateProps, c1: CoordinateProps): DrawLineType => {
     if (c1 === undefined) {
       return {
@@ -117,6 +122,8 @@ function SessionPath({ style, start = 0, points, bonuses, current = 0, bonus = 0
     }
   }
 
+  const logCurrent = (c, l) => {console.log("current: ", c, l); return false;}
+
   return (
     <View onLayout={getWidth} style={[style, {
       height: coords[coords.length - 1].top
@@ -138,25 +145,34 @@ function SessionPath({ style, start = 0, points, bonuses, current = 0, bonus = 0
             }}>
               { l.line }
             </Svg>
-            { locked ? <GStepLocked size={point.size} style={stepStyle} /> : <GStep style={stepStyle} image={point.image} complete={j < current} disabled={j > current} size={point.size} onPress={point.onPress} /> }
+            { locked
+              ? <GStepLocked size={point.size} style={stepStyle} />
+              : <GStep
+                  style={stepStyle}
+                  image={point.image}
+                  complete={j < current}
+                  disabled={j > current}
+                  size={point.size}
+                  onPress={point.onPress} /> }
           </View>
         );
       })}
 
-      {locked || current === coords.length - 1 ? [] : <Animated.View style={[styles.shadow, {
+      { locked || current === coords.length - 1 ? [] : <Animated.View style={[styles.shadow, {
         position: 'absolute',
         top: curr.top,
         left: curr.left - ms(30),
-        backgroundColor: '#081C59',
+        backgroundColor: '#081c59',
         borderRadius: ms(20),
         paddingVertical: ms(10),
         paddingHorizontal: ms(15),
         transform: [ {translateX: slideLeft}, {translateY: slideTop} ]
       }]}><Text style={{
         ...Roboto.bold,
-        color: '#FFDE6D',
+        color: '#ffde6d',
         fontSize: ms(10),
-      }}>You are here</Text></Animated.View>}
+      }}>You are here</Text></Animated.View> }
+
       { bonuses ? Array.from(centers).map((c, k) => {
         const left = w - (k % 2 ? -40 : 40);
         const b = bonuses[k];
@@ -166,25 +182,36 @@ function SessionPath({ style, start = 0, points, bonuses, current = 0, bonus = 0
               position: 'absolute',
               top: c - b.size/2,
               left: left - b.size/2
-            }} image={b.image} complete={k < bonus} size={b.size} />
+            }} image={b.image} complete={k < bonus} size={b.size} onPress={b.onPress} />
           </View>
         ) : [];
-      }) : []}
+      }) : [] }
+
+      { motivations.map((m: any, l) =>
+        <View key={`motivation-${l}`}>
+          <GBaloon style={{
+            top: coords[m.link].top - ms(150),
+            left: coords[m.link].left > width/2 ? width*0.3 : width*0.1
+          }}
+          type={m.type}
+          run={current === m.link}
+          align={coords[m.link].left > width/2 ? 'left' : 'right'}>
+            <Text style={{
+            ...RobotoCondensed.bold,
+            fontSize: ms(18),
+            color: base.black,
+            textAlign: 'center',
+            padding: ms(10)
+          }}>{ m.message }</Text>
+          </GBaloon>
+        </View>
+      ) }
     </View>
   );
 }
 
 function HomeScreen({ navigation, route }: HomeNavigationProps) {
   const context = useContext(PathContext);
-  const [current, setCurrent] = useState(0);
-  const [bonus, setBonus] = useState(0);
-
-  if (current !== context.current) {
-    setCurrent(context.current);
-  }
-  if (bonus !== context.bonus) {
-    setBonus(context.bonus);
-  }
 
   const proceed = (screen: string, config: any) => rootNavigate(screen, config);
 
@@ -193,33 +220,19 @@ function HomeScreen({ navigation, route }: HomeNavigationProps) {
       <View style={styles.header}>
         <GAvatar style={{flex: 1, marginLeft: ms(25) }} size={ms(50)} color={blue.icon} person={founders.carrie} />
         <View style={{height: ms(50), marginRight: ms(25), flex: 0.7, flexDirection: 'row', justifyContent: 'flex-end'}}>
-          <TouchableOpacity style={{alignSelf: 'center'}} onPress={() => {
-              context.setPath({current: 0, bonus: 0});
-              setCurrent(0);
-              setBonus(0);
-          }}>
+          <TouchableOpacity style={{alignSelf: 'center'}} onPress={() => resetPath(context)}>
            <GDiamond number="0" size={ms(35)} />
           </TouchableOpacity>
-          <TouchableOpacity style={{alignSelf: 'center'}} onPress={() => {
-            if (context.bonus > 0) {
-              context.setPath({current: context.current, bonus: context.bonus - 1});
-              setBonus(context.bonus - 1);
-            }
-          }}>
+          <TouchableOpacity style={{alignSelf: 'center'}} onPress={() => context.bonus > 0 && decPathValue(context, 'bonus')}>
             <GFire number="4" size={ms(35)} />
           </TouchableOpacity>
-          <TouchableOpacity style={{alignSelf: 'center'}} onPress={() => {
-            if (context.current > 0) {
-              context.setPath({current: context.current - 1, bonus: context.bonus});
-              setCurrent(context.current - 1);
-            }
-          }}>
+          <TouchableOpacity style={{alignSelf: 'center'}} onPress={() => context.current > 0 && decPathValue(context, 'current')}>
             <GBook size={ms(35)} />
           </TouchableOpacity>
         </View>
        </View>
-      <Text style={{...Roboto.bold, fontSize: ms(35), alignSelf: 'center', marginTop: ms(20)}}>Session 1</Text>
-      <SessionPath current={current} bonus={bonus} start={0.2} style={{ marginHorizontal: ms(50), marginVertical: ms(80) }}
+      <Text style={{...Roboto.bold, color: base.black, fontSize: ms(35), alignSelf: 'center', marginTop: ms(20)}}>Session 1</Text>
+      <SessionPath current={context.current} bonus={context.bonus} start={0.2} style={{ marginHorizontal: ms(50), marginVertical: ms(80) }}
         points={[
           { image: "mind", size: 75, onPress: () => proceed('VideoLesson', {
               title: 'Finding Your Internal Carrot',
@@ -237,7 +250,8 @@ function HomeScreen({ navigation, route }: HomeNavigationProps) {
               title: 'WD40 for your mind',
               video: 'wd40',
               tutor: experts.philippe,
-              congrats: 'Can you find your personal WD40?'
+              congrats: 'Can you find your personal WD40?',
+              survey: '1'
             }) },
           { image: "crunch", size: 50, onPress: () => proceed('WorkoutLesson', {
               reps: '3 x 12',
@@ -254,14 +268,31 @@ function HomeScreen({ navigation, route }: HomeNavigationProps) {
               tutor: experts.ricky,
               survey: '1'
             }) },
-          { image: "yoga", size: 50, onPress: () => {setCurrent(current + 1)} },
+          { image: "yoga", size: 50, onPress: () => {} },
           { image: "trophy", size: 100, onPress: () => {} },
         ]}
         bonuses={[
-          { image: "yoga", complete: false, size: 80 },
-          { image: "brain", complete: false, size: 80 },
+          { image: "meditation", size: 80, onPress: () => proceed('BonusLesson', {
+              title: 'Guided Meditation',
+              video: 'meditation',
+              tutor: experts.shari,
+              survey: '1'
+            }) },
+          { image: "brain", size: 80 },
+        ]}
+        motivations={[
+          {
+            type: "friend",
+            message: "You are on a roll! Continue with the program to unlock a bonus activity",
+            link: 2
+          },
+          {
+            type: "cool",
+            message: "You rock! Keep the great work going to unlock a special bonus activity!",
+            link: 5
+          },
         ]}/>
-      <Text style={{...Roboto.bold, fontSize: ms(35), alignSelf: 'center', marginTop: ms(50)}}><GLock size={ms(35)} /> Session 2</Text>
+      <Text style={{...Roboto.bold, color: base.black, fontSize: ms(35), alignSelf: 'center', marginTop: ms(50)}}><GLock size={ms(35)} /> Session 2</Text>
       <SessionPath locked={true} start={0.9} style={{ marginHorizontal: ms(50), marginVertical: ms(50), marginBottom: ms(100) }}
         points={[
           { image: "mind", size: 75, onPress: () => {} },

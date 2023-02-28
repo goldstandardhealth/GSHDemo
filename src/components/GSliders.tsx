@@ -1,5 +1,5 @@
 import React, { ReactNode, useState, useEffect } from 'react';
-import { StyleSheet, View, Text, StyleProp, ViewStyle } from 'react-native';
+import { Platform, StyleSheet, View, Text, StyleProp, ViewStyle } from 'react-native';
 import Slider from '@react-native-community/slider';
 import { ms } from 'react-native-size-matters';
 
@@ -46,7 +46,7 @@ function GSliders({ style, data, onSelect }: Props) {
               minimumValue={0}
               maximumValue={1}
               minimumTrackTintColor={blue.regular}
-              maximumTrackTintColor={blue.regular + '1F'}
+              maximumTrackTintColor={(Platform.OS === 'ios' ? blue.regular + '5F' : blue.dark + '9F')}
               onSlidingComplete={(val) => onValueChange(key, val)}
             />
           </View>
