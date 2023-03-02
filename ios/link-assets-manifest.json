@@ -82,48 +82,56 @@
       "sha1": "e0d7acf2ca3dd0ff68f533797bb94b0580397e95"
     },
     {
-      "path": "assets/video/Bridge.mp4",
-      "sha1": "c8d62b843724048572fd0a2d42f9f4d881c77490"
+      "path": "assets/video/Find_Your_Internal_Carrot.jpg",
+      "sha1": "7e9a82dacce0e557eee2c614aec5240f0ba4902a"
     },
     {
-      "path": "assets/video/Chronic_pain_recovery.mp4",
-      "sha1": "f735ef1fd5b9661d5ec28b2842ca96757b7ef6af"
+      "path": "assets/video/Gold_Standard_Bridge.jpg",
+      "sha1": "d12cba1d3d409d555868c793095734cb28736991"
     },
     {
-      "path": "assets/video/Introducing_Josh_Levin.mp4",
-      "sha1": "a7d6c78ce0905feab31cc6681df247d4891c2204"
+      "path": "assets/video/Gold_Standard_Side_Lift.jpg",
+      "sha1": "e58ab987a14232d85feb91ad5e423b76b3ba7e8b"
     },
     {
-      "path": "assets/video/Introducing_Philippe_Goldin.mp4",
-      "sha1": "6d33814e95e834c8d7b842349e42884b68078eb3"
+      "path": "assets/video/Gold_Standard_Squat.jpg",
+      "sha1": "77f703bde8b878ef90d5572e2acc337922893665"
     },
     {
-      "path": "assets/video/Introducing_the_Founders.mp4",
-      "sha1": "28f2b842ee952c739b54274841607c3ad09d1463"
+      "path": "assets/video/Guided_Meditation_Shari_Becker_10min.jpg",
+      "sha1": "d52e263d590f02883a75f90f79bf72443151a732"
     },
     {
-      "path": "assets/video/Meditation.mp4",
-      "sha1": "89fdb8971092e430bda231476cf0b85e5cec7f81"
+      "path": "assets/video/Introducing_the_Founders.jpg",
+      "sha1": "6e74640cf291903196a64a36af53a1f335791817"
     },
     {
-      "path": "assets/video/Meet_Shari_Becker.mp4",
-      "sha1": "c6654c68f2b457e74a6b682e1b30462c20573184"
+      "path": "assets/video/Meet_Dr_Josh_Levin.jpg",
+      "sha1": "1197e561887a117b07b3f0bb0f032c81ec6f75fd"
     },
     {
-      "path": "assets/video/Meet_Tiffany_Asp.mp4",
-      "sha1": "29a9106ab6d93d5db7ac1d8cfd957729833fb261"
+      "path": "assets/video/Meet_Dr_Philippe_Goldin.jpg",
+      "sha1": "da78d47bf6c5a6ed187ac0eec968e79669255b4d"
     },
     {
-      "path": "assets/video/Side_Lift.mp4",
-      "sha1": "cc4257f4da7bf9a1027daf97214c70dca13387e3"
+      "path": "assets/video/Meet_Dr_Ricky_Yu.jpg",
+      "sha1": "fe1368a28dfb7cbb7b856de658c767ae568356a9"
     },
     {
-      "path": "assets/video/Squat.mp4",
-      "sha1": "2d4cae673c9c7d7f0dee7147cf08b00f069a7ee6"
+      "path": "assets/video/Meet_Dr_Shari_Becker.jpg",
+      "sha1": "2cf3ca813a792665764a1e00d31a5a4988a0f2ed"
     },
     {
-      "path": "assets/video/WD-40.mp4",
-      "sha1": "7e53b0e573278a1d3b42c4e6ecc6fb9c467907fe"
+      "path": "assets/video/Meet_Dr_Tiffany_Asp.jpg",
+      "sha1": "eb9fd62eff9595437155ae299698dc1edc8b8fe2"
+    },
+    {
+      "path": "assets/video/Meet_The_Founders_Gold_Standard_Health.jpg",
+      "sha1": "5307347f4070977f2353293df4289aa02f58fb14"
+    },
+    {
+      "path": "assets/video/WD-40_For_The_Mind.jpg",
+      "sha1": "80fcd6ee9a12b07d77b3ceca60fbd4cb2165eae5"
     },
     {
       "path": "assets/logo/gsh.png",
@@ -131,35 +139,35 @@
     },
     {
       "path": "assets/logo/ios/logo1024.png",
-      "sha1": "ee5704617ab7618ffb2f670cd3c7fa592d1e3530"
+      "sha1": "4affd3fa3d28bf6c562df6688efe506fe08c3a08"
     },
     {
       "path": "assets/logo/ios/logo120.png",
-      "sha1": "93303c7fceb85bdd65da8d657026371baf888eaa"
+      "sha1": "faaa2be502fc553e7976dbddadf88b22525f27b1"
     },
     {
       "path": "assets/logo/ios/logo180.png",
-      "sha1": "d8eb438a5632d08f69f32882253d39912a0280cc"
+      "sha1": "10b4d40be36e14c13982db2a356025983a252578"
     },
     {
       "path": "assets/logo/ios/logo40.png",
-      "sha1": "9dba8071dbd8b2c1512c1b29040beae36b87b613"
+      "sha1": "590a1c34800a5926cba3d88b3c6029c962434b88"
     },
     {
       "path": "assets/logo/ios/logo58.png",
-      "sha1": "eae73aca07e6526a54d034e23afa2482010740b6"
+      "sha1": "2d484abc27a748a3d39bf101ea3c7ff810e04029"
     },
     {
       "path": "assets/logo/ios/logo60.png",
-      "sha1": "9895f9cf81e25399040fd8155f541a3605f5b9f1"
+      "sha1": "d40f425b07d5a620cf3aec06e6634ceb4be5d346"
     },
     {
       "path": "assets/logo/ios/logo80.png",
-      "sha1": "fd801110688d6e0a160c69a237ab3847d0c7bedb"
+      "sha1": "c74f6c15cd8d85baf98176736310990c53f6361f"
     },
     {
       "path": "assets/logo/ios/logo87.png",
-      "sha1": "e3f975ed5f93cb86e05f337921e829af70c6f895"
+      "sha1": "ada9f0519bfb535081ee943c3e063949139221c5"
     },
     {
       "path": "assets/logo/ipsi.png",

@@ -40,22 +40,6 @@ export type Practitioner = {
 type Practitioners = { [key: string]: Practitioner };
 
 const basePath = '../../assets/people/';
-const videoPath = '../../assets/video/';
-
-export const getExpertVideo = (name: string) => {
-  switch (name) {
-    case 'tiffany':
-      return require(videoPath + 'Meet_Tiffany_Asp.mp4');
-    case 'philippe':
-      return require(videoPath + 'Introducing_Philippe_Goldin.mp4');
-    case 'josh':
-      return require(videoPath + 'Introducing_Josh_Levin.mp4');
-    case 'shari':
-      return require(videoPath + 'Meet_Shari_Becker.mp4');
-    default:
-      return require(videoPath + 'Introducing_the_Founders.mp4');
-  }
-}
 
 export const founders: People = {
   yuval: {

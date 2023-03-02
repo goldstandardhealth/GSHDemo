@@ -12,20 +12,16 @@
 		05A28C7DD9C8424E86C534ED /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C3483DCEEC42AE8BC3A8FE /* home.png */; };
 		0639717E000A44BABF6481D6 /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86EFEC409E724191B758108E /* MaterialIcons-Regular.ttf */; };
 		064EB2031E1F4D789025D5A7 /* RickyYuBw.png in Resources */ = {isa = PBXBuildFile; fileRef = CA3B03601B3D4A1A8FFBD334 /* RickyYuBw.png */; };
-		0FD834493BDA4B258E86E200 /* logo60.png in Resources */ = {isa = PBXBuildFile; fileRef = 215654EBFDB74C8CAE06A3FE /* logo60.png */; };
 		1363383CB374408FBA4A6C85 /* ShariBecker.png in Resources */ = {isa = PBXBuildFile; fileRef = 104F6B30DFAE4489AA999E2B /* ShariBecker.png */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		1617C2A002E84835B74FBC4D /* ucdavis.png in Resources */ = {isa = PBXBuildFile; fileRef = E37BF216C7A54A6A9DD93BA2 /* ucdavis.png */; };
 		17BBBCB734CB412D9A3C48AB /* MichaelFredericson.png in Resources */ = {isa = PBXBuildFile; fileRef = 911EBC0F498C49DA86D53531 /* MichaelFredericson.png */; };
-		1B45E87FB90B4817917F3033 /* Meditation.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F91B411DB70147ABA83A38AF /* Meditation.mp4 */; };
 		250763EFCC464F48B2311390 /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F86764691FD4D31AC1AF0CB /* RobotoCondensed-Italic.ttf */; };
 		2513E42FAF2E4D989333567D /* PhilippeGoldin.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CA39952A3CA493EB1B07E08 /* PhilippeGoldin.png */; };
 		287BC56ED34E4AEB8B7A81BF /* ipsi.png in Resources */ = {isa = PBXBuildFile; fileRef = 7440D9D9BDAA41A69DD5D817 /* ipsi.png */; };
 		2A14B160F333431DB2741278 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2EB08B6B1C00497B90121F98 /* Roboto-Bold.ttf */; };
-		2C0B95972C4241CBBF08E046 /* Introducing_Philippe_Goldin.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D7E9300FC5854B9FAB3847B8 /* Introducing_Philippe_Goldin.mp4 */; };
-		2C2F2E0961D54B3CAA3F8449 /* logo120.png in Resources */ = {isa = PBXBuildFile; fileRef = F0050E5F68864FB1AC36C2BC /* logo120.png */; };
 		329EDC66A02848A6AE6A0700 /* crunchwhite.png in Resources */ = {isa = PBXBuildFile; fileRef = C762977DB6354966BAB2C793 /* crunchwhite.png */; };
 		352E846385554416B9207328 /* stretchbw.png in Resources */ = {isa = PBXBuildFile; fileRef = E9BE94CAB8E644EA9EC0E5A5 /* stretchbw.png */; };
 		36D58F0955244142A9CD332B /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAE62B56A4944CAA8BD61F68 /* RobotoCondensed-Bold.ttf */; };
@@ -45,11 +41,7 @@
 		5579364C9EB04966B30388E7 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EFB774B400F48BAA540C7BA /* Roboto-MediumItalic.ttf */; };
 		58A06F74622B4D3A92F5F5BB /* ucsf.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE79349A1A34E4986E7296E /* ucsf.png */; };
 		59BC376EFB16413881BB69FB /* goldie7.png in Resources */ = {isa = PBXBuildFile; fileRef = 73D078E083284E3E83D22F48 /* goldie7.png */; };
-		5A982538EE0C4D6F88CBDE50 /* Meet_Tiffany_Asp.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 82EC8485C45E4BE18BA94F7D /* Meet_Tiffany_Asp.mp4 */; };
-		5D678A57909D43B996A185BB /* logo80.png in Resources */ = {isa = PBXBuildFile; fileRef = CC23E869CFC9481FB7975A84 /* logo80.png */; };
-		5DB0D771584443B59F32AAC4 /* Introducing_the_Founders.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 65942748C28F49FD970A8505 /* Introducing_the_Founders.mp4 */; };
 		656DF840F1D8497C8F7DA9F0 /* medal1.png in Resources */ = {isa = PBXBuildFile; fileRef = 77593CFFA01D480A8DAAAB16 /* medal1.png */; };
-		6766D71B72AE445696180AB1 /* logo1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 937CB3B7542944A69C47A7EB /* logo1024.png */; };
 		67EF14812909469CB1BB4749 /* goldie4.png in Resources */ = {isa = PBXBuildFile; fileRef = FE337A2433D8412DB497E85A /* goldie4.png */; };
 		71677964D4DC4AA89ADABD20 /* StephenBaxter.png in Resources */ = {isa = PBXBuildFile; fileRef = 54ED7C93E2144878A6977C58 /* StephenBaxter.png */; };
 		72B9977633F941F695B12584 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF28F7B5E5A24A6DBE8410DF /* Roboto-Medium.ttf */; };
@@ -68,9 +60,6 @@
 		9E9D2F6F892D4136BFBA83F2 /* basket.png in Resources */ = {isa = PBXBuildFile; fileRef = F92CD7AD1C4449539BA7C906 /* basket.png */; };
 		A65D01F78F964F0A804BCE0F /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10800CF776D4437580D88FA4 /* Roboto-BlackItalic.ttf */; };
 		A89D41B429D44A9DB8F8D9F8 /* physicalSocial.png in Resources */ = {isa = PBXBuildFile; fileRef = F81E482FD7814E1C8637B697 /* physicalSocial.png */; };
-		AA8DA317512A4E8CAB03DC2D /* WD-40.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8744B0C5D9124811913826FA /* WD-40.mp4 */; };
-		AB7A92D46D5D4F62956D6F75 /* Bridge.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BE9AB787B4C5409F968CC444 /* Bridge.mp4 */; };
-		AB8DF12D769947449E1330B7 /* Side_Lift.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0CCA013656BD46B4B97D475A /* Side_Lift.mp4 */; };
 		ABC9B3C08D6C4785AD362FF7 /* medal3.png in Resources */ = {isa = PBXBuildFile; fileRef = 69293170BAB247F980E65B6C /* medal3.png */; };
 		ACDC84EB767948159A12F7EF /* brainbonusbw.png in Resources */ = {isa = PBXBuildFile; fileRef = FBDE5D0542CD4E3D89B3A894 /* brainbonusbw.png */; };
 		AD33FFADA781430EBA6B2568 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29568FD7AD5F49FBB1DAB72D /* LICENSE.txt */; };
@@ -82,35 +71,48 @@
 		BA226F7ABA90437190365046 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B7C3C5A34C534544AEBD7A91 /* Roboto-LightItalic.ttf */; };
 		BCA1877354B149F69ED227B9 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47E90A066A414E53830CB476 /* Roboto-BoldItalic.ttf */; };
 		BD03CE6F549F4D4BBE2F74DB /* crunchbw.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C47A451FD424119A32E6953 /* crunchbw.png */; };
-		BD0BA4009B7648D2990452FC /* Chronic_pain_recovery.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D83C3C4E511347B5B6394D64 /* Chronic_pain_recovery.mp4 */; };
-		BD0BDF25A0D34EDD98C30F63 /* logo58.png in Resources */ = {isa = PBXBuildFile; fileRef = 2059D638B70A4A47BF24BAD8 /* logo58.png */; };
 		BF50A96BC65A4630B8C1A6E5 /* motivationSocial.png in Resources */ = {isa = PBXBuildFile; fileRef = 763935F848194E2A9F223B1B /* motivationSocial.png */; };
 		C23FA87DEE73485886879823 /* univercity.png in Resources */ = {isa = PBXBuildFile; fileRef = F46A24318AAB47B3954BD1C3 /* univercity.png */; };
 		C363E3A9A5F549CF915941F0 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7623CF634979491DB4607448 /* bg.png */; };
 		C5D0746A4D22466A9EC20DE6 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48616AC8E9504BB881DF3E8C /* Roboto-Thin.ttf */; };
 		CDF582A301AA4F53AE6CFB5F /* connect.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F45CDF6221C45F4891B3831 /* connect.png */; };
-		D73200A9EB65477897FB88B2 /* logo180.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F35A2A25F9B4677993702BB /* logo180.png */; };
-		D8ADA27CAC7845BFA28C4552 /* Meet_Shari_Becker.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BCDFDD3640A8438FA6E93207 /* Meet_Shari_Becker.mp4 */; };
 		DA1867D7ABF942B8BDD7E027 /* yoga.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B960BFEA59A4275B5E1599D /* yoga.png */; };
 		DAB7A26A5A3EB96D4200721B /* libPods-GSHDemo-GSHDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B2C35080AA7D9F68963DB2 /* libPods-GSHDemo-GSHDemoTests.a */; };
 		DB10446CC98A442D8C3264AC /* AllisonMarsdenBw.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9639ABE4BD4DCCA29A2059 /* AllisonMarsdenBw.png */; };
 		DB65C3E3978C4344B8C8CD89 /* yogabw.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ACE44765F4348F3B72B606F /* yogabw.png */; };
 		DDFEDEC6C6F748DA95E47841 /* TiffanyAspBw.png in Resources */ = {isa = PBXBuildFile; fileRef = 728965E1515C47D1BA30C2D4 /* TiffanyAspBw.png */; };
 		E35EC5DE2B514F9E88BDAAEA /* gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 2859F246BED0464D868E64FA /* gold.png */; };
-		E84A504B8EEB4AF4969EDBDB /* logo40.png in Resources */ = {isa = PBXBuildFile; fileRef = 008B636803D145108A1320F0 /* logo40.png */; };
 		E8852C4A1FE7488291A63589 /* mindwhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 937C2023ED314594904219BF /* mindwhite.png */; };
 		E8A26367F3574CC28A1C5B4E /* progress.png in Resources */ = {isa = PBXBuildFile; fileRef = F48DE797AF674ED6A4EFE878 /* progress.png */; };
 		EA349CE51DC7494399060E85 /* gsh.png in Resources */ = {isa = PBXBuildFile; fileRef = DB13BC3EC0E442AD9F5B6309 /* gsh.png */; };
 		EA4D16C4E16D43ECB36B1F67 /* running.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B98BACF745C4BF89B8238D0 /* running.png */; };
-		F12BF20B498F4D989388B6E6 /* Squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E49AB0DB7A02445EB9987CE7 /* Squat.mp4 */; };
 		F250F71482D3410D8D06A834 /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E656EF1B87F24CFDAAC8D22D /* RobotoCondensed-BoldItalic.ttf */; };
 		F3F559D6D52A44E4A33B14C6 /* HeatherKing.png in Resources */ = {isa = PBXBuildFile; fileRef = 571093EEC5994E9C90003621 /* HeatherKing.png */; };
 		F7F6D507777D4F938464A94B /* community.png in Resources */ = {isa = PBXBuildFile; fileRef = 91CBF70B9EEB4C99BA0DA5A2 /* community.png */; };
-		F932F42E00A4428783FF6C62 /* logo87.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA13DFE9B7A44C7A4BC205D /* logo87.png */; };
-		F95A79CD64EC4F27834FD437 /* Introducing_Josh_Levin.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B050B9FEB1EB4789BE764B0B /* Introducing_Josh_Levin.mp4 */; };
 		FE0E07F0D5AB4CE28C0A8417 /* yogabonusbw.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E65C73B55D43EC8973C760 /* yogabonusbw.png */; };
 		FF4637524A8D403285B3D72D /* DavePaunesku.png in Resources */ = {isa = PBXBuildFile; fileRef = B86C8E522C6B409F850B6560 /* DavePaunesku.png */; };
 		FF717FC6244844B3AABE751F /* goldie3.png in Resources */ = {isa = PBXBuildFile; fileRef = 817BDA0A40E045768A2E4E73 /* goldie3.png */; };
+		C70FA96E131E4A18B42D3DC7 /* Find_Your_Internal_Carrot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9483929CDC2C4301B8B7A5AD /* Find_Your_Internal_Carrot.jpg */; };
+		DC9BBD05DBAD45A6899FFDDD /* Gold_Standard_Bridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19D6015CFEF04B439558E6BB /* Gold_Standard_Bridge.jpg */; };
+		86C62C60D65E4CD78621A30D /* Gold_Standard_Side_Lift.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BDDC94FB546EDBC670324 /* Gold_Standard_Side_Lift.jpg */; };
+		387BF35E9E7049128C0BCC11 /* Gold_Standard_Squat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF331F557A09422584DC269B /* Gold_Standard_Squat.jpg */; };
+		127A0E9FBE2E4C38A1A8EDAD /* Guided_Meditation_Shari_Becker_10min.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 493154A4178F49BBA9D66313 /* Guided_Meditation_Shari_Becker_10min.jpg */; };
+		6EE68116742B41759F75CEC6 /* Introducing_the_Founders.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6985B44F5B9C4FC2B53266EF /* Introducing_the_Founders.jpg */; };
+		918445229D704BA298028882 /* Meet_Dr_Josh_Levin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4D4B06BE1824D5AB0755511 /* Meet_Dr_Josh_Levin.jpg */; };
+		0544CDB8EA3B44598AEAB02A /* Meet_Dr_Philippe_Goldin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11512609D8084CFE95CD4772 /* Meet_Dr_Philippe_Goldin.jpg */; };
+		D878C454D4E04F70AA9CBF66 /* Meet_Dr_Ricky_Yu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6D9610899DF4A02A379AE9E /* Meet_Dr_Ricky_Yu.jpg */; };
+		B23FC80881594F6683F38FDC /* Meet_Dr_Shari_Becker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC766185E02B4EC19C9F87F8 /* Meet_Dr_Shari_Becker.jpg */; };
+		B5C94917A5534B488552017C /* Meet_Dr_Tiffany_Asp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 594C4CB1610F450FA7219675 /* Meet_Dr_Tiffany_Asp.jpg */; };
+		FAF674B821A543C2B25C8DD5 /* Meet_The_Founders_Gold_Standard_Health.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3FEE5C215F24148A804E042 /* Meet_The_Founders_Gold_Standard_Health.jpg */; };
+		466424F1980F4B159069AD28 /* WD-40_For_The_Mind.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A2D2FF486F0450B8DFF7BA9 /* WD-40_For_The_Mind.jpg */; };
+		7DBC57BBA4FF4D63B57D7BC8 /* logo1024.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCB6939CDDB40AA8EF6BA1B /* logo1024.png */; };
+		C8235D0F4A5F40C9963A6314 /* logo120.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E10B199DBF049578C0EB704 /* logo120.png */; };
+		9D792DEB7C514E4EAF2B21A8 /* logo180.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C6676F347B44CB289701EF3 /* logo180.png */; };
+		9243BD9AF4634CE0BF3BBA9D /* logo40.png in Resources */ = {isa = PBXBuildFile; fileRef = 123144429B2D4F778EF3BD3B /* logo40.png */; };
+		E151D701EC31401991187BD8 /* logo58.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CCAABE0F6447F6A4CE07A7 /* logo58.png */; };
+		187700FEDA2443D7B4CBF9AC /* logo60.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C58B281C679471C8A804C84 /* logo60.png */; };
+		46557CC193B64605BAF264AB /* logo80.png in Resources */ = {isa = PBXBuildFile; fileRef = 387C07A297D7483096FB0FC6 /* logo80.png */; };
+		9E14597F9A88431EB51B2433 /* logo87.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C73251F42040D0933BAC40 /* logo87.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,7 +126,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008B636803D145108A1320F0 /* logo40.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo40.png; path = ../assets/logo/ios/logo40.png; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* GSHDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSHDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* GSHDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSHDemoTests.m; sourceTree = "<group>"; };
@@ -133,7 +134,6 @@
 		0C7855CF5FCB4D219A9C98CE /* CorinneCooleyBw.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = CorinneCooleyBw.png; path = ../assets/people/practitioner/bw/CorinneCooleyBw.png; sourceTree = "<group>"; };
 		0CA39952A3CA493EB1B07E08 /* PhilippeGoldin.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = PhilippeGoldin.png; path = ../assets/people/PhilippeGoldin.png; sourceTree = "<group>"; };
 		0CB44A749D54D9146DACF526 /* Pods-GSHDemo-GSHDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSHDemo-GSHDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-GSHDemo-GSHDemoTests/Pods-GSHDemo-GSHDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		0CCA013656BD46B4B97D475A /* Side_Lift.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Side_Lift.mp4; path = ../assets/video/Side_Lift.mp4; sourceTree = "<group>"; };
 		104F6B30DFAE4489AA999E2B /* ShariBecker.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ShariBecker.png; path = ../assets/people/ShariBecker.png; sourceTree = "<group>"; };
 		10800CF776D4437580D88FA4 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* GSHDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSHDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,8 +146,6 @@
 		14872ADB157E438EB334B1B2 /* JoshLevin.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = JoshLevin.png; path = ../assets/people/JoshLevin.png; sourceTree = "<group>"; };
 		1C47A451FD424119A32E6953 /* crunchbw.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = crunchbw.png; path = ../assets/icons/crunchbw.png; sourceTree = "<group>"; };
 		1F9870A5445CD5F03E51A34B /* Pods-GSHDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSHDemo.release.xcconfig"; path = "Target Support Files/Pods-GSHDemo/Pods-GSHDemo.release.xcconfig"; sourceTree = "<group>"; };
-		2059D638B70A4A47BF24BAD8 /* logo58.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo58.png; path = ../assets/logo/ios/logo58.png; sourceTree = "<group>"; };
-		215654EBFDB74C8CAE06A3FE /* logo60.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo60.png; path = ../assets/logo/ios/logo60.png; sourceTree = "<group>"; };
 		24930ECA7C5B4F4DBAA6C0C6 /* smedicine.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = smedicine.png; path = ../assets/smedicine.png; sourceTree = "<group>"; };
 		24E65C73B55D43EC8973C760 /* yogabonusbw.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = yogabonusbw.png; path = ../assets/icons/yogabonusbw.png; sourceTree = "<group>"; };
 		2859F246BED0464D868E64FA /* gold.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = gold.png; path = ../assets/backgrounds/gold.png; sourceTree = "<group>"; };
@@ -174,7 +172,6 @@
 		5C6E451CCC5D4577BC57C376 /* mindbw.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = mindbw.png; path = ../assets/icons/mindbw.png; sourceTree = "<group>"; };
 		5EFB774B400F48BAA540C7BA /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
 		63FEFC2D4CFB411495C92392 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
-		65942748C28F49FD970A8505 /* Introducing_the_Founders.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Introducing_the_Founders.mp4; path = ../assets/video/Introducing_the_Founders.mp4; sourceTree = "<group>"; };
 		69293170BAB247F980E65B6C /* medal3.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = medal3.png; path = ../assets/medals/medal3.png; sourceTree = "<group>"; };
 		6F7461284C7F4FB389870BD8 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		6F86764691FD4D31AC1AF0CB /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Italic.ttf"; path = "../assets/fonts/RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
@@ -186,63 +183,70 @@
 		77593CFFA01D480A8DAAAB16 /* medal1.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = medal1.png; path = ../assets/medals/medal1.png; sourceTree = "<group>"; };
 		78ED47E1FC6D4618AB24D06C /* ohio.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ohio.png; path = ../assets/logo/ohio.png; sourceTree = "<group>"; };
 		7AA82D67AC714CB8850F6D95 /* goldie5.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = goldie5.png; path = ../assets/goldies/goldie5.png; sourceTree = "<group>"; };
-		7F35A2A25F9B4677993702BB /* logo180.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo180.png; path = ../assets/logo/ios/logo180.png; sourceTree = "<group>"; };
 		817BDA0A40E045768A2E4E73 /* goldie3.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = goldie3.png; path = ../assets/goldies/goldie3.png; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = GSHDemo/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		82EC8485C45E4BE18BA94F7D /* Meet_Tiffany_Asp.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Meet_Tiffany_Asp.mp4; path = ../assets/video/Meet_Tiffany_Asp.mp4; sourceTree = "<group>"; };
 		83F99AC7C5B841D78B0F8C92 /* goldie8.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = goldie8.png; path = ../assets/goldies/goldie8.png; sourceTree = "<group>"; };
 		8554C04FCB5645CC9643BB3B /* splash.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = splash.png; path = ../assets/backgrounds/splash.png; sourceTree = "<group>"; };
 		86EFEC409E724191B758108E /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MaterialIcons-Regular.ttf"; path = "../assets/fonts/MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
-		8744B0C5D9124811913826FA /* WD-40.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WD-40.mp4"; path = "../assets/video/WD-40.mp4"; sourceTree = "<group>"; };
 		89CC511979B046869F61D1C4 /* goldie2.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = goldie2.png; path = ../assets/goldies/goldie2.png; sourceTree = "<group>"; };
 		8BF6E95E5F7B4220B83203F7 /* medal2.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = medal2.png; path = ../assets/medals/medal2.png; sourceTree = "<group>"; };
 		911EBC0F498C49DA86D53531 /* MichaelFredericson.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MichaelFredericson.png; path = ../assets/people/MichaelFredericson.png; sourceTree = "<group>"; };
 		91CBF70B9EEB4C99BA0DA5A2 /* community.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = community.png; path = ../assets/icons/community.png; sourceTree = "<group>"; };
 		937C2023ED314594904219BF /* mindwhite.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = mindwhite.png; path = ../assets/icons/mindwhite.png; sourceTree = "<group>"; };
-		937CB3B7542944A69C47A7EB /* logo1024.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo1024.png; path = ../assets/logo/ios/logo1024.png; sourceTree = "<group>"; };
 		9ACE44765F4348F3B72B606F /* yogabw.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = yogabw.png; path = ../assets/icons/yogabw.png; sourceTree = "<group>"; };
 		9C9639ABE4BD4DCCA29A2059 /* AllisonMarsdenBw.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AllisonMarsdenBw.png; path = ../assets/people/practitioner/bw/AllisonMarsdenBw.png; sourceTree = "<group>"; };
 		9F02FA061597482CB0235F8E /* CarrieTice.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = CarrieTice.png; path = ../assets/people/CarrieTice.png; sourceTree = "<group>"; };
 		AA7057BDCA9C6A0F9B0E869F /* libPods-GSHDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GSHDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE62B56A4944CAA8BD61F68 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Bold.ttf"; path = "../assets/fonts/RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
 		ADE79349A1A34E4986E7296E /* ucsf.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ucsf.png; path = ../assets/logo/ucsf.png; sourceTree = "<group>"; };
-		B050B9FEB1EB4789BE764B0B /* Introducing_Josh_Levin.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Introducing_Josh_Levin.mp4; path = ../assets/video/Introducing_Josh_Levin.mp4; sourceTree = "<group>"; };
 		B7C3C5A34C534544AEBD7A91 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
 		B86C8E522C6B409F850B6560 /* DavePaunesku.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = DavePaunesku.png; path = ../assets/people/DavePaunesku.png; sourceTree = "<group>"; };
 		BBA15906CC374402BC425EB6 /* splash-screen.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "splash-screen.png"; path = "../assets/backgrounds/splash-screen.png"; sourceTree = "<group>"; };
-		BCDFDD3640A8438FA6E93207 /* Meet_Shari_Becker.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Meet_Shari_Becker.mp4; path = ../assets/video/Meet_Shari_Becker.mp4; sourceTree = "<group>"; };
-		BE9AB787B4C5409F968CC444 /* Bridge.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Bridge.mp4; path = ../assets/video/Bridge.mp4; sourceTree = "<group>"; };
 		C762977DB6354966BAB2C793 /* crunchwhite.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = crunchwhite.png; path = ../assets/icons/crunchwhite.png; sourceTree = "<group>"; };
 		C9C3483DCEEC42AE8BC3A8FE /* home.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = home.png; path = ../assets/icons/home.png; sourceTree = "<group>"; };
 		CA3B03601B3D4A1A8FFBD334 /* RickyYuBw.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = RickyYuBw.png; path = ../assets/people/practitioner/bw/RickyYuBw.png; sourceTree = "<group>"; };
-		CC23E869CFC9481FB7975A84 /* logo80.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo80.png; path = ../assets/logo/ios/logo80.png; sourceTree = "<group>"; };
 		CC37BF154EBC357B37CCD17E /* Pods-GSHDemo-GSHDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSHDemo-GSHDemoTests.release.xcconfig"; path = "Target Support Files/Pods-GSHDemo-GSHDemoTests/Pods-GSHDemo-GSHDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		CCA13DFE9B7A44C7A4BC205D /* logo87.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo87.png; path = ../assets/logo/ios/logo87.png; sourceTree = "<group>"; };
 		D4520E338A2C455AAFA3DC2A /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
-		D7E9300FC5854B9FAB3847B8 /* Introducing_Philippe_Goldin.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Introducing_Philippe_Goldin.mp4; path = ../assets/video/Introducing_Philippe_Goldin.mp4; sourceTree = "<group>"; };
-		D83C3C4E511347B5B6394D64 /* Chronic_pain_recovery.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Chronic_pain_recovery.mp4; path = ../assets/video/Chronic_pain_recovery.mp4; sourceTree = "<group>"; };
 		D8C2B2D7436D4F2B85261AF9 /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-LightItalic.ttf"; path = "../assets/fonts/RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
 		DA617928375A4BA092CD2D78 /* RickyYu.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = RickyYu.png; path = ../assets/people/practitioner/color/RickyYu.png; sourceTree = "<group>"; };
 		DB13BC3EC0E442AD9F5B6309 /* gsh.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = gsh.png; path = ../assets/logo/gsh.png; sourceTree = "<group>"; };
 		DB466664012346C6B2C8C151 /* goldie6.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = goldie6.png; path = ../assets/goldies/goldie6.png; sourceTree = "<group>"; };
 		E0D60A341B5F4CC6A4B448CE /* trophy.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = trophy.png; path = ../assets/icons/trophy.png; sourceTree = "<group>"; };
 		E37BF216C7A54A6A9DD93BA2 /* ucdavis.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ucdavis.png; path = ../assets/logo/ucdavis.png; sourceTree = "<group>"; };
-		E49AB0DB7A02445EB9987CE7 /* Squat.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Squat.mp4; path = ../assets/video/Squat.mp4; sourceTree = "<group>"; };
 		E656EF1B87F24CFDAAC8D22D /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-BoldItalic.ttf"; path = "../assets/fonts/RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
 		E9BE94CAB8E644EA9EC0E5A5 /* stretchbw.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = stretchbw.png; path = ../assets/icons/stretchbw.png; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F0050E5F68864FB1AC36C2BC /* logo120.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo120.png; path = ../assets/logo/ios/logo120.png; sourceTree = "<group>"; };
 		F1101E264D0D47709096A728 /* mentalSocial.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = mentalSocial.png; path = ../assets/social/mentalSocial.png; sourceTree = "<group>"; };
 		F46A24318AAB47B3954BD1C3 /* univercity.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = univercity.png; path = ../assets/logo/univercity.png; sourceTree = "<group>"; };
 		F48DE797AF674ED6A4EFE878 /* progress.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = progress.png; path = ../assets/icons/progress.png; sourceTree = "<group>"; };
 		F71FF7E8FDD2486F86A4F6A9 /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
 		F81E482FD7814E1C8637B697 /* physicalSocial.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = physicalSocial.png; path = ../assets/social/physicalSocial.png; sourceTree = "<group>"; };
-		F91B411DB70147ABA83A38AF /* Meditation.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Meditation.mp4; path = ../assets/video/Meditation.mp4; sourceTree = "<group>"; };
 		F92CD7AD1C4449539BA7C906 /* basket.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = basket.png; path = ../assets/social/basket.png; sourceTree = "<group>"; };
 		FBDE5D0542CD4E3D89B3A894 /* brainbonusbw.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = brainbonusbw.png; path = ../assets/icons/brainbonusbw.png; sourceTree = "<group>"; };
 		FCDAA7D26FAA4630A843B9F5 /* TiffanyAsp.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = TiffanyAsp.png; path = ../assets/people/practitioner/bw/TiffanyAsp.png; sourceTree = "<group>"; };
 		FE337A2433D8412DB497E85A /* goldie4.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = goldie4.png; path = ../assets/goldies/goldie4.png; sourceTree = "<group>"; };
 		FF28F7B5E5A24A6DBE8410DF /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		9483929CDC2C4301B8B7A5AD /* Find_Your_Internal_Carrot.jpg */ = {isa = PBXFileReference; name = "Find_Your_Internal_Carrot.jpg"; path = "../assets/video/Find_Your_Internal_Carrot.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		19D6015CFEF04B439558E6BB /* Gold_Standard_Bridge.jpg */ = {isa = PBXFileReference; name = "Gold_Standard_Bridge.jpg"; path = "../assets/video/Gold_Standard_Bridge.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9A0BDDC94FB546EDBC670324 /* Gold_Standard_Side_Lift.jpg */ = {isa = PBXFileReference; name = "Gold_Standard_Side_Lift.jpg"; path = "../assets/video/Gold_Standard_Side_Lift.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CF331F557A09422584DC269B /* Gold_Standard_Squat.jpg */ = {isa = PBXFileReference; name = "Gold_Standard_Squat.jpg"; path = "../assets/video/Gold_Standard_Squat.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		493154A4178F49BBA9D66313 /* Guided_Meditation_Shari_Becker_10min.jpg */ = {isa = PBXFileReference; name = "Guided_Meditation_Shari_Becker_10min.jpg"; path = "../assets/video/Guided_Meditation_Shari_Becker_10min.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6985B44F5B9C4FC2B53266EF /* Introducing_the_Founders.jpg */ = {isa = PBXFileReference; name = "Introducing_the_Founders.jpg"; path = "../assets/video/Introducing_the_Founders.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D4D4B06BE1824D5AB0755511 /* Meet_Dr_Josh_Levin.jpg */ = {isa = PBXFileReference; name = "Meet_Dr_Josh_Levin.jpg"; path = "../assets/video/Meet_Dr_Josh_Levin.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		11512609D8084CFE95CD4772 /* Meet_Dr_Philippe_Goldin.jpg */ = {isa = PBXFileReference; name = "Meet_Dr_Philippe_Goldin.jpg"; path = "../assets/video/Meet_Dr_Philippe_Goldin.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B6D9610899DF4A02A379AE9E /* Meet_Dr_Ricky_Yu.jpg */ = {isa = PBXFileReference; name = "Meet_Dr_Ricky_Yu.jpg"; path = "../assets/video/Meet_Dr_Ricky_Yu.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AC766185E02B4EC19C9F87F8 /* Meet_Dr_Shari_Becker.jpg */ = {isa = PBXFileReference; name = "Meet_Dr_Shari_Becker.jpg"; path = "../assets/video/Meet_Dr_Shari_Becker.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		594C4CB1610F450FA7219675 /* Meet_Dr_Tiffany_Asp.jpg */ = {isa = PBXFileReference; name = "Meet_Dr_Tiffany_Asp.jpg"; path = "../assets/video/Meet_Dr_Tiffany_Asp.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C3FEE5C215F24148A804E042 /* Meet_The_Founders_Gold_Standard_Health.jpg */ = {isa = PBXFileReference; name = "Meet_The_Founders_Gold_Standard_Health.jpg"; path = "../assets/video/Meet_The_Founders_Gold_Standard_Health.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8A2D2FF486F0450B8DFF7BA9 /* WD-40_For_The_Mind.jpg */ = {isa = PBXFileReference; name = "WD-40_For_The_Mind.jpg"; path = "../assets/video/WD-40_For_The_Mind.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EFCB6939CDDB40AA8EF6BA1B /* logo1024.png */ = {isa = PBXFileReference; name = "logo1024.png"; path = "../assets/logo/ios/logo1024.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3E10B199DBF049578C0EB704 /* logo120.png */ = {isa = PBXFileReference; name = "logo120.png"; path = "../assets/logo/ios/logo120.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5C6676F347B44CB289701EF3 /* logo180.png */ = {isa = PBXFileReference; name = "logo180.png"; path = "../assets/logo/ios/logo180.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		123144429B2D4F778EF3BD3B /* logo40.png */ = {isa = PBXFileReference; name = "logo40.png"; path = "../assets/logo/ios/logo40.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A8CCAABE0F6447F6A4CE07A7 /* logo58.png */ = {isa = PBXFileReference; name = "logo58.png"; path = "../assets/logo/ios/logo58.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0C58B281C679471C8A804C84 /* logo60.png */ = {isa = PBXFileReference; name = "logo60.png"; path = "../assets/logo/ios/logo60.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		387C07A297D7483096FB0FC6 /* logo80.png */ = {isa = PBXFileReference; name = "logo80.png"; path = "../assets/logo/ios/logo80.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		49C73251F42040D0933BAC40 /* logo87.png */ = {isa = PBXFileReference; name = "logo87.png"; path = "../assets/logo/ios/logo87.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -342,17 +346,6 @@
 				54ED7C93E2144878A6977C58 /* StephenBaxter.png */,
 				088FEB752F6D4415ABCF00FE /* YuvalSpector.png */,
 				24930ECA7C5B4F4DBAA6C0C6 /* smedicine.png */,
-				B050B9FEB1EB4789BE764B0B /* Introducing_Josh_Levin.mp4 */,
-				65942748C28F49FD970A8505 /* Introducing_the_Founders.mp4 */,
-				82EC8485C45E4BE18BA94F7D /* Meet_Tiffany_Asp.mp4 */,
-				937CB3B7542944A69C47A7EB /* logo1024.png */,
-				F0050E5F68864FB1AC36C2BC /* logo120.png */,
-				7F35A2A25F9B4677993702BB /* logo180.png */,
-				008B636803D145108A1320F0 /* logo40.png */,
-				2059D638B70A4A47BF24BAD8 /* logo58.png */,
-				215654EBFDB74C8CAE06A3FE /* logo60.png */,
-				CC23E869CFC9481FB7975A84 /* logo80.png */,
-				CCA13DFE9B7A44C7A4BC205D /* logo87.png */,
 				7623CF634979491DB4607448 /* bg.png */,
 				2859F246BED0464D868E64FA /* gold.png */,
 				8554C04FCB5645CC9643BB3B /* splash.png */,
@@ -393,9 +386,7 @@
 				5BDE93B1ABC547E8BFEDBA84 /* yogabonus.png */,
 				24E65C73B55D43EC8973C760 /* yogabonusbw.png */,
 				9ACE44765F4348F3B72B606F /* yogabw.png */,
-				D83C3C4E511347B5B6394D64 /* Chronic_pain_recovery.mp4 */,
 				34EED76DA00B40C598ABEABE /* info.png */,
-				E49AB0DB7A02445EB9987CE7 /* Squat.mp4 */,
 				46B4F03359184D20838C2E43 /* goldie1.png */,
 				89CC511979B046869F61D1C4 /* goldie2.png */,
 				817BDA0A40E045768A2E4E73 /* goldie3.png */,
@@ -404,12 +395,27 @@
 				DB466664012346C6B2C8C151 /* goldie6.png */,
 				73D078E083284E3E83D22F48 /* goldie7.png */,
 				83F99AC7C5B841D78B0F8C92 /* goldie8.png */,
-				BE9AB787B4C5409F968CC444 /* Bridge.mp4 */,
-				D7E9300FC5854B9FAB3847B8 /* Introducing_Philippe_Goldin.mp4 */,
-				BCDFDD3640A8438FA6E93207 /* Meet_Shari_Becker.mp4 */,
-				0CCA013656BD46B4B97D475A /* Side_Lift.mp4 */,
-				8744B0C5D9124811913826FA /* WD-40.mp4 */,
-				F91B411DB70147ABA83A38AF /* Meditation.mp4 */,
+				9483929CDC2C4301B8B7A5AD /* Find_Your_Internal_Carrot.jpg */,
+				19D6015CFEF04B439558E6BB /* Gold_Standard_Bridge.jpg */,
+				9A0BDDC94FB546EDBC670324 /* Gold_Standard_Side_Lift.jpg */,
+				CF331F557A09422584DC269B /* Gold_Standard_Squat.jpg */,
+				493154A4178F49BBA9D66313 /* Guided_Meditation_Shari_Becker_10min.jpg */,
+				6985B44F5B9C4FC2B53266EF /* Introducing_the_Founders.jpg */,
+				D4D4B06BE1824D5AB0755511 /* Meet_Dr_Josh_Levin.jpg */,
+				11512609D8084CFE95CD4772 /* Meet_Dr_Philippe_Goldin.jpg */,
+				B6D9610899DF4A02A379AE9E /* Meet_Dr_Ricky_Yu.jpg */,
+				AC766185E02B4EC19C9F87F8 /* Meet_Dr_Shari_Becker.jpg */,
+				594C4CB1610F450FA7219675 /* Meet_Dr_Tiffany_Asp.jpg */,
+				C3FEE5C215F24148A804E042 /* Meet_The_Founders_Gold_Standard_Health.jpg */,
+				8A2D2FF486F0450B8DFF7BA9 /* WD-40_For_The_Mind.jpg */,
+				EFCB6939CDDB40AA8EF6BA1B /* logo1024.png */,
+				3E10B199DBF049578C0EB704 /* logo120.png */,
+				5C6676F347B44CB289701EF3 /* logo180.png */,
+				123144429B2D4F778EF3BD3B /* logo40.png */,
+				A8CCAABE0F6447F6A4CE07A7 /* logo58.png */,
+				0C58B281C679471C8A804C84 /* logo60.png */,
+				387C07A297D7483096FB0FC6 /* logo80.png */,
+				49C73251F42040D0933BAC40 /* logo87.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -586,17 +592,6 @@
 				1363383CB374408FBA4A6C85 /* ShariBecker.png in Resources */,
 				71677964D4DC4AA89ADABD20 /* StephenBaxter.png in Resources */,
 				5347C3DFE74742BDAD5F675C /* YuvalSpector.png in Resources */,
-				F95A79CD64EC4F27834FD437 /* Introducing_Josh_Levin.mp4 in Resources */,
-				5DB0D771584443B59F32AAC4 /* Introducing_the_Founders.mp4 in Resources */,
-				5A982538EE0C4D6F88CBDE50 /* Meet_Tiffany_Asp.mp4 in Resources */,
-				6766D71B72AE445696180AB1 /* logo1024.png in Resources */,
-				2C2F2E0961D54B3CAA3F8449 /* logo120.png in Resources */,
-				D73200A9EB65477897FB88B2 /* logo180.png in Resources */,
-				E84A504B8EEB4AF4969EDBDB /* logo40.png in Resources */,
-				BD0BDF25A0D34EDD98C30F63 /* logo58.png in Resources */,
-				0FD834493BDA4B258E86E200 /* logo60.png in Resources */,
-				5D678A57909D43B996A185BB /* logo80.png in Resources */,
-				F932F42E00A4428783FF6C62 /* logo87.png in Resources */,
 				C363E3A9A5F549CF915941F0 /* bg.png in Resources */,
 				E35EC5DE2B514F9E88BDAAEA /* gold.png in Resources */,
 				3A4961D3771D4D74971FE17D /* splash.png in Resources */,
@@ -633,9 +628,7 @@
 				4AF986DBC09F4D3E86F05A11 /* yogabonus.png in Resources */,
 				FE0E07F0D5AB4CE28C0A8417 /* yogabonusbw.png in Resources */,
 				DB65C3E3978C4344B8C8CD89 /* yogabw.png in Resources */,
-				BD0BA4009B7648D2990452FC /* Chronic_pain_recovery.mp4 in Resources */,
 				01172BFDF2CE45609E5C0012 /* info.png in Resources */,
-				F12BF20B498F4D989388B6E6 /* Squat.mp4 in Resources */,
 				B1D8DF460BB347EB852AC700 /* goldie1.png in Resources */,
 				87C43CC9B1BE46CC84318354 /* goldie2.png in Resources */,
 				FF717FC6244844B3AABE751F /* goldie3.png in Resources */,
@@ -644,12 +637,27 @@
 				99A21D280EC74756A3A0D436 /* goldie6.png in Resources */,
 				59BC376EFB16413881BB69FB /* goldie7.png in Resources */,
 				3BFBA295D2C84B0596AECEB3 /* goldie8.png in Resources */,
-				AB7A92D46D5D4F62956D6F75 /* Bridge.mp4 in Resources */,
-				2C0B95972C4241CBBF08E046 /* Introducing_Philippe_Goldin.mp4 in Resources */,
-				D8ADA27CAC7845BFA28C4552 /* Meet_Shari_Becker.mp4 in Resources */,
-				AB8DF12D769947449E1330B7 /* Side_Lift.mp4 in Resources */,
-				AA8DA317512A4E8CAB03DC2D /* WD-40.mp4 in Resources */,
-				1B45E87FB90B4817917F3033 /* Meditation.mp4 in Resources */,
+				C70FA96E131E4A18B42D3DC7 /* Find_Your_Internal_Carrot.jpg in Resources */,
+				DC9BBD05DBAD45A6899FFDDD /* Gold_Standard_Bridge.jpg in Resources */,
+				86C62C60D65E4CD78621A30D /* Gold_Standard_Side_Lift.jpg in Resources */,
+				387BF35E9E7049128C0BCC11 /* Gold_Standard_Squat.jpg in Resources */,
+				127A0E9FBE2E4C38A1A8EDAD /* Guided_Meditation_Shari_Becker_10min.jpg in Resources */,
+				6EE68116742B41759F75CEC6 /* Introducing_the_Founders.jpg in Resources */,
+				918445229D704BA298028882 /* Meet_Dr_Josh_Levin.jpg in Resources */,
+				0544CDB8EA3B44598AEAB02A /* Meet_Dr_Philippe_Goldin.jpg in Resources */,
+				D878C454D4E04F70AA9CBF66 /* Meet_Dr_Ricky_Yu.jpg in Resources */,
+				B23FC80881594F6683F38FDC /* Meet_Dr_Shari_Becker.jpg in Resources */,
+				B5C94917A5534B488552017C /* Meet_Dr_Tiffany_Asp.jpg in Resources */,
+				FAF674B821A543C2B25C8DD5 /* Meet_The_Founders_Gold_Standard_Health.jpg in Resources */,
+				466424F1980F4B159069AD28 /* WD-40_For_The_Mind.jpg in Resources */,
+				7DBC57BBA4FF4D63B57D7BC8 /* logo1024.png in Resources */,
+				C8235D0F4A5F40C9963A6314 /* logo120.png in Resources */,
+				9D792DEB7C514E4EAF2B21A8 /* logo180.png in Resources */,
+				9243BD9AF4634CE0BF3BBA9D /* logo40.png in Resources */,
+				E151D701EC31401991187BD8 /* logo58.png in Resources */,
+				187700FEDA2443D7B4CBF9AC /* logo60.png in Resources */,
+				46557CC193B64605BAF264AB /* logo80.png in Resources */,
+				9E14597F9A88431EB51B2433 /* logo87.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
