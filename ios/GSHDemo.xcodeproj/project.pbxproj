@@ -12,7 +12,6 @@
 		05A28C7DD9C8424E86C534ED /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C3483DCEEC42AE8BC3A8FE /* home.png */; };
 		0639717E000A44BABF6481D6 /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86EFEC409E724191B758108E /* MaterialIcons-Regular.ttf */; };
 		064EB2031E1F4D789025D5A7 /* RickyYuBw.png in Resources */ = {isa = PBXBuildFile; fileRef = CA3B03601B3D4A1A8FFBD334 /* RickyYuBw.png */; };
-		0C80B921A6F3F58F76C31292 /* libPods-GSHDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-GSHDemo.a */; };
 		0FD834493BDA4B258E86E200 /* logo60.png in Resources */ = {isa = PBXBuildFile; fileRef = 215654EBFDB74C8CAE06A3FE /* logo60.png */; };
 		1363383CB374408FBA4A6C85 /* ShariBecker.png in Resources */ = {isa = PBXBuildFile; fileRef = 104F6B30DFAE4489AA999E2B /* ShariBecker.png */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
@@ -54,7 +53,6 @@
 		67EF14812909469CB1BB4749 /* goldie4.png in Resources */ = {isa = PBXBuildFile; fileRef = FE337A2433D8412DB497E85A /* goldie4.png */; };
 		71677964D4DC4AA89ADABD20 /* StephenBaxter.png in Resources */ = {isa = PBXBuildFile; fileRef = 54ED7C93E2144878A6977C58 /* StephenBaxter.png */; };
 		72B9977633F941F695B12584 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF28F7B5E5A24A6DBE8410DF /* Roboto-Medium.ttf */; };
-		7699B88040F8A987B510C191 /* libPods-GSHDemo-GSHDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-GSHDemo-GSHDemoTests.a */; };
 		784A672CC6A2442FBB240DFC /* trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = E0D60A341B5F4CC6A4B448CE /* trophy.png */; };
 		78E15BB2634F4D6F876314D9 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F71FF7E8FDD2486F86A4F6A9 /* Roboto-Black.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -62,6 +60,7 @@
 		855DC42920444862956DC65D /* medal2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BF6E95E5F7B4220B83203F7 /* medal2.png */; };
 		85845CB3B41D4EBF95FCE4F9 /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8C2B2D7436D4F2B85261AF9 /* RobotoCondensed-LightItalic.ttf */; };
 		87C43CC9B1BE46CC84318354 /* goldie2.png in Resources */ = {isa = PBXBuildFile; fileRef = 89CC511979B046869F61D1C4 /* goldie2.png */; };
+		8BBF883CEC0FD8B4E1E974DA /* libPods-GSHDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7057BDCA9C6A0F9B0E869F /* libPods-GSHDemo.a */; };
 		91FCF59FB11F4FD1B6428E11 /* goldie5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AA82D67AC714CB8850F6D95 /* goldie5.png */; };
 		978B90EBA57C44D7843059E3 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13EF964ACC16431C832A0A9C /* Roboto-Light.ttf */; };
 		980FDBD5A0C14D829E75E187 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F7461284C7F4FB389870BD8 /* Roboto-Regular.ttf */; };
@@ -93,6 +92,7 @@
 		D73200A9EB65477897FB88B2 /* logo180.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F35A2A25F9B4677993702BB /* logo180.png */; };
 		D8ADA27CAC7845BFA28C4552 /* Meet_Shari_Becker.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BCDFDD3640A8438FA6E93207 /* Meet_Shari_Becker.mp4 */; };
 		DA1867D7ABF942B8BDD7E027 /* yoga.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B960BFEA59A4275B5E1599D /* yoga.png */; };
+		DAB7A26A5A3EB96D4200721B /* libPods-GSHDemo-GSHDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B2C35080AA7D9F68963DB2 /* libPods-GSHDemo-GSHDemoTests.a */; };
 		DB10446CC98A442D8C3264AC /* AllisonMarsdenBw.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9639ABE4BD4DCCA29A2059 /* AllisonMarsdenBw.png */; };
 		DB65C3E3978C4344B8C8CD89 /* yogabw.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ACE44765F4348F3B72B606F /* yogabw.png */; };
 		DDFEDEC6C6F748DA95E47841 /* TiffanyAspBw.png in Resources */ = {isa = PBXBuildFile; fileRef = 728965E1515C47D1BA30C2D4 /* TiffanyAspBw.png */; };
@@ -132,6 +132,7 @@
 		0B960BFEA59A4275B5E1599D /* yoga.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = yoga.png; path = ../assets/sports/yoga.png; sourceTree = "<group>"; };
 		0C7855CF5FCB4D219A9C98CE /* CorinneCooleyBw.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = CorinneCooleyBw.png; path = ../assets/people/practitioner/bw/CorinneCooleyBw.png; sourceTree = "<group>"; };
 		0CA39952A3CA493EB1B07E08 /* PhilippeGoldin.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = PhilippeGoldin.png; path = ../assets/people/PhilippeGoldin.png; sourceTree = "<group>"; };
+		0CB44A749D54D9146DACF526 /* Pods-GSHDemo-GSHDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSHDemo-GSHDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-GSHDemo-GSHDemoTests/Pods-GSHDemo-GSHDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0CCA013656BD46B4B97D475A /* Side_Lift.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Side_Lift.mp4; path = ../assets/video/Side_Lift.mp4; sourceTree = "<group>"; };
 		104F6B30DFAE4489AA999E2B /* ShariBecker.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ShariBecker.png; path = ../assets/people/ShariBecker.png; sourceTree = "<group>"; };
 		10800CF776D4437580D88FA4 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
@@ -143,8 +144,8 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GSHDemo/main.m; sourceTree = "<group>"; };
 		13EF964ACC16431C832A0A9C /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
 		14872ADB157E438EB334B1B2 /* JoshLevin.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = JoshLevin.png; path = ../assets/people/JoshLevin.png; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-GSHDemo-GSHDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GSHDemo-GSHDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C47A451FD424119A32E6953 /* crunchbw.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = crunchbw.png; path = ../assets/icons/crunchbw.png; sourceTree = "<group>"; };
+		1F9870A5445CD5F03E51A34B /* Pods-GSHDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSHDemo.release.xcconfig"; path = "Target Support Files/Pods-GSHDemo/Pods-GSHDemo.release.xcconfig"; sourceTree = "<group>"; };
 		2059D638B70A4A47BF24BAD8 /* logo58.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo58.png; path = ../assets/logo/ios/logo58.png; sourceTree = "<group>"; };
 		215654EBFDB74C8CAE06A3FE /* logo60.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo60.png; path = ../assets/logo/ios/logo60.png; sourceTree = "<group>"; };
 		24930ECA7C5B4F4DBAA6C0C6 /* smedicine.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = smedicine.png; path = ../assets/smedicine.png; sourceTree = "<group>"; };
@@ -157,8 +158,9 @@
 		2F45CDF6221C45F4891B3831 /* connect.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = connect.png; path = ../assets/icons/connect.png; sourceTree = "<group>"; };
 		3020523EA7F3472B8F25F5BE /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Regular.ttf"; path = "../assets/fonts/RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
 		34EED76DA00B40C598ABEABE /* info.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = info.png; path = ../assets/icons/info.png; sourceTree = "<group>"; };
+		36B2C35080AA7D9F68963DB2 /* libPods-GSHDemo-GSHDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GSHDemo-GSHDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C2300F00F74B2CB5D7B7D2 /* CorinneCooley.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = CorinneCooley.png; path = ../assets/people/practitioner/bw/CorinneCooley.png; sourceTree = "<group>"; };
-		3B4392A12AC88292D35C810B /* Pods-GSHDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSHDemo.debug.xcconfig"; path = "Target Support Files/Pods-GSHDemo/Pods-GSHDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3B0E7CBC818AF4A7EBD22CB0 /* Pods-GSHDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSHDemo.debug.xcconfig"; path = "Target Support Files/Pods-GSHDemo/Pods-GSHDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		404B92BAB923451B9173351B /* PazAlsterBw.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = PazAlsterBw.png; path = ../assets/people/practitioner/bw/PazAlsterBw.png; sourceTree = "<group>"; };
 		45FCEF2EE5D44381A8BBC037 /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Light.ttf"; path = "../assets/fonts/RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
 		46B4F03359184D20838C2E43 /* goldie1.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = goldie1.png; path = ../assets/goldies/goldie1.png; sourceTree = "<group>"; };
@@ -166,13 +168,10 @@
 		48616AC8E9504BB881DF3E8C /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		4C17F303492E4414A052B1BC /* somatic.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = somatic.png; path = ../assets/logo/somatic.png; sourceTree = "<group>"; };
 		54ED7C93E2144878A6977C58 /* StephenBaxter.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = StephenBaxter.png; path = ../assets/people/StephenBaxter.png; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-GSHDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSHDemo.release.xcconfig"; path = "Target Support Files/Pods-GSHDemo/Pods-GSHDemo.release.xcconfig"; sourceTree = "<group>"; };
 		571093EEC5994E9C90003621 /* HeatherKing.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = HeatherKing.png; path = ../assets/people/HeatherKing.png; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-GSHDemo-GSHDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSHDemo-GSHDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-GSHDemo-GSHDemoTests/Pods-GSHDemo-GSHDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B98BACF745C4BF89B8238D0 /* running.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = running.png; path = ../assets/sports/running.png; sourceTree = "<group>"; };
 		5BDE93B1ABC547E8BFEDBA84 /* yogabonus.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = yogabonus.png; path = ../assets/icons/yogabonus.png; sourceTree = "<group>"; };
 		5C6E451CCC5D4577BC57C376 /* mindbw.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = mindbw.png; path = ../assets/icons/mindbw.png; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-GSHDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GSHDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EFB774B400F48BAA540C7BA /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
 		63FEFC2D4CFB411495C92392 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		65942748C28F49FD970A8505 /* Introducing_the_Founders.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Introducing_the_Founders.mp4; path = ../assets/video/Introducing_the_Founders.mp4; sourceTree = "<group>"; };
@@ -195,7 +194,6 @@
 		8554C04FCB5645CC9643BB3B /* splash.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = splash.png; path = ../assets/backgrounds/splash.png; sourceTree = "<group>"; };
 		86EFEC409E724191B758108E /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MaterialIcons-Regular.ttf"; path = "../assets/fonts/MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
 		8744B0C5D9124811913826FA /* WD-40.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WD-40.mp4"; path = "../assets/video/WD-40.mp4"; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-GSHDemo-GSHDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSHDemo-GSHDemoTests.release.xcconfig"; path = "Target Support Files/Pods-GSHDemo-GSHDemoTests/Pods-GSHDemo-GSHDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		89CC511979B046869F61D1C4 /* goldie2.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = goldie2.png; path = ../assets/goldies/goldie2.png; sourceTree = "<group>"; };
 		8BF6E95E5F7B4220B83203F7 /* medal2.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = medal2.png; path = ../assets/medals/medal2.png; sourceTree = "<group>"; };
 		911EBC0F498C49DA86D53531 /* MichaelFredericson.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MichaelFredericson.png; path = ../assets/people/MichaelFredericson.png; sourceTree = "<group>"; };
@@ -205,6 +203,7 @@
 		9ACE44765F4348F3B72B606F /* yogabw.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = yogabw.png; path = ../assets/icons/yogabw.png; sourceTree = "<group>"; };
 		9C9639ABE4BD4DCCA29A2059 /* AllisonMarsdenBw.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AllisonMarsdenBw.png; path = ../assets/people/practitioner/bw/AllisonMarsdenBw.png; sourceTree = "<group>"; };
 		9F02FA061597482CB0235F8E /* CarrieTice.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = CarrieTice.png; path = ../assets/people/CarrieTice.png; sourceTree = "<group>"; };
+		AA7057BDCA9C6A0F9B0E869F /* libPods-GSHDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GSHDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE62B56A4944CAA8BD61F68 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Bold.ttf"; path = "../assets/fonts/RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
 		ADE79349A1A34E4986E7296E /* ucsf.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ucsf.png; path = ../assets/logo/ucsf.png; sourceTree = "<group>"; };
 		B050B9FEB1EB4789BE764B0B /* Introducing_Josh_Levin.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Introducing_Josh_Levin.mp4; path = ../assets/video/Introducing_Josh_Levin.mp4; sourceTree = "<group>"; };
@@ -217,6 +216,7 @@
 		C9C3483DCEEC42AE8BC3A8FE /* home.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = home.png; path = ../assets/icons/home.png; sourceTree = "<group>"; };
 		CA3B03601B3D4A1A8FFBD334 /* RickyYuBw.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = RickyYuBw.png; path = ../assets/people/practitioner/bw/RickyYuBw.png; sourceTree = "<group>"; };
 		CC23E869CFC9481FB7975A84 /* logo80.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo80.png; path = ../assets/logo/ios/logo80.png; sourceTree = "<group>"; };
+		CC37BF154EBC357B37CCD17E /* Pods-GSHDemo-GSHDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSHDemo-GSHDemoTests.release.xcconfig"; path = "Target Support Files/Pods-GSHDemo-GSHDemoTests/Pods-GSHDemo-GSHDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		CCA13DFE9B7A44C7A4BC205D /* logo87.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo87.png; path = ../assets/logo/ios/logo87.png; sourceTree = "<group>"; };
 		D4520E338A2C455AAFA3DC2A /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
 		D7E9300FC5854B9FAB3847B8 /* Introducing_Philippe_Goldin.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Introducing_Philippe_Goldin.mp4; path = ../assets/video/Introducing_Philippe_Goldin.mp4; sourceTree = "<group>"; };
@@ -250,7 +250,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-GSHDemo-GSHDemoTests.a in Frameworks */,
+				DAB7A26A5A3EB96D4200721B /* libPods-GSHDemo-GSHDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +258,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-GSHDemo.a in Frameworks */,
+				8BBF883CEC0FD8B4E1E974DA /* libPods-GSHDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,8 +299,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-GSHDemo.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-GSHDemo-GSHDemoTests.a */,
+				AA7057BDCA9C6A0F9B0E869F /* libPods-GSHDemo.a */,
+				36B2C35080AA7D9F68963DB2 /* libPods-GSHDemo-GSHDemoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -449,10 +449,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-GSHDemo.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-GSHDemo.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-GSHDemo-GSHDemoTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-GSHDemo-GSHDemoTests.release.xcconfig */,
+				3B0E7CBC818AF4A7EBD22CB0 /* Pods-GSHDemo.debug.xcconfig */,
+				1F9870A5445CD5F03E51A34B /* Pods-GSHDemo.release.xcconfig */,
+				0CB44A749D54D9146DACF526 /* Pods-GSHDemo-GSHDemoTests.debug.xcconfig */,
+				CC37BF154EBC357B37CCD17E /* Pods-GSHDemo-GSHDemoTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -464,12 +464,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "GSHDemoTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				9AFA40CE65FB6C34AF42498B /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				541EB880AEC99A9BF1740C37 /* [CP] Embed Pods Frameworks */,
+				38AC6CDF5A9859F964CA6D2C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -485,14 +485,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GSHDemo" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				51448120C9A813431331A338 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				442304EE521DA98262719848 /* [CP] Embed Pods Frameworks */,
+				C261C5B3C7E6CE9F06EC32F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -672,7 +672,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		38AC6CDF5A9859F964CA6D2C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GSHDemo-GSHDemoTests/Pods-GSHDemo-GSHDemoTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GSHDemo-GSHDemoTests/Pods-GSHDemo-GSHDemoTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GSHDemo-GSHDemoTests/Pods-GSHDemo-GSHDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		442304EE521DA98262719848 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -689,29 +706,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GSHDemo/Pods-GSHDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GSHDemo-GSHDemoTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		51448120C9A813431331A338 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -733,7 +728,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+		541EB880AEC99A9BF1740C37 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -750,7 +745,29 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GSHDemo-GSHDemoTests/Pods-GSHDemo-GSHDemoTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+		9AFA40CE65FB6C34AF42498B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GSHDemo-GSHDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C261C5B3C7E6CE9F06EC32F4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -765,23 +782,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GSHDemo/Pods-GSHDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GSHDemo-GSHDemoTests/Pods-GSHDemo-GSHDemoTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GSHDemo-GSHDemoTests/Pods-GSHDemo-GSHDemoTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GSHDemo-GSHDemoTests/Pods-GSHDemo-GSHDemoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -836,7 +836,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-GSHDemo-GSHDemoTests.debug.xcconfig */;
+			baseConfigurationReference = 0CB44A749D54D9146DACF526 /* Pods-GSHDemo-GSHDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -863,10 +863,11 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-GSHDemo-GSHDemoTests.release.xcconfig */;
+			baseConfigurationReference = CC37BF154EBC357B37CCD17E /* Pods-GSHDemo-GSHDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 42WVXSR3DB;
 				INFOPLIST_FILE = GSHDemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -887,7 +888,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-GSHDemo.debug.xcconfig */;
+			baseConfigurationReference = 3B0E7CBC818AF4A7EBD22CB0 /* Pods-GSHDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -923,7 +924,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-GSHDemo.release.xcconfig */;
+			baseConfigurationReference = 1F9870A5445CD5F03E51A34B /* Pods-GSHDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

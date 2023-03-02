@@ -6,14 +6,16 @@ import { ms } from 'react-native-size-matters';
 import { RobotoCondensed, blue, gold, base, logo } from '../config';
 
 type GSHProps = {
-  size: number;
+  size?: number;
   style?: StyleProp<ViewStyle>;
+  width?: number;
 }
 
 type Props = {
-  size: number;
+  size?: number;
   style?: StyleProp<ViewStyle>;
   company: string;
+  width?: number;
 }
 
 function GLogo({ size, style }: GSHProps) {
@@ -32,7 +34,10 @@ function GLogo({ size, style }: GSHProps) {
   );
 }
 
-export function GLogoLabel({ size, style }: GSHProps) {
+export function GLogoLabel({ size, style, width }: GSHProps) {
+  if (width) {
+    size = width/4.17;
+  }
   const scale = size / 120;
   return (
     <View style={ [{ alignSelf: 'center', height: size }, style] }>
@@ -52,17 +57,18 @@ export function GLogoLabel({ size, style }: GSHProps) {
   );
 }
 
-export function GCompanyLogo({ company, size, style }: Props) {
+export function GCompanyLogo({ company, size, style, width }: Props) {
   const scale = size;
+  const styles = width ? {
+    maxHeight: ms(150),
+    width: width
+  } : {
+    maxWidth: ms(150),
+    height: size
+  }
   return (
     <View style={ [{ alignSelf: 'center' }, style] }>
-      <Image source={logo[company]} style={{
-            //flex: 1,
-    maxWidth: ms(150),
-    height: size,
-    resizeMode: 'contain'
-
-      }}/>
+      <Image source={logo[company]} style={[styles, {resizeMode: 'contain'}]}/>
     </View>
   );
 }

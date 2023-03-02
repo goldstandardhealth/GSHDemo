@@ -40,7 +40,7 @@ function FinalLesson({ navigation, route }: FinalLessonNavigationProps) {
       <View>
         <GCallOut placement="bottomLeft" palette={goldieCallout} style={ [
             styles.chatRowRight,
-            { marginLeft: ms(80), marginBottom: 0, marginTop: ms(150), marginRight: ms(60) }
+            { marginLeft: ms(80), marginTop: ms(150), marginRight: ms(60) }
           ] }>
           <Text style={styles.text}>Congrats on finishing the activity!</Text>
         </GCallOut>

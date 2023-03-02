@@ -6,7 +6,7 @@ import { rootNavigate } from '../../../layout/RootNavigation';
 import { icons, getLessonVideo, VideoLessonNavigationProps, base, Roboto, RobotoCondensed, practitioners, experts } from '../../../config';
 import GScrollable from '../../../layout/GScrollable';
 import GBack from '../../../components/icons/GBack';
-import GVideo from '../../../components/GVideo';
+import GVideoHorizontal from '../../../components/GVideoHorizontal';
 
 function VideoLessonScreen({ navigation, route }: VideoLessonNavigationProps) {
   const { title, video, tutor, congrats, bonus, survey } = route.params;
@@ -66,7 +66,7 @@ function VideoLessonScreen({ navigation, route }: VideoLessonNavigationProps) {
         color: base.black + '8F',
         marginBottom: ms(60)
       }}>Click the info icon to learn more about { getFirstName(tutor.name) }!</Text>
-      <GVideo onEnd={() => setComplete(true)} stop={stopVideo} source={ getLessonVideo(video) }/>
+      <GVideoHorizontal onEnd={() => setComplete(true)} stop={stopVideo} source={ video }/>
       <TouchableOpacity style={{
         marginTop: vs(120),
         alignSelf: 'center',

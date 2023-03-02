@@ -3,9 +3,9 @@ import { StyleSheet, SafeAreaView, ScrollView, View, Text } from 'react-native';
 import { ms, vs } from 'react-native-size-matters';
 
 import GScrollable from '../../layout/GScrollable';
-import { WelcomeNavigationProps, RobotoCondensed, base, blue, gold, blueCallout } from '../../config';
+import { WelcomeNavigationProps, RobotoCondensed, base, blue, gold, blueCallout, VideoName } from '../../config';
 
-import GVideo from '../../components/GVideo';
+import GVideoHorizontal from '../../components/GVideoHorizontal';
 import GCallOut from '../../components/GCallOut';
 import GContinue from '../../components/GContinue';
 
@@ -28,7 +28,7 @@ function WelcomeScreen({ navigation }: WelcomeNavigationProps) {
           <Text style={ styles.highlight }>Gold Standard Health</Text>
         </Text>
       </GCallOut>
-      <GVideo source={require('../../../assets/video/Introducing_the_Founders.mp4')}/>
+      <GVideoHorizontal source="intro"/>
       <GContinue onPress={nextScreen} />
     </GScrollable>
   );

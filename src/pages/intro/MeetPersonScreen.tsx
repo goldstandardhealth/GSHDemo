@@ -6,7 +6,7 @@ import GScrollable from '../../layout/GScrollable';
 import { MeetPersonNavigationProps, RobotoCondensed, getExpertVideo, base, blue, gold } from '../../config';
 
 import GContinue from '../../components/GContinue';
-import GVideo from '../../components/GVideo';
+import GVideoHorizontal from '../../components/GVideoHorizontal';
 import GTitle from '../../components/GTitle';
 
 function MeetPersonScreen({ route, navigation }: MeetPersonNavigationProps) {
@@ -18,7 +18,7 @@ function MeetPersonScreen({ route, navigation }: MeetPersonNavigationProps) {
   return (
     <GScrollable type="bg">
       <GTitle style={styles.title}>{`Meet ${getFirstName(person.name)}!`}</GTitle>
-      <GVideo source={getExpertVideo(key)}/>
+      <GVideoHorizontal source={key}/>
       <GContinue onPress={() => navigation.goBack()} />
     </GScrollable>
   );

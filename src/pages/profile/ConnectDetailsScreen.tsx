@@ -80,7 +80,7 @@ function ConnectDetailsScreen({ navigation, route }: ConnectDetailsNavigationPro
         </TouchableOpacity>
         <Text style={{fontSize: ms(16), marginVertical: ms(15)}}>
           <Icon iconStyle={{fontSize: ms(20), marginRight: ms(5)}} type='material' name='phone' />
-          <GLink target={'tel://' + person.phone}>
+          <GLink target={'tel:' + person.phone}>
             <Text style={[styles.highlight, {fontSize: ms(16)}]}>{person.phone}</Text>
           </GLink>
         </Text>

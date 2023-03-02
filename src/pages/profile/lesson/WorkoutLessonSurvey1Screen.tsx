@@ -46,11 +46,13 @@ function WorkoutLessonSurvey1Screen({ navigation, route }: WorkoutLessonSurveyNa
 
   return (
     <GScrollable type="bg">
+{/*
       <View style={{flexDirection: 'row', alignSelf: 'flex-start'}}>
         <TouchableOpacity style={{ flex: 1, marginLeft: ms(10), marginTop: ms(10) }} onPress={() => navigation.goBack()}>
           <GBack size={ms(25)} />
         </TouchableOpacity>
       </View>
+*/}
       <GCallOut placement="bottomRight" palette={goldieCallout} style={ [styles.chatRowRight, { marginHorizontal: ms(50), marginVertical: ms(60), marginBottom: ms(20) }] }>
         <Text style={styles.text}>How easy was the exercise?</Text>
       </GCallOut>

@@ -6,8 +6,7 @@ import { rootNavigate } from '../../../layout/RootNavigation';
 import { icons, getLessonVideo, BonusLessonNavigationProps, base, Roboto, RobotoCondensed, practitioners, experts } from '../../../config';
 import GScrollable from '../../../layout/GScrollable';
 import GBack from '../../../components/icons/GBack';
-import GVideo from '../../../components/GVideo';
-import { GLogoLabel, GCompanyLogo } from '../../../components/GLogo';
+import GVideoVertical from '../../../components/GVideoVertical';
 
 function BonusLessonScreen({ navigation, route }: BonusLessonNavigationProps) {
   const { title, video, tutor } = route.params;
@@ -63,17 +62,11 @@ function BonusLessonScreen({ navigation, route }: BonusLessonNavigationProps) {
         textAlign: 'center',
         fontSize: ms(14),
         color: base.black + '8F',
-        marginBottom: ms(60)
+        marginBottom: ms(40)
       }}>Click the info icon to learn more about { getFirstName(tutor.name) }!</Text>
-      <View style={{
-        flexDirection: 'row',
-      }}>
-        <GLogoLabel size={ms(25)} style={{flex: 0.5, alignSelf: 'center'}} />
-        <GVideo style={{flex: 2}} onEnd={() => setComplete(true)} stop={stopVideo} source={ getLessonVideo(video) }/>
-        <GCompanyLogo size={ms(25)} style={{flex: 0.5, alignSelf: 'center'}} company={tutor.company} />
-      </View>
+      <GVideoVertical style={{flex: 2}} company={tutor.company} onEnd={() => setComplete(true)} stop={stopVideo} source={ video }/>
       <TouchableOpacity style={{
-        marginTop: vs(120),
+        marginTop: vs(40),
         alignSelf: 'center',
         backgroundColor: '#192E60',
         borderRadius: ms(25),

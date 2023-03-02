@@ -60,7 +60,7 @@ function VideoLessonCongratsScreen({ navigation, route }: VideoLessonCongratsNav
         <Goldie size={ms(100)} type="friend" style={ styles.chatRowLeft } />
       </Animated.View>
       <Animated.View style={{opacity: sayTwoAnim}}>
-        <GCallOut placement="bottomRight" palette={goldieCallout} style={ [styles.chatRowRight, { marginRight: ms(50), marginVertical: ms(20) }] }>
+        <GCallOut placement="bottomRight" palette={goldieCallout} style={ [styles.chatRowRight, { marginLeft: ms(10), marginRight: ms(40), marginVertical: ms(20) }] }>
           <Text style={styles.text}>Please answer a quick survey question so we can keep improving your experience</Text>
         </GCallOut>
         <Goldie size={ms(100)} type="cute" style={ styles.chatRowRight } />

@@ -40,36 +40,38 @@ function NavigationStack() {
     <Stack.Navigator screenOptions={{
         orientation: "portrait",
         animation: "fade",
-        headerTransparent: true
+        headerTransparent: true,
+        headerShown: false,
+        gestureEnabled: false
       }}>
-      <Stack.Screen name="Intro" component={IntroScreen} options={{ headerShown: false }} />
-      <Stack.Screen name="Welcome" component={WelcomeScreen} options={{ headerShown: false }} />
-      <Stack.Screen name="Experts" component={ExpertsScreen} options={{ headerShown: false }} />
-      <Stack.Screen name="MeetPerson" component={MeetPersonScreen} options={{ animation: "flip", headerShown: false }} />
-      <Stack.Screen name="Goldie" component={GoldieScreen} options={{ headerShown: false }} />
-      <Stack.Screen name="Goal" component={GoalScreen} options={{ headerShown: false }} />
-      <Stack.Screen name="Target" component={TargetScreen} options={{ headerShown: false }} />
-      <Stack.Screen name="Period" component={PeriodScreen} options={{ headerShown: false }} />
-      <Stack.Screen name="Experience" component={ExperienceScreen} options={{ headerShown: false }} />
-      <Stack.Screen name="TeaserOne" component={TeaserOneScreen} options={{ headerShown: false }} />
-      <Stack.Screen name="Mood" component={MoodScreen} options={{ headerShown: false }} />
-      <Stack.Screen name="TeaserTwo" component={TeaserTwoScreen} options={{ headerShown: false }} />
-      <Stack.Screen name="Loading" component={LoadingScreen} options={{ headerShown: false }} />
-      <Stack.Screen name="TeaserThree" component={TeaserThreeScreen} options={{ headerShown: false }} />
+      <Stack.Screen name="Intro" component={IntroScreen} />
+      <Stack.Screen name="Welcome" component={WelcomeScreen} />
+      <Stack.Screen name="Experts" component={ExpertsScreen} />
+      <Stack.Screen name="MeetPerson" component={MeetPersonScreen} options={{ animation: "flip" }} />
+      <Stack.Screen name="Goldie" component={GoldieScreen} />
+      <Stack.Screen name="Goal" component={GoalScreen} />
+      <Stack.Screen name="Target" component={TargetScreen} />
+      <Stack.Screen name="Period" component={PeriodScreen} />
+      <Stack.Screen name="Experience" component={ExperienceScreen} />
+      <Stack.Screen name="TeaserOne" component={TeaserOneScreen} />
+      <Stack.Screen name="Mood" component={MoodScreen} />
+      <Stack.Screen name="TeaserTwo" component={TeaserTwoScreen} />
+      <Stack.Screen name="Loading" component={LoadingScreen} />
+      <Stack.Screen name="TeaserThree" component={TeaserThreeScreen} />
 
-      <Stack.Screen name="ProfileTabs" component={ProfileTabs} options={{ headerShown: false }} />
-      <Stack.Screen name="Connect" component={ConnectScreen} options={{ headerShown: false }} />
-      <Stack.Screen name="ConnectDetails" component={ConnectDetailsScreen} options={{ headerShown: false }} />
+      <Stack.Screen name="ProfileTabs" component={ProfileTabs} />
+      <Stack.Screen name="Connect" component={ConnectScreen} />
+      <Stack.Screen name="ConnectDetails" component={ConnectDetailsScreen} />
 
-      <Stack.Screen name="VideoLesson" component={VideoLessonScreen} options={{ headerShown: false }} />
-      <Stack.Screen name="VideoLessonCongrats" component={VideoLessonCongratsScreen} options={{ headerShown: false }} />
-      <Stack.Screen name="VideoLessonSurvey" component={VideoLessonSurveyScreen} options={{ headerShown: false }} />
-      <Stack.Screen name="VideoLessonSurvey1" component={VideoLessonSurvey1Screen} options={{ headerShown: false }} />
-      <Stack.Screen name="WorkoutLesson" component={WorkoutLessonScreen} options={{ headerShown: false }} />
-      <Stack.Screen name="WorkoutLessonSurvey" component={WorkoutLessonSurveyScreen} options={{ headerShown: false }} />
-      <Stack.Screen name="WorkoutLessonSurvey1" component={WorkoutLessonSurvey1Screen} options={{ headerShown: false }} />
-      <Stack.Screen name="BonusLesson" component={BonusLessonScreen} options={{ headerShown: false }} />
-      <Stack.Screen name="FinalLesson" component={FinalLessonScreen} options={{ headerShown: false }} />
+      <Stack.Screen name="VideoLesson" component={VideoLessonScreen} />
+      <Stack.Screen name="VideoLessonCongrats" component={VideoLessonCongratsScreen} />
+      <Stack.Screen name="VideoLessonSurvey" component={VideoLessonSurveyScreen} />
+      <Stack.Screen name="VideoLessonSurvey1" component={VideoLessonSurvey1Screen} />
+      <Stack.Screen name="WorkoutLesson" component={WorkoutLessonScreen} />
+      <Stack.Screen name="WorkoutLessonSurvey" component={WorkoutLessonSurveyScreen} />
+      <Stack.Screen name="WorkoutLessonSurvey1" component={WorkoutLessonSurvey1Screen} />
+      <Stack.Screen name="BonusLesson" component={BonusLessonScreen} />
+      <Stack.Screen name="FinalLesson" component={FinalLessonScreen} />
     </Stack.Navigator>
   );
 }
