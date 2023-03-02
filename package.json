@@ -18,7 +18,7 @@
     "@react-navigation/native-stack": "^6.9.9",
     "@types/react-native-video": "^5.0.14",
     "react": "18.2.0",
-    "react-native": "0.71.2",
+    "react-native": "0.71.3",
     "react-native-calendars": "^1.1275.0",
     "react-native-elements": "^3.4.3",
     "react-native-pager-view": "^6.1.4",
