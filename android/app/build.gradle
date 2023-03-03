@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.gshdemo"
+    namespace "health.goldstandard.demo"
     defaultConfig {
-        applicationId "com.gshdemo"
+        applicationId "health.goldstandard.demo"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

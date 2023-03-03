@@ -1,4 +1,4 @@
-package com.gshdemo;
+package health.goldstandard.demo;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

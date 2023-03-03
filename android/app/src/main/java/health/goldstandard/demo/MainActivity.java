@@ -1,4 +1,4 @@
-package com.gshdemo;
+package health.goldstandard.demo;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
