@@ -9,9 +9,9 @@
    id="svg5"
    sodipodi:docname="logo.svg"
    inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
-   inkscape:export-filename="logo/ios/logo40.png"
-   inkscape:export-xdpi="25.6"
-   inkscape:export-ydpi="25.6"
+   inkscape:export-filename="../android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+   inkscape:export-xdpi="122.88"
+   inkscape:export-ydpi="122.88"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="1"
-     inkscape:cx="0.5"
+     inkscape:cx="-70.5"
      inkscape:cy="1"
      inkscape:window-width="1440"
      inkscape:window-height="768"
@@ -36,9 +36,18 @@
      inkscape:window-maximized="0"
      inkscape:current-layer="svg5" />
   <defs
-     id="defs50" />
+     id="defs50">
+    <linearGradient
+       id="linearGradient845"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#669fe4;stop-opacity:1;"
+         offset="0"
+         id="stop843" />
+    </linearGradient>
+  </defs>
   <rect
-     style="fill:#669fe4;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0"
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0"
      id="rect340"
      width="150"
      height="150"

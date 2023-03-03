@@ -16,9 +16,9 @@ export type GBonusProps = {
   onPress?: any;
 };
 
-type GBonusPropsInternal = GBonusProps & { complete: boolean; }
+type GBonusPropsInternal = GBonusProps & { complete: boolean; available: boolean; }
 
-function GBonus({ size, complete, image, style, onPress }: GBonusPropsInternal) {
+function GBonus({ size, available, complete, image, style, onPress }: GBonusPropsInternal) {
   const [bounceAnimation, setBounceAnimation] = useState(new Animated.Value(0));
   const source = complete ? `${image}color` : `${image}bw`;
 
@@ -42,10 +42,11 @@ function GBonus({ size, complete, image, style, onPress }: GBonusPropsInternal) 
     <Pressable style={ [{
       width: size,
       height: size
-    }, style] } onPress={onPress} disabled={!complete}>
+    }, style] } onPress={onPress} disabled={!available}>
       <Animated.Image
         source={bonuses[source]}
         style={[style, {
+          opacity: (available ? 1 : 0.4),
           height: size,
           width: size,
           position: 'absolute',
@@ -69,7 +70,7 @@ function GBonus({ size, complete, image, style, onPress }: GBonusPropsInternal) 
         <GStar style={{marginTop: ms(3)}} complete={complete} size={ms(15)} />
         <GStar complete={complete} size={ms(15)} />
       </View>
-      <GBaloon run={complete} type="friend" style={{top: -size*1.5, left: -size*0.5}}>
+      <GBaloon run={available} type="friend" style={{top: -size*1.5, left: -size*0.5}}>
         <Text style={{
           ...RobotoCondensed.bold,
           fontSize: ms(18),

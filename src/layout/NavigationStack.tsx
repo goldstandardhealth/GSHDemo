@@ -26,6 +26,7 @@ import WorkoutLessonScreen from '../pages/profile/lesson/WorkoutLessonScreen';
 import WorkoutLessonSurveyScreen from '../pages/profile/lesson/WorkoutLessonSurveyScreen';
 import WorkoutLessonSurvey1Screen from '../pages/profile/lesson/WorkoutLessonSurvey1Screen';
 import BonusLessonScreen from '../pages/profile/lesson/BonusLessonScreen';
+import BonusLessonSurveyScreen from '../pages/profile/lesson/BonusLessonSurveyScreen';
 import FinalLessonScreen from '../pages/profile/lesson/FinalLessonScreen';
 
 import ConnectScreen from '../pages/profile/ConnectScreen';
@@ -71,6 +72,7 @@ function NavigationStack() {
       <Stack.Screen name="WorkoutLessonSurvey" component={WorkoutLessonSurveyScreen} />
       <Stack.Screen name="WorkoutLessonSurvey1" component={WorkoutLessonSurvey1Screen} />
       <Stack.Screen name="BonusLesson" component={BonusLessonScreen} />
+      <Stack.Screen name="BonusLessonSurvey" component={BonusLessonSurveyScreen} />
       <Stack.Screen name="FinalLesson" component={FinalLessonScreen} />
     </Stack.Navigator>
   );

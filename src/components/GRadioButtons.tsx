@@ -25,10 +25,11 @@ type Props = {
   data: RadioButtonsDataType;
   onSelect: ((value: string) => void);
   style?: StyleProp<ViewStyle>;
-  optionStyle?: StyleProp<TextStyle>
+  optionStyle?: StyleProp<TextStyle>;
+  buttonStyle?: StyleProp<TextStyle>;
 };
 
-function GRadioButtons({ style, optionStyle, data, onSelect }: Props) {
+function GRadioButtons({ style, optionStyle, buttonStyle, data, onSelect }: Props) {
   const [userOption, setUserOption] = useState<string|null>(null);
   const selectHandler = (value: string) => {
     onSelect(value);
@@ -41,6 +42,7 @@ function GRadioButtons({ style, optionStyle, data, onSelect }: Props) {
           <Pressable key={item.value}
             style={[
               styles.button,
+              buttonStyle,
               item.value === userOption ? styles.selected : styles.unselected
             ]}
             onPress={() => selectHandler(item.value)}>

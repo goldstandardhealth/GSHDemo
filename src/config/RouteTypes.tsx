@@ -32,7 +32,8 @@ export type RootStackParamList = {
   WorkoutLesson: { reps: string; title: string, video: string, tutor: Person, survey?: string, bonus?: boolean }
   WorkoutLessonSurvey: { bonus?: boolean };
   WorkoutLessonSurvey1: { bonus?: boolean };
-  BonusLesson: { title: string, video: string, tutor: Person }
+  BonusLesson: { title: string, video: string, tutor: Person, num: number }
+  BonusLessonSurvey: { num: number; };
   FinalLesson: { bonus?: boolean };
 };
 
@@ -58,6 +59,7 @@ export type VideoLessonSurvey1NavigationProps = NativeStackScreenProps<RootStack
 export type WorkoutLessonNavigationProps = NativeStackScreenProps<RootStackParamList, 'WorkoutLesson'>;
 export type WorkoutLessonSurveyNavigationProps = NativeStackScreenProps<RootStackParamList, 'WorkoutLessonSurvey' | 'WorkoutLessonSurvey1'>;
 export type BonusLessonNavigationProps = NativeStackScreenProps<RootStackParamList, 'BonusLesson'>;
+export type BonusLessonSurveyNavigationProps = NativeStackScreenProps<RootStackParamList, 'BonusLessonSurvey'>;
 export type FinalLessonNavigationProps = NativeStackScreenProps<RootStackParamList, 'FinalLesson'>;
 
 export type HomeStackParamList = {

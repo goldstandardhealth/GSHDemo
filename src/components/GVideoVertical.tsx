@@ -49,7 +49,6 @@ function GVideoVertical({ source, style, onEnd = () => {}, stop = false, company
     setBorder(1);
   }
   const onVideoLoad = (video: OnLoadData) => {
-    console.log(video.naturalSize)
     const { width, height, orientation } = video.naturalSize;
     setIDimension({ width: iDimension.width, height: Math.round(iDimension.width/width * height)});
     setTimeout(() => setLoading(false), 500);

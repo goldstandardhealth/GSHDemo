@@ -55,7 +55,9 @@ function FinalLesson({ navigation, route }: FinalLessonNavigationProps) {
           paddingVertical: ms(10),
           paddingHorizontal: ms(20)
         }} onPress={() => {
-          incPathValues(context, 'current', bonus ? 'bonus' : undefined);
+          if (bonus !== false) {
+            incPathValues(context, 'current', bonus ? 'bonus' : undefined);
+          }
           navigation.navigate('Home');
         }}>
           <Text style={{

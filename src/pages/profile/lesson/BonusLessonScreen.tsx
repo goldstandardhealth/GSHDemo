@@ -9,7 +9,7 @@ import GBack from '../../../components/icons/GBack';
 import GVideoVertical from '../../../components/GVideoVertical';
 
 function BonusLessonScreen({ navigation, route }: BonusLessonNavigationProps) {
-  const { title, video, tutor } = route.params;
+  const { title, video, tutor, num } = route.params;
   const getFirstName = (name: string) => name.split(' ')[0];
   const [complete, setComplete] = useState(false);
   const [stopVideo, setStopVideo] = useState(false);
@@ -72,7 +72,7 @@ function BonusLessonScreen({ navigation, route }: BonusLessonNavigationProps) {
         borderRadius: ms(25),
         paddingVertical: ms(10),
         paddingHorizontal: ms(20)
-      }} onPress={() => confirm(!complete).then(() => setStopVideo(true)).then(() => navigation.navigate(nextScreen, { congrats: congrats, bonus: bonus }))}>
+      }} onPress={() => confirm(!complete).then(() => setStopVideo(true)).then(() => navigation.navigate('BonusLessonSurvey', { num: num}))}>
         <Text style={{
           ...RobotoCondensed.bold,
           color: base.white,

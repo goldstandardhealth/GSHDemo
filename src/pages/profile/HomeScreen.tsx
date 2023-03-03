@@ -122,8 +122,6 @@ function SessionPath({ style, start = 0, points, bonuses = [], motivations = [],
     }
   }
 
-  const logCurrent = (c, l) => {console.log("current: ", c, l); return false;}
-
   return (
     <View onLayout={getWidth} style={[style, {
       height: coords[coords.length - 1].top
@@ -182,7 +180,7 @@ function SessionPath({ style, start = 0, points, bonuses = [], motivations = [],
               position: 'absolute',
               top: c - b.size/2,
               left: left - b.size/2
-            }} image={b.image} complete={k < bonus} size={b.size} onPress={b.onPress} />
+            }} image={b.image} available={k < bonus} complete={context.complete > k} size={b.size} onPress={() => b.onPress(k)} />
           </View>
         ) : [];
       }) : [] }
@@ -272,11 +270,11 @@ function HomeScreen({ navigation, route }: HomeNavigationProps) {
           { image: "trophy", size: 100, onPress: () => {} },
         ]}
         bonuses={[
-          { image: "meditation", size: 80, onPress: () => proceed('BonusLesson', {
+          { image: "meditation", size: 80, onPress: (k: number) => proceed('BonusLesson', {
               title: 'Guided Meditation',
               video: 'meditation',
               tutor: experts.shari,
-              survey: '1'
+              num: k + 1
             }) },
           { image: "brain", size: 80 },
         ]}

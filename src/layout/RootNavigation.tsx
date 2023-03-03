@@ -7,11 +7,11 @@ import SystemNavigationBar from 'react-native-system-navigation-bar';
 
 import NavigationStack from './NavigationStack';
 
-type PathType = {current: number, bonus: number, motivation: number};
+type PathType = {current: number, bonus: number, complete: number};
 type PathContextType = PathType & {setPath: any};
 type PathContextKeyType = keyof PathType;
 
-const defaultPath = {current: 0, bonus: 0, motivation: 0};
+const defaultPath = {current: 0, bonus: 0, complete: 0};
 
 export const PathContext = createContext<PathContextType>({
   ...defaultPath,
@@ -70,7 +70,7 @@ const PERSISTENCE_KEY = 'NAVIGATION_STATE_V1';
 
 function RootNavigation(): JSX.Element | null {
   const [isReady, setIsReady] = useState(false);
-  const [path, setPath] = useState({current: 0, bonus: 0, motivation: 0});
+  const [path, setPath] = useState(defaultPath);
   const [initialState, setInitialState] = useState();
   const restoreState = async () => restoreStateCommon(PERSISTENCE_KEY, setInitialState, setPath, setIsReady);
 
