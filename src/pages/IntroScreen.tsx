@@ -2,7 +2,6 @@ import React from 'react';
 import { TouchableWithoutFeedback, StyleSheet, Text, View } from 'react-native';
 import { ms } from 'react-native-size-matters';
 
-import { PathContext } from '../layout/RootNavigation';
 import ScreenBackground from '../layout/ScreenBackground';
 import { IntroNavigationProps, RobotoCondensed, blue, gold } from '../config';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollView, Text, StyleSheet } from 'react-native';
+import { ScrollView, StyleSheet } from 'react-native';
 import { ms } from 'react-native-size-matters';
 
 import { Roboto } from '../../../config';
@@ -14,14 +14,5 @@ function ProgressAchievementsScreen() {
     </ScrollView>
   );
 }
-
-const styles = StyleSheet.create({
-  title: {
-    ...Roboto.bold,
-    alignSelf: 'center',
-    fontSize: ms(20),
-    marginVertical: ms(15)
-  }
-});
 
 export default ProgressAchievementsScreen;

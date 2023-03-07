@@ -3,9 +3,7 @@ import { Text, Image } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { ms } from 'react-native-size-matters';
 
-import { tabs, gold, blue, base, Roboto } from '../config';
-import GScrollable from '../layout/GScrollable';
-import GContinue from '../components/GContinue';
+import { tabs, gold, base, Roboto } from '../config';
 
 import HomeStack from '../layout/HomeStack';
 import ProgressStack from '../layout/ProgressStack';

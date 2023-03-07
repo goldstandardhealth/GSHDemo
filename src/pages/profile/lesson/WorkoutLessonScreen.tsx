@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Alert, View, Text, Image, TouchableOpacity, StyleSheet, ViewStyle } from 'react-native';
-import { ms, vs } from 'react-native-size-matters';
+import { Alert, View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
+import { ms } from 'react-native-size-matters';
 
-import { rootNavigate } from '../../../layout/RootNavigation';
-import { icons, getLessonVideo, WorkoutLessonNavigationProps, base, Roboto, RobotoCondensed, practitioners, experts } from '../../../config';
+import { icons, WorkoutLessonNavigationProps, base, Roboto, RobotoCondensed } from '../../../config';
 import GScrollable from '../../../layout/GScrollable';
 import GBack from '../../../components/icons/GBack';
 import GVideoHorizontal from '../../../components/GVideoHorizontal';
@@ -18,7 +17,7 @@ function WorkoutLessonScreen({ navigation, route }: WorkoutLessonNavigationProps
 
   useEffect(() => navigation.addListener('blur', (e) => setStopVideo(true)), [navigation]);
 
-  const confirm = (ask: boolean): Promise<string | undefined> => {
+  const confirm = (ask: boolean): Promise<string | void> => {
     return new Promise((resolve) => ask ? Alert.alert('Workout incomplete', 'Do you stil want to continue?', [
       { text: 'Cancel', style: 'cancel' },
       { text: 'OK', onPress: resolve }

@@ -1,22 +1,11 @@
 import React, { useState, useEffect, useContext } from 'react';
-import {
-  Animated,
-  SafeAreaView,
-  StyleSheet,
-  Text,
-  View,
-  Image,
-  Button,
-  ScrollView,
-  TouchableOpacity
-} from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import uuid from 'react-native-uuid';
-import { ms, vs } from 'react-native-size-matters';
+import { ms } from 'react-native-size-matters';
 
 import { PathContext, incPathValue } from '../../../layout/RootNavigation';
-import { BonusLessonSurveyNavigationProps, goldieCallout, base, RobotoCondensed, experts, expertCallout } from '../../../config';
+import { BonusLessonSurveyNavigationProps, goldieCallout, base, RobotoCondensed } from '../../../config';
 import GScrollable from '../../../layout/GScrollable';
-import GContinue from '../../../components/GContinue';
 import Goldie from '../../../components/Goldie';
 import GCallOut from '../../../components/GCallOut';
 import GBack from '../../../components/icons/GBack';

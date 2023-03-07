@@ -1,11 +1,11 @@
 import React from 'react';
-import { StyleSheet, SafeAreaView, ScrollView, View, Text } from 'react-native';
+import { StyleSheet, Text } from 'react-native';
 import { ms, vs } from 'react-native-size-matters';
 
 import GScrollable from '../../layout/GScrollable';
-import { ExpertsNavigationProps, RobotoCondensed, base, blue, gold } from '../../config';
+import { ExpertsNavigationProps, RobotoCondensed, base, VideoName } from '../../config';
 
-import { experts, Person } from '../../config/People';
+import { experts } from '../../config/People';
 import GPerson from '../../components/GPerson';
 import GContinue from '../../components/GContinue';
 import { GLogoLabel } from '../../components/GLogo';
@@ -14,7 +14,7 @@ import GTitle from '../../components/GTitle';
 function ExpertsScreen({ navigation }: ExpertsNavigationProps) {
 
   const nextScreen = () => navigation.replace('Goldie');
-  const meetPerson = (name: string) => navigation.push('MeetPerson', { person: experts[name], key: name });
+  const meetPerson = (name: string) => navigation.push('MeetPerson', { person: experts[name], key: name as VideoName });
 
   return (
     <GScrollable type="bg">

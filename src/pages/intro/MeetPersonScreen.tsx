@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, SafeAreaView, ScrollView, View, Text } from 'react-native';
+import { StyleSheet } from 'react-native';
 import { ms } from 'react-native-size-matters';
 
 import GScrollable from '../../layout/GScrollable';
-import { MeetPersonNavigationProps, RobotoCondensed, getExpertVideo, base, blue, gold } from '../../config';
+import { MeetPersonNavigationProps } from '../../config';
 
 import GContinue from '../../components/GContinue';
 import GVideoHorizontal from '../../components/GVideoHorizontal';

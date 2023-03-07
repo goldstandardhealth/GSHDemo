@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleProp, ViewStyle } from 'react-native';
+import { View, StyleProp, ViewStyle } from 'react-native';
 import { ms } from 'react-native-size-matters';
 import Svg, { Path } from 'react-native-svg';
 

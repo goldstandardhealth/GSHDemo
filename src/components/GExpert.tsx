@@ -1,19 +1,16 @@
 import React from 'react';
-import { StyleSheet, Image, View, Text, ImageSourcePropType, TouchableOpacity } from 'react-native';
+import { StyleSheet, Image, View, Text } from 'react-native';
 import { ms, vs } from 'react-native-size-matters';
 
-import { RobotoCondensed, Person, base } from '../config';
-import { GLogoLabel, GSMedicineLabel } from './GLogo';
+import { RobotoCondensed, Person } from '../config';
 
 type Props = {
   person: Person;
   side: 'right' | 'left';
-  logo?: 'smedicine' | 'gsh';
 }
 
-function GExpert({ person, side, logo }: Props) {
+function GExpert({ person, side }: Props) {
   const icon = <Image key={person.id + '-icon'} resizeMode='contain' source={ person.image } style={ styles.image } />;
-  const logoLabel = logo === 'smedicine' ? <GSMedicineLabel size={ms(35)} style={ styles.logo } /> : <GLogoLabel size={ms(35)} style={ styles.logo } />;
   const label = (
     <View key={person.id + '-label'} style={styles.label}>
       <Text style={ styles.title }>Dr. { person.name }</Text>

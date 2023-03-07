@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import { StyleSheet, SafeAreaView, ScrollView, View, Text, StyleProp, ViewStyle } from 'react-native';
+import { StyleSheet, SafeAreaView, StyleProp, ViewStyle } from 'react-native';
 
 import ScreenBackground from './ScreenBackground';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleProp, ViewStyle } from 'react-native';
+import { View, StyleProp, ViewStyle } from 'react-native';
 import { ms } from 'react-native-size-matters';
 import Svg, { Path, Circle } from 'react-native-svg'
 
@@ -9,7 +9,7 @@ type Props = {
   style?: StyleProp<ViewStyle>;
 }
 
-const medalColor = (color: string) => {
+const medalColor = (color: string | undefined) => {
   switch (color) {
     case "bronze":
       return "#D4965D";

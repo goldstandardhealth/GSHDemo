@@ -2,6 +2,7 @@ import { Context } from 'react';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 
 import { Person, Practitioner } from './People';
+import { VideoName } from './Videos';
 
 type CurrentContextType = {
   current: number;
@@ -11,7 +12,7 @@ export type RootStackParamList = {
   Intro: undefined;
   Welcome: undefined;
   Experts: undefined;
-  MeetPerson: { person: Person, key: string };
+  MeetPerson: { person: Person, key: VideoName };
   Goldie: undefined;
   Goal: undefined;
   Target: undefined;
@@ -25,14 +26,14 @@ export type RootStackParamList = {
   ProfileTabs: undefined;
   Connect: { back: boolean };
   ConnectDetails: { person: Practitioner, key: string };
-  VideoLesson: { title: string, video: string, tutor: Person, congrats: string, bonus?: boolean, survey?: string }
-  VideoLessonCongrats: { congrats: string, bonus?: boolean }
+  VideoLesson: { title: string, video: VideoName, tutor: Person, congrats: string, bonus?: boolean, survey?: string };
+  VideoLessonCongrats: { congrats: string, bonus?: boolean };
   VideoLessonSurvey: { bonus?: boolean };
-  VideoLessonSurvey1: { congrats: string, bonus?: boolean }
-  WorkoutLesson: { reps: string; title: string, video: string, tutor: Person, survey?: string, bonus?: boolean }
+  VideoLessonSurvey1: { congrats: string, bonus?: boolean };
+  WorkoutLesson: { reps: string; title: string, video: VideoName, tutor: Person, survey?: string, bonus?: boolean };
   WorkoutLessonSurvey: { bonus?: boolean };
   WorkoutLessonSurvey1: { bonus?: boolean };
-  BonusLesson: { title: string, video: string, tutor: Person, num: number }
+  BonusLesson: { title: string, video: VideoName, tutor: Person, num: number };
   BonusLessonSurvey: { num: number; };
   FinalLesson: { bonus?: boolean };
 };
@@ -54,8 +55,7 @@ export type TeaserThreeNavigationProps = NativeStackScreenProps<RootStackParamLi
 
 export type VideoLessonNavigationProps = NativeStackScreenProps<RootStackParamList, 'VideoLesson'>;
 export type VideoLessonCongratsNavigationProps = NativeStackScreenProps<RootStackParamList, 'VideoLessonCongrats'>;
-export type VideoLessonSurveyNavigationProps = NativeStackScreenProps<RootStackParamList, 'VideoLessonSurvey'>;
-export type VideoLessonSurvey1NavigationProps = NativeStackScreenProps<RootStackParamList, 'VideoLessonSurvey1'>;
+export type VideoLessonSurveyNavigationProps = NativeStackScreenProps<RootStackParamList, 'VideoLessonSurvey' | 'VideoLessonSurvey1'>;
 export type WorkoutLessonNavigationProps = NativeStackScreenProps<RootStackParamList, 'WorkoutLesson'>;
 export type WorkoutLessonSurveyNavigationProps = NativeStackScreenProps<RootStackParamList, 'WorkoutLessonSurvey' | 'WorkoutLessonSurvey1'>;
 export type BonusLessonNavigationProps = NativeStackScreenProps<RootStackParamList, 'BonusLesson'>;

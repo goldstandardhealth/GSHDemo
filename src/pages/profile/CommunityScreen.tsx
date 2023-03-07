@@ -22,7 +22,6 @@ function Post({ icon, topic, title, author, time, date, bookmark }: PostProps) {
     <View style={{
       alignSelf: 'flex-start',
       flexDirection: 'row',
-      //paddingHorizontal: ms(15),
       paddingVertical: ms(5),
     }}>
       <Image style={{height: ms(120), width: ms(120), resizeMode: 'contain'}} source={social[icon]} />

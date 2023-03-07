@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import { Pressable, View, Image, StyleSheet, StyleProp, ViewStyle } from 'react-native';
-import { ms } from 'react-native-size-matters';
-import Svg, { LinearGradient, RadialGradient, Path, Circle, Defs, Stop } from 'react-native-svg'
+import { Pressable, View, Image, StyleProp, ViewStyle } from 'react-native';
+import Svg, { LinearGradient, RadialGradient, Circle, Defs, Stop } from 'react-native-svg'
 
 import { excercises } from '../config';
 import GLock from '../components/icons/GLock';

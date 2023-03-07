@@ -1,8 +1,8 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
 import { View, Text, Image, StyleSheet, StyleProp, ViewStyle } from 'react-native';
 import { ms } from 'react-native-size-matters';
 
-import { medals, gold, base, RobotoCondensed, Roboto } from '../config';
+import { medals, gold, base, Roboto } from '../config';
 
 type Props = {
   type: 'mindset' | 'expert' | 'meditation';

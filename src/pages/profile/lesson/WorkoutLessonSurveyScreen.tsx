@@ -1,14 +1,13 @@
 import React, { useRef, useEffect, useState } from 'react';
-import { Animated, View, Text, TouchableOpacity, StyleSheet, ViewStyle } from 'react-native';
+import { Animated, View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import uuid from 'react-native-uuid';
-import { ms, vs } from 'react-native-size-matters';
+import { ms } from 'react-native-size-matters';
 
-import { WorkoutLessonSurveyNavigationProps, base, goldieCallout, Roboto, RobotoCondensed } from '../../../config';
+import { WorkoutLessonSurveyNavigationProps, base, goldieCallout, RobotoCondensed } from '../../../config';
 import GScrollable from '../../../layout/GScrollable';
 import Goldie from '../../../components/Goldie';
 import GCallOut from '../../../components/GCallOut';
 import GSliders, { SlidersData, SliderState } from '../../../components/GSliders';
-import GBack from '../../../components/icons/GBack';
 
 function WorkoutLessonSurveyScreen({ navigation, route }: WorkoutLessonSurveyNavigationProps) {
   const { bonus } = route.params;

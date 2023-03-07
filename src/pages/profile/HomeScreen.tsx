@@ -4,7 +4,7 @@ import { ms } from 'react-native-size-matters';
 import Svg, { Line, Circle } from 'react-native-svg';
 
 import { rootNavigate, PathContext, incPathValue, decPathValue, resetPath } from '../../layout/RootNavigation';
-import { HomeNavigationProps, base, blue, Roboto, RobotoCondensed, founders, experts } from '../../config';
+import { HomeNavigationProps, base, blue, Roboto, RobotoCondensed, founders, experts, GoldieName } from '../../config';
 import GScrollable from '../../layout/GScrollable';
 import GContinue from '../../components/GContinue';
 
@@ -21,7 +21,7 @@ type SessionPathProps = {
   start?: number;
   points: GStepProps[];
   bonuses?: GBonusProps[];
-  motivations?: any;
+  motivations?: MotivationProp[];
   style?: StyleProp<ViewStyle>;
   current?: number;
   bonus?: number;
@@ -41,8 +41,13 @@ type DrawLineType = {
   straight: boolean;
 }
 
-function SessionPath({ style, start = 0, points, bonuses = [], motivations = [], current = 0, bonus = 0, motivation = 0, locked }: SessionPathProps) {
-  const [height, setHeight] = useState(0);
+type MotivationProp = {
+  type: GoldieName;
+  message: string;
+  link: number;
+};
+
+function SessionPath({ style, start = 0, points, bonuses = [], motivations = [], current = 0, bonus = 0, locked }: SessionPathProps) {
   const [width, setWidth] = useState(0);
   const getWidth = (e: any) => setWidth(e.nativeEvent.layout.width);
 
@@ -67,7 +72,7 @@ function SessionPath({ style, start = 0, points, bonuses = [], motivations = [],
 
   const curr = coords[current], prev = coords[current - 1] || curr;
   const currPoint = points[current], prevPoint = points[current - 1] || currPoint;
-  const [slideAnimation, setSlideAnimation] = useState(new Animated.Value(0));
+  const [slideAnimation] = useState(new Animated.Value(0));
   useEffect(() => {
     slideAnimation.resetAnimation();
     if (coords[current - 1] && points[current - 1]) {
@@ -100,8 +105,6 @@ function SessionPath({ style, start = 0, points, bonuses = [], motivations = [],
       };
     } else {
       const straight = c.left < c1.left;
-      const start = straight ? "0,0" : `${c1.left},0`;
-      const end = straight ? `${c1.top},${c1.left}` : `${c1.top},${c.left}`;
       const lHeight = Math.abs(c.top - c1.top), lWidth = Math.abs(c.left - c1.left);
       return {
         line: (
@@ -185,7 +188,7 @@ function SessionPath({ style, start = 0, points, bonuses = [], motivations = [],
         ) : [];
       }) : [] }
 
-      { motivations.map((m: any, l) =>
+      { motivations.map((m: any, l: number) =>
         <View key={`motivation-${l}`}>
           <GBaloon style={{
             top: coords[m.link].top - ms(150),

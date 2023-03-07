@@ -1,6 +1,5 @@
 import React from 'react';
-import { View, Text, StyleProp, ViewStyle } from 'react-native';
-import { ms } from 'react-native-size-matters';
+import { View, StyleProp, ViewStyle } from 'react-native';
 import Svg, { Path, Mask } from 'react-native-svg'
 
 type Props = {

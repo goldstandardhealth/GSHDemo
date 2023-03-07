@@ -1,21 +1,11 @@
-import React, {useRef, useEffect, MutableRefObject} from 'react';
-import {
-  Animated,
-  SafeAreaView,
-  StyleSheet,
-  Text,
-  View,
-  Image,
-  TouchableOpacity,
-  ScrollView
-} from 'react-native';
+ import React, {useRef, useEffect, MutableRefObject} from 'react';
+import { Animated, StyleSheet, Text, TouchableOpacity, ScrollView } from 'react-native';
 import { ms, vs } from 'react-native-size-matters';
 
-import { VideoLessonCongratsNavigationProps, goldieCallout, gold, base, RobotoCondensed } from '../../../config';
+import { VideoLessonCongratsNavigationProps, goldieCallout, base, RobotoCondensed } from '../../../config';
 import GScrollable from '../../../layout/GScrollable';
 import GCallOut from '../../../components/GCallOut';
 import Goldie from '../../../components/Goldie';
-import GContinue from '../../../components/GContinue';
 
 function VideoLessonCongratsScreen({ navigation, route }: VideoLessonCongratsNavigationProps) {
   const { congrats, bonus } = route.params;

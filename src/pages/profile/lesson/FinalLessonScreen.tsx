@@ -1,15 +1,5 @@
-import React, {useRef, useEffect, useContext, MutableRefObject} from 'react';
-import {
-  Animated,
-  SafeAreaView,
-  StyleSheet,
-  Text,
-  View,
-  Image,
-  Button,
-  ScrollView,
-  TouchableOpacity
-} from 'react-native';
+ import React, {useRef, useEffect, useContext} from 'react';
+import { Animated, StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import { ms, vs } from 'react-native-size-matters';
 
 import { PathContext, incPathValues } from '../../../layout/RootNavigation';
@@ -17,7 +7,6 @@ import { FinalLessonNavigationProps, goldieCallout, gold, base, RobotoCondensed 
 import GScrollable from '../../../layout/GScrollable';
 import GCallOut from '../../../components/GCallOut';
 import Goldie from '../../../components/Goldie';
-import GContinue from '../../../components/GContinue';
 
 function FinalLesson({ navigation, route }: FinalLessonNavigationProps) {
   const { bonus } = route.params;
@@ -55,10 +44,12 @@ function FinalLesson({ navigation, route }: FinalLessonNavigationProps) {
           paddingVertical: ms(10),
           paddingHorizontal: ms(20)
         }} onPress={() => {
-          if (bonus !== false) {
-            incPathValues(context, 'current', bonus ? 'bonus' : undefined);
+          if (bonus) {
+            incPathValues(context, 'current', 'bonus');
+          } else if (bonus !== false) {
+            incPathValues(context, 'current');
           }
-          navigation.navigate('Home');
+          navigation.navigate('ProfileTabs');
         }}>
           <Text style={{
             ...RobotoCondensed.bold,

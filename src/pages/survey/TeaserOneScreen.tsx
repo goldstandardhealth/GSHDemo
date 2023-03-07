@@ -1,14 +1,5 @@
-import React, {useRef, useEffect, MutableRefObject} from 'react';
-import {
-  Animated,
-  SafeAreaView,
-  StyleSheet,
-  Text,
-  View,
-  Image,
-  Button,
-  ScrollView
-} from 'react-native';
+import React, {useRef, useEffect} from 'react';
+import { Animated, StyleSheet, Text, View } from 'react-native';
 import { ms } from 'react-native-size-matters';
 
 import { TeaserOneNavigationProps, goldieCallout, gold, RobotoCondensed } from '../../config';

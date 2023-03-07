@@ -1,26 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import {
-  Animated,
-  SafeAreaView,
-  StyleSheet,
-  Text,
-  View,
-  Image,
-  Button,
-  ScrollView,
-  TouchableOpacity
-} from 'react-native';
+import { StyleSheet, Text, TouchableOpacity } from 'react-native';
 import uuid from 'react-native-uuid';
 import { ms, vs } from 'react-native-size-matters';
 
-import { VideoLessonSurvey1NavigationProps, goldieCallout, base, RobotoCondensed, experts, expertCallout } from '../../../config';
+import { VideoLessonSurveyNavigationProps, goldieCallout, base, RobotoCondensed } from '../../../config';
 import GScrollable from '../../../layout/GScrollable';
-import GContinue from '../../../components/GContinue';
 import Goldie from '../../../components/Goldie';
 import GCallOut from '../../../components/GCallOut';
 import GRadioButtons, { RadioButtonsDataType } from '../../../components/GRadioButtons';
 
-function VideoLessonSurvey1Screen({ navigation, route }: VideoLessonSurvey1NavigationProps) {
+function VideoLessonSurvey1Screen({ navigation, route }: VideoLessonSurveyNavigationProps) {
   const { bonus } = route.params;
   const [disabled, setDisabled] = useState(true);
   const [selection, setSelection] = useState<string>();

@@ -1,14 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
-import {
-  Animated,
-  SafeAreaView,
-  StyleSheet,
-  Text,
-  View,
-  Image,
-  Button,
-  ScrollView
-} from 'react-native';
+import React, { useState, useEffect } from 'react';
+import { StyleSheet, Text } from 'react-native';
 import uuid from 'react-native-uuid';
 import { ms } from 'react-native-size-matters';
 

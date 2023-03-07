@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Animated, Easing, StyleProp, ImageStyle, StyleSheet } from 'react-native';
+import { Animated, Easing, StyleProp, ImageStyle } from 'react-native';
 
 type Props = {
   size: number;

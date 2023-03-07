@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Context, createContext } from 'react';
+import React, { useState, useEffect, createContext } from 'react';
 import { Linking, Platform } from 'react-native';
 import { NavigationContainer, createNavigationContainerRef } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';

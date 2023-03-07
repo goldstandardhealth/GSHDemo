@@ -10,14 +10,14 @@ export type GBaloonProps = {
   run: boolean;
   type: string;
   align?: 'left' | 'right'
-  style?: StyleProp<ImageStyle>;
+  style?: StyleProp<ViewStyle>;
   children: ReactNode;
   onHide?: any;
 };
 
 function GBaloon({ run, type, style, align = 'left', children, onHide }: GBaloonProps) {
   const [display, setDisplay] = useState<"flex" | "none">("none");
-  const [opacityAnimation, setOpacityAnimation] = useState(new Animated.Value(0));
+  const [opacityAnimation] = useState(new Animated.Value(0));
 
   useEffect(() => {
     if (run) {

@@ -1,4 +1,4 @@
-import React, { ReactNode, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Platform, StyleSheet, View, Text, StyleProp, ViewStyle } from 'react-native';
 import Slider from '@react-native-community/slider';
 import { ms } from 'react-native-size-matters';

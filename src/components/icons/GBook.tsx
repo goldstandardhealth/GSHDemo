@@ -1,9 +1,7 @@
 import React from 'react';
-import { View, Text, StyleProp, ViewStyle } from 'react-native';
-import { ms } from 'react-native-size-matters';
-import Svg, { Defs, LinearGradient, Stop, Path } from "react-native-svg"
+import { View, StyleProp, ViewStyle } from 'react-native';
+import Svg, { Path } from "react-native-svg"
 
-import { Roboto } from '../../config';
 type Props = {
   size: number;
   style?: StyleProp<ViewStyle>;

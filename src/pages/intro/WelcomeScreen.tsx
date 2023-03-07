@@ -1,9 +1,9 @@
 import React from 'react';
-import { StyleSheet, SafeAreaView, ScrollView, View, Text } from 'react-native';
+import { StyleSheet, Text } from 'react-native';
 import { ms, vs } from 'react-native-size-matters';
 
 import GScrollable from '../../layout/GScrollable';
-import { WelcomeNavigationProps, RobotoCondensed, base, blue, gold, blueCallout, VideoName } from '../../config';
+import { WelcomeNavigationProps, RobotoCondensed, base, gold, blueCallout } from '../../config';
 
 import GVideoHorizontal from '../../components/GVideoHorizontal';
 import GCallOut from '../../components/GCallOut';

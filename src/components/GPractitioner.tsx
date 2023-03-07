@@ -1,8 +1,8 @@
 import React from 'react';
-import { StyleSheet, Image, View, Text, ImageSourcePropType, TouchableOpacity } from 'react-native';
+import { StyleSheet, Image, View, Text, TouchableOpacity } from 'react-native';
 import { ms, vs } from 'react-native-size-matters';
 
-import { RobotoCondensed, Practitioner, base, company } from '../config';
+import { RobotoCondensed, Practitioner, base } from '../config';
 import { GCompanyLogo } from './GLogo';
 
 type Props = {

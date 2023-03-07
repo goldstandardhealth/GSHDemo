@@ -1,6 +1,6 @@
 import React, { useState, useEffect, ReactNode } from 'react';
 import { StyleSheet, View, LayoutRectangle, ColorValue, StyleProp, ViewStyle } from 'react-native';
-import Svg, { SvgProps, Path, Defs, ClipPath, Use } from "react-native-svg"
+import Svg, { Path, Defs, ClipPath, Use } from "react-native-svg"
 import { ms } from 'react-native-size-matters';
 
 export type Palette = {

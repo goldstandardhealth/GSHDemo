@@ -1,6 +1,5 @@
-import React, { ReactNode } from 'react';
-import { Text, View, Image, StyleSheet, StyleProp, ViewStyle, ImageSourcePropType } from 'react-native';
-import { ms } from 'react-native-size-matters';
+import React from 'react';
+import { Text, View, Image, StyleSheet, StyleProp, ViewStyle } from 'react-native';
 
 import { Person, RobotoCondensed } from '../config';
 

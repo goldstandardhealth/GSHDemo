@@ -1,9 +1,9 @@
 import React, { useRef, useState, useEffect } from 'react';
 import {  Animated, StyleSheet, Text, TouchableWithoutFeedback, Dimensions, ViewStyle, StyleProp } from 'react-native';
 import Video from 'react-native-video';
-import { ms, vs } from 'react-native-size-matters';
+import { ms } from 'react-native-size-matters';
 
-import { RobotoCondensed, blue, gold, base } from '../config';
+import { RobotoCondensed, base } from '../config';
 
 type Props = {
   source: any;

@@ -23,6 +23,8 @@ export const goldies: ImageSources = {
   friend: require(basePath + 'goldies/goldie8.png')
 };
 
+export type GoldieName = keyof typeof goldies;
+
 export const logo: ImageSources = {
   [company.gsh]: require(basePath + 'logo/gsh.png'),
   [company.smedicine]: require(basePath + 'logo/smedicine.png'),

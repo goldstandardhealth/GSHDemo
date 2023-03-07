@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import {
-  View,
   Text,
   Pressable,
   StyleSheet,
@@ -10,7 +9,7 @@ import {
 } from 'react-native';
 import { ms } from 'react-native-size-matters';
 
-import { Roboto, base, blue, gold } from '../config';
+import { Roboto, base, gold } from '../config';
 import GArea from './GArea';
 
 type RadioButtonDataType = {

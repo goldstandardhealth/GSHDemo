@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Alert, View, Text, Image, TouchableOpacity, StyleSheet, ViewStyle } from 'react-native';
+import { Alert, View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
 import { ms, vs } from 'react-native-size-matters';
 
-import { rootNavigate } from '../../../layout/RootNavigation';
-import { icons, getLessonVideo, BonusLessonNavigationProps, base, Roboto, RobotoCondensed, practitioners, experts } from '../../../config';
+import { icons, BonusLessonNavigationProps, base, Roboto, RobotoCondensed } from '../../../config';
 import GScrollable from '../../../layout/GScrollable';
 import GBack from '../../../components/icons/GBack';
 import GVideoVertical from '../../../components/GVideoVertical';

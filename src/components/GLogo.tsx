@@ -1,9 +1,9 @@
 import React from 'react';
-import { Image, StyleSheet, View, Text, ViewStyle, ColorValue, StyleProp, ImageSourcePropType } from 'react-native';
-import Svg, { SvgProps, Path, Defs, ClipPath, Use } from "react-native-svg"
+import { Image, View, Text, ViewStyle, StyleProp } from 'react-native';
+import Svg, { Path } from "react-native-svg"
 import { ms } from 'react-native-size-matters';
 
-import { RobotoCondensed, blue, gold, base, logo } from '../config';
+import { RobotoCondensed, blue, gold, logo } from '../config';
 
 type GSHProps = {
   size?: number;
@@ -18,7 +18,7 @@ type Props = {
   width?: number;
 }
 
-function GLogo({ size, style }: GSHProps) {
+function GLogo({ size = 24, style }: GSHProps) {
   const scale = size / 120;
   return (
     <Svg
@@ -34,11 +34,10 @@ function GLogo({ size, style }: GSHProps) {
   );
 }
 
-export function GLogoLabel({ size, style, width }: GSHProps) {
+export function GLogoLabel({ size = 24, style, width }: GSHProps) {
   if (width) {
     size = width/4.17;
   }
-  const scale = size / 120;
   return (
     <View style={ [{ alignSelf: 'center', height: size }, style] }>
       <GLogo size={ size } />
@@ -58,7 +57,6 @@ export function GLogoLabel({ size, style, width }: GSHProps) {
 }
 
 export function GCompanyLogo({ company, size, style, width }: Props) {
-  const scale = size;
   const styles = width ? {
     maxHeight: ms(150),
     width: width

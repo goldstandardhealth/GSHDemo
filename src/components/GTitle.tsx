@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 import { StyleSheet, View, Text, StyleProp, ViewStyle } from 'react-native';
-import { ms, vs } from 'react-native-size-matters';
+import { ms } from 'react-native-size-matters';
 
 import { RobotoCondensed, base } from '../config';
 

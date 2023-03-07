@@ -1,11 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Pressable, View, Text, Animated, Easing, StyleProp, ViewStyle, ImageStyle, StyleSheet } from 'react-native';
+import { Pressable, View, Text, Animated, Easing, StyleProp, ImageStyle } from 'react-native';
 import { ms } from 'react-native-size-matters';
-import Svg, { LinearGradient, RadialGradient, Path, Circle, Defs, Stop } from 'react-native-svg'
 
 import GStar from './icons/GStar';
-import GCallOut from './GCallOut';
-import Goldie from './Goldie';
 import GBaloon from './GBaloon';
 import { bonuses, base, RobotoCondensed } from '../config';
 

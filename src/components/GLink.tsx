@@ -1,6 +1,5 @@
 import React, { ReactNode, useCallback } from 'react';
 import { TouchableOpacity, Linking, Alert, StyleProp, ViewStyle } from 'react-native';
-import { ms } from 'react-native-size-matters';
 
 type Props = {
   target: string;

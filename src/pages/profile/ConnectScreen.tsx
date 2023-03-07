@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 import { ms } from 'react-native-size-matters';
 
-import { rootNavigate } from '../../layout/RootNavigation';
+import { rootNavigate, PathContext, resetPath } from '../../layout/RootNavigation';
 import { ConnectNavigationProps, base, Roboto, practitioners, Practitioner } from '../../config';
 import GScrollable from '../../layout/GScrollable';
 import GBack from '../../components/icons/GBack';
@@ -11,6 +11,7 @@ import GPractitioner from '../../components/GPractitioner';
 
 function ConnectScreen({ navigation, route }: ConnectNavigationProps) {
   const { back } = route.params || {};
+  const context = useContext(PathContext);
   const handlePress = (key: string) => {
     if (practitioners[key].imageColor) {
       navigation.push("ConnectDetails", { person: practitioners[key], key: key });
@@ -22,7 +23,10 @@ function ConnectScreen({ navigation, route }: ConnectNavigationProps) {
         { back ? <TouchableOpacity style={{ alignSelf: 'flex-start', marginLeft: ms(10), marginTop: ms(10) }} onPress={() => navigation.goBack()}>
           <GBack size={ms(25)} />
         </TouchableOpacity>
-        : <TouchableOpacity style={{ alignSelf: 'flex-end', marginRight: ms(10), marginTop: ms(10) }} onPress={() => rootNavigate('Intro')}>
+        : <TouchableOpacity style={{ alignSelf: 'flex-end', marginRight: ms(10), marginTop: ms(10) }} onPress={() => {
+          resetPath(context);
+          rootNavigate('Intro');
+        }}>
           <GGear size={ms(25)} />
         </TouchableOpacity> }
       </View>

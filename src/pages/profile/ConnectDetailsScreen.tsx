@@ -1,12 +1,10 @@
 import React from 'react';
-import { Text, View, Image, Linking, StyleSheet, TouchableOpacity } from 'react-native';
+import { Text, View, Image, StyleSheet, TouchableOpacity } from 'react-native';
 import { Divider, Icon } from 'react-native-elements';
 import { ms } from 'react-native-size-matters';
 
-import { rootNavigate } from '../../layout/RootNavigation';
-import { ConnectDetailsNavigationProps, base, Roboto, RobotoCondensed, practitioners } from '../../config';
+import { ConnectDetailsNavigationProps, base, Roboto, RobotoCondensed } from '../../config';
 import GScrollable from '../../layout/GScrollable';
-import GGear from '../../components/icons/GGear';
 import GBack from '../../components/icons/GBack';
 import GLink from '../../components/GLink';
 
@@ -37,7 +35,7 @@ function ConnectDetailsScreen({ navigation, route }: ConnectDetailsNavigationPro
             backgroundColor: '#7280AA'
           }]}>
           </View>
-          <Image resizeMode='contain' source={ person.imageColor } style={{
+          <Image resizeMode='contain' source={ person.imageColor || person.imageBw } style={{
             position: 'absolute',
             top: ms(10),
             left: ms(10),

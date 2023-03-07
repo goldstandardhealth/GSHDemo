@@ -1,11 +1,11 @@
 import React, { useRef, useState, useEffect } from 'react';
-import { Animated, ActivityIndicator, StyleSheet, View, Text, Image, TouchableWithoutFeedback, Dimensions, ViewStyle, StyleProp, NativeSyntheticEvent, ImageLoadEventData } from 'react-native';
+import { Animated, ActivityIndicator, StyleSheet, View, Image, TouchableWithoutFeedback, Dimensions, ViewStyle, StyleProp, NativeSyntheticEvent, ImageLoadEventData } from 'react-native';
 import Video, { OnLoadData } from 'react-native-video';
 import Svg, { Path } from 'react-native-svg';
-import { ms, vs } from 'react-native-size-matters';
+import { ms } from 'react-native-size-matters';
 import { GLogoLabel, GCompanyLogo } from './GLogo';
 
-import { RobotoCondensed, blue, gold, base, VideoName, getVideoThumb, getVideoSource } from '../config';
+import { RobotoCondensed, base, VideoName, getVideoThumb, getVideoSource } from '../config';
 
 type Props = {
   source: VideoName;
