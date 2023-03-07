@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "health.goldstandard.demo.app-mergeDebugResources-31:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/nazar/.gradle/caches/transforms-3/a708009a22ad89d2c355ac02cc6aeeee/transformed/core-1.7.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/Users/nazar/.gradle/caches/transforms-3/690c0399210f9efee2bbea501a042c8b/transformed/appcompat-1.4.1/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

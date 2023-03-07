@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Alert, View, Text, Image, TouchableOpacity, StyleSheet, ViewStyle } from 'react-native';
 import { ms, vs } from 'react-native-size-matters';
 
@@ -15,6 +15,8 @@ function WorkoutLessonScreen({ navigation, route }: WorkoutLessonNavigationProps
   const [stopVideo, setStopVideo] = useState(false);
 
   const nextScreen = survey == '1' ? 'WorkoutLessonSurvey1' : 'WorkoutLessonSurvey';
+
+  useEffect(() => navigation.addListener('blur', (e) => setStopVideo(true)), [navigation]);
 
   const confirm = (ask: boolean): Promise<string | undefined> => {
     return new Promise((resolve) => ask ? Alert.alert('Workout incomplete', 'Do you stil want to continue?', [
@@ -95,7 +97,7 @@ function WorkoutLessonScreen({ navigation, route }: WorkoutLessonNavigationProps
         borderRadius: ms(25),
         paddingVertical: ms(10),
         paddingHorizontal: ms(20)
-      }} onPress={() => confirm(!complete).then(() => setStopVideo(true)).then(() => navigation.navigate(nextScreen, {bonus: bonus}))}>
+      }} onPress={() => confirm(!complete).then(() => navigation.replace(nextScreen, {bonus: bonus}))}>
         <Text style={{
           ...RobotoCondensed.bold,
           color: base.white,

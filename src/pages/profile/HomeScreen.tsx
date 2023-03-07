@@ -159,7 +159,7 @@ function SessionPath({ style, start = 0, points, bonuses = [], motivations = [],
       { locked || current === coords.length - 1 ? [] : <Animated.View style={[styles.shadow, {
         position: 'absolute',
         top: curr.top,
-        left: curr.left - ms(30),
+        left: curr.left - ms(43),
         backgroundColor: '#081c59',
         borderRadius: ms(20),
         paddingVertical: ms(10),
@@ -257,14 +257,14 @@ function HomeScreen({ navigation, route }: HomeNavigationProps) {
               video: 'bridge',
               tutor: experts.ricky,
               survey: '1',
-              bonus: true
             }) },
           { image: "stretch", size: 75, onPress: () => proceed('WorkoutLesson', {
               reps: '3 x 10',
               title: 'Functionsl Squat',
               video: 'squat',
               tutor: experts.ricky,
-              survey: '1'
+              survey: '1',
+              bonus: true
             }) },
           { image: "yoga", size: 50, onPress: () => {} },
           { image: "trophy", size: 100, onPress: () => {} },
@@ -287,7 +287,7 @@ function HomeScreen({ navigation, route }: HomeNavigationProps) {
           {
             type: "cool",
             message: "You rock! Keep the great work going to unlock a special bonus activity!",
-            link: 5
+            link: 4
           },
         ]}/>
       <Text style={{...Roboto.bold, color: base.black, fontSize: ms(35), alignSelf: 'center', marginTop: ms(50)}}><GLock size={ms(35)} /> Session 2</Text>

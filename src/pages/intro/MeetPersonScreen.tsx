@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { StyleSheet, SafeAreaView, ScrollView, View, Text } from 'react-native';
 import { ms } from 'react-native-size-matters';
 
@@ -10,15 +10,18 @@ import GVideoHorizontal from '../../components/GVideoHorizontal';
 import GTitle from '../../components/GTitle';
 
 function MeetPersonScreen({ route, navigation }: MeetPersonNavigationProps) {
+  const [stopVideo, setStopVideo] = useState(false);
 
   const { person, key } = route.params;
 
   const getFirstName = (name: string) => name.split(' ')[0];
 
+  useEffect(() => navigation.addListener('blur', (e) => setStopVideo(true)), [navigation]);
+
   return (
     <GScrollable type="bg">
       <GTitle style={styles.title}>{`Meet ${getFirstName(person.name)}!`}</GTitle>
-      <GVideoHorizontal source={key}/>
+      <GVideoHorizontal stop={stopVideo} source={key}/>
       <GContinue onPress={() => navigation.goBack()} />
     </GScrollable>
   );

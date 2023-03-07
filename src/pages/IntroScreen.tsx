@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React from 'react';
 import { TouchableWithoutFeedback, StyleSheet, Text, View } from 'react-native';
 import { ms } from 'react-native-size-matters';
 
@@ -8,9 +8,6 @@ import { IntroNavigationProps, RobotoCondensed, blue, gold } from '../config';
 
 function IntroScreen({ navigation }: IntroNavigationProps) {
   let timer: number | null = setTimeout(nextScreen, 5000);
-  const context = useContext(PathContext);
-
-  useEffect(() => context.setPath({current: 0, bonus: 0}), []);
 
   function nextScreen() {
     if (timer !== null) {

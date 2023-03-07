@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Alert, View, Text, Image, TouchableOpacity, StyleSheet, ViewStyle } from 'react-native';
 import { ms, vs } from 'react-native-size-matters';
 
@@ -13,6 +13,9 @@ function VideoLessonScreen({ navigation, route }: VideoLessonNavigationProps) {
   const getFirstName = (name: string) => name.split(' ')[0];
   const [complete, setComplete] = useState(false);
   const [stopVideo, setStopVideo] = useState(false);
+
+
+  useEffect(() => navigation.addListener('blur', (e) => setStopVideo(true)), [navigation]);
 
   const confirm = (ask: boolean): Promise<string | undefined | void> => {
     return new Promise((resolve) => ask ? Alert.alert('Lesson incomplete', 'Do you stil want to continue?', [
@@ -74,7 +77,7 @@ function VideoLessonScreen({ navigation, route }: VideoLessonNavigationProps) {
         borderRadius: ms(25),
         paddingVertical: ms(10),
         paddingHorizontal: ms(20)
-      }} onPress={() => confirm(!complete).then(() => setStopVideo(true)).then(() => navigation.navigate(nextScreen, { congrats: congrats, bonus: bonus }))}>
+      }} onPress={() => confirm(!complete).then(() => navigation.replace(nextScreen, { congrats: congrats, bonus: bonus }))}>
         <Text style={{
           ...RobotoCondensed.bold,
           color: base.white,

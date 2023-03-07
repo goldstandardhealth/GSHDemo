@@ -87,7 +87,7 @@ function RootNavigation(): JSX.Element | null {
 
   useEffect(() => {
     if (isReady) {
-      AsyncStorage.setItem(PERSISTENCE_KEY + '_PATH', JSON.stringify(path));
+      AsyncStorage.setItem(PERSISTENCE_KEY + '_PATH', JSON.stringify({...defaultPath, ...path}));
     }
   }, [path]);
 

@@ -34,7 +34,7 @@ function ProfileTabs() {
           fontSize: ms(14)
         }},
         tabBarIcon: ({ focused, color, size }) => {
-          return <Image style={{ width: ms(size), height: ms(size), resizeMode: 'contain' }} source={tabs[route.name.substr(0, route.name.length - 3)]} />;
+          return <Image style={{ width: ms(size), height: ms(size), resizeMode: 'contain', marginTop: ms(10) }} source={tabs[route.name.substr(0, route.name.length - 3)]} />;
         }
       })}
     >
